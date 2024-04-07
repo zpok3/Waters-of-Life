@@ -50,21 +50,36 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 7. Back in MO2, right-click on the mod in the left pane called `Fallout Anniversary Patcher` and select **Open in Explorer**
 8. Inside the opened folder, move all of the files to the game's `Root` folder (i.e. where you installed Fallout 3)
 9. Once the file has been moved, double-click `Patcher.exe` to run the patcher 
-9. A command prompt should show up, run for a few seconds, then read as follows:
+10. A command prompt should show up, run for a few seconds, then read as follows:
 
 >Patching completed successfully.
 >
 >Press any key to continue . . .
 
-10. Exit out of the command prompt
-11. DXVK: Version 2.3 of DXVK requires a GPU that supports Vulkan 1.3 - for information on which version to choose, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK) - this is **Required** if you have an AMD GPU.
-12. Fallout 3 Heap Replacer: In MO2, right click on `Fallout 3 Heap Replacer` under the left pane and select **Open in Explorer**
-13. Open the F3HR folder and double click on `cpu_info.exe`
-14. A command prompt will open and should read:
+11. Exit out of the command prompt
+12. **FPS Limiters:** I recommend capping your FPS to `60` or lower. For a list of recommended FPS limiters, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters)
+13. If you would like to play at above 60 FPS, install [Fallout Stutter Remover](https://www.nexusmods.com/fallout3/mods/8886) and this ini preset for it
+14. **DXVK:** Version 2.3 of DXVK requires a GPU that supports Vulkan 1.3 - for information on which version to choose, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK) - this is **Required** if you have an AMD GPU. I've already enabled OneTweak and set the game to windowed in `FalloutCustom.ini` so all you have to do is enable DXVK in MO2 once you've figured out which DXVK version is best for you.
+15. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
+16. You're all set! Everything is already configured by default so you can hop right into a new game!
+
+## Optional Steps
+
+**BSA Decompressor:** Decompresses the Fallout 3 BSAs to reduce load times and stuttering.
+1. In MO2, right click on `FO3 BSA Decompressor` under the left pane and select **Open in Explorer**
+2. Open the `FO3 BSA Decompressor` folder and double click on `FO3 BSA Decompressor.exe`
+3. The path to Fallout 3 installation should automatically fill, if it doesn't just select `Browse` and navigate to where you installed Fallout 3
+4. Make sure any applications that can keep BSA archives open like MO2 are closed before clicking `Decompress`
+5. Select `Exit` once decompression has completed
+
+**Fallout 3 Heap Replacer:** In MO2, right click on `Fallout 3 Heap Replacer` under the left pane and select **Open in Explorer**
+1. Open the F3HR folder and double click on `cpu_info.exe`
+14. A command prompt will open and should read (it doesn't have to say AVX2, but most Intel CPUs from 2013 or later and AMD CPUs from 2017 or later should support it. Just pick whatever it tells you to use):
 
 >=> Use AVX2 <=
 >
 >Press any key to continue . . .
 
-11. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
-12. You're all set! Everything is already configured by default so you can hop right into a new game!
+15. Back in MO2, double click on `Fallout 3 Heap Replacer` and select the `Filetree` tab
+16. Expand the `F3HR` folder and the `AVX2` folder (or whatever the cpu info told you to use)
+17. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane
