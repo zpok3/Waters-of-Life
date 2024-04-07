@@ -47,7 +47,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
   > For even further performance gains, I highly recommend disabling shadows. Fallout 3 does not have real-time shadows like modern games, only shadows for actors. These are hardly noticeable in most cases but do have an    impact on performance
 5. Set the Resolution option to your preference (The launcher usually does not set it to your monitor's max resolution)
 6. Exit out of the launcher
-7. Back in MO2, right-click on the mod in the left pane called `Fallout Anniversary Patcher` and seelct **Open in Explorer**
+7. Back in MO2, right-click on the mod in the left pane called `Fallout Anniversary Patcher` and select **Open in Explorer**
 8. Inside the opened folder, move all of the files to the game's `Root` folder (i.e. where you installed Fallout 3)
 9. Once the file has been moved, double-click `Patcher.exe` to run the patcher 
 9. A command prompt should show up, run for a few seconds, then read as follows:
@@ -58,6 +58,13 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 
 10. Exit out of the command prompt
 11. DXVK: Version 2.3 of DXVK requires a GPU that supports Vulkan 1.3 - for information on which version to choose, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK) - this is **Required** if you have an AMD GPU.
-12. Fallout 3 Heap Replacer: In MO2, right click on `Fallout 3 Heap Replacer` under the left pane and select open in explorer.
+12. Fallout 3 Heap Replacer: In MO2, right click on `Fallout 3 Heap Replacer` under the left pane and select **Open in Explorer**
+13. Open the F3HR folder and double click on `cpu_info.exe`
+14. A command prompt will open and should read:
+
+>=> Use AVX2 <=
+>
+>Press any key to continue . . .
+
 11. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
-12. You're all set! Everything is already configured by default so you can hope right into a new game!
+12. You're all set! Everything is already configured by default so you can hop right into a new game!
