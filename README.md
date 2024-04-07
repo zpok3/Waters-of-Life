@@ -107,4 +107,4 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 **Enhanced Night Sky:** A classic alternative to Accurate Night Sky. You can find it under the `Visuals` separator in MO2. Enable it and disable Accurate Night Sky if you want.
 
 # Credits
-[Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from Lost Liberty.
+[Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from [Lost Liberty](https://github.com/Qolore7/lost-liberty/tree/main)
