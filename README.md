@@ -38,6 +38,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 7. In the **Modlist Installation Location** box, select the `Waters of Life` folder you created in the first step
   * The Resource Download Location box should automatically fill in `Waters of Life\Downloads`, but you can move this folder to a different drive if are low on space
 8. Click the Go/Begin button and wait for Wabbajack to finish
+9. Alternatively use [this](https://github.com/zpok3/Waters-of-Life/releases/download/v.1.0.0/Waters.of.Life.wabbajack) link to download the wabbajack file and use `Install from Disk` in the Wabbajack app
 
 # Post Installation and Startup
 
