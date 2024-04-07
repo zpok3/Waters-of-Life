@@ -12,6 +12,9 @@
 # Introduction
 A lightweight vanilla plus Wabbajack mod list for Fallout 3
 
+#List Contents
+You can look [here](https://loadorderlibrary.com/lists/waters-of-life) if you're curious about what mods are included.
+
   # Requirements
   - An fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG
   * Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported. 
