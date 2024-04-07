@@ -12,7 +12,7 @@
 # Introduction
 A lightweight vanilla plus Wabbajack mod list for Fallout 3
 
-#List Contents
+# List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life) if you're curious about what mods are included.
 
   # Requirements
