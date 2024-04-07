@@ -8,6 +8,17 @@
    <a href="changelog.md">Changelog</a> ·
 
    ---
+# Read-me
+- [Introduction](#introduction)
+  - [List Contents](#list-contents)
+  - [Requirements](#requirements)
+- [Installation](#installation)
+    - [Clean Install](#clean-installation)
+    - [Starting the Game](#starting-fallout-3)
+    - [Downloading and Installing](#downloading-and-installing)
+- [Startup](#post-installation-and-startup)
+- [Extra Stuff you should know](Extra-Stuff-you-should-know)
+- [Credits](#credits)
 
 # Introduction
 A lightweight vanilla plus Wabbajack mod list for Fallout 3
@@ -94,3 +105,6 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 **Simple Sprint Fallout 3:** Ingame, navigate to `Settings>Controls>Action Mapping` and change the `Run` key to `R-Shift` if you for whatever reason reset the keybinds to default, otherwise you will switch to walking whenever you press `L-Shift`
 
 **Enhanced Night Sky:** A classic alternative to Accurate Night Sky. You can find it under the `Visuals` separator in MO2. Enable it and disable Accurate Night Sky if you want.
+
+# Credits
+[Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from Lost Liberty.
