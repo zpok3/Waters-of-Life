@@ -32,13 +32,12 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 ## Downloading and Installing
 
 1. Create a folder for the modist outside of any default Windows folders called **Waters of Life** (I recommend `C:\Games\Waters of Life`) 
-3. Launch the Wabbajack app and select `Browse Modlists`
-4. Make sure `Show Unofficial Lists` is checked and search for `Waters of Life`
-5. Select the **Download** icon in the bottom right, then select he **Play** icon once the download is finished
-7. In the **Modlist Installation Location** box, select the `Waters of Life` folder you created in the first step
+2. Launch the Wabbajack app and select `Browse Modlists` (Alternatively use [this](https://github.com/zpok3/Waters-of-Life/releases/download/v.1.0.0/Waters.of.Life.wabbajack) link to download the wabbajack file and use `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the wabbajack file in the `Target Modlist` box - skip to step 5 if you choose this option)
+3. Make sure `Show Unofficial Lists` is checked and search for `Waters of Life`
+4. Select the **Download** icon in the bottom right, then select he **Play** icon once the download is finished
+5. In the **Modlist Installation Location** box, select the `Waters of Life` folder you created in the first step
   * The Resource Download Location box should automatically fill in `Waters of Life\Downloads`, but you can move this folder to a different drive if are low on space
-8. Click the Go/Begin button and wait for Wabbajack to finish
-9. Alternatively use [this](https://github.com/zpok3/Waters-of-Life/releases/download/v.1.0.0/Waters.of.Life.wabbajack) link to download the wabbajack file and use `Install from Disk` in the Wabbajack app
+6. Click the Go/Begin button and wait for Wabbajack to finish
 
 # Post Installation and Startup
 
