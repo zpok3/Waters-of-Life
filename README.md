@@ -91,6 +91,6 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 17. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane
 
 # Extra Stuff you should know
-**Simple Sprint Fallout 3:** Navigate to `Settings>Controls>Action Mapping` and change the `Run` key to `R-Shift` if you for whatever reason reset the keybinds to default, otherwise you will switch to walking whenever you press `L-Shift`
+**Simple Sprint Fallout 3:** Ingame, navigate to `Settings>Controls>Action Mapping` and change the `Run` key to `R-Shift` if you for whatever reason reset the keybinds to default, otherwise you will switch to walking whenever you press `L-Shift`
 
-**Enhanced Night Sky:** A classic alternative to Accurate Night Sky. Enable it and disable Accurate Night Sky if you want.
+**Enhanced Night Sky:** A classic alternative to Accurate Night Sky. You can find it under the `Visuals` separator in MO2. Enable it and disable Accurate Night Sky if you want.
