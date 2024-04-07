@@ -8,7 +8,7 @@
    <a href="changelog.md">Changelog</a> ·
 
    ---
-# Read-me
+# Read-Me
 - [Introduction](#introduction)
   - [List Contents](#list-contents)
   - [Requirements](#requirements)
