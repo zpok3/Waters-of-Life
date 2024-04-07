@@ -16,7 +16,7 @@
     - [Clean Install](#clean-installation)
     - [Starting the Game](#starting-fallout-3)
     - [Downloading and Installing](#downloading-and-installing)
-- [Startup](#post-installation-and-startup)
+- [Post Installation and Startup](#post-installation-and-startup)
 - [Extra Stuff you should know](Extra-Stuff-you-should-know)
 - [Credits](#credits)
 
