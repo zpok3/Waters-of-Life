@@ -102,7 +102,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 5. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane of MO2
 
 # Extra Stuff you should know
-**Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `0` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
+**Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `0` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK and want the best performance in D3D9, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
 
 **Simple Sprint Fallout 3:** Ingame, navigate to `Settings>Controls>Action Mapping` and change the `Run` key to `R-Shift` if you for whatever reason reset the keybinds to default, otherwise you will switch to walking whenever you press `L-Shift`
 
