@@ -91,17 +91,19 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 
 **Fallout 3 Heap Replacer:** In MO2, right click on `Fallout 3 Heap Replacer` under the left pane and select **Open in Explorer**
 1. Open the F3HR folder and double click on `cpu_info.exe`
-14. A command prompt will open and should read (it doesn't have to say AVX2, but most Intel CPUs from 2013 or later and AMD CPUs from 2017 or later should support it. Just pick whatever it tells you to use):
+2. A command prompt will open and should read (it doesn't have to say AVX2, but most Intel CPUs from 2013 or later and AMD CPUs from 2017 or later should support it. Just pick whatever it tells you to use):
 
 >=> Use AVX2 <=
 >
 >Press any key to continue . . .
 
-15. Back in MO2, double click on `Fallout 3 Heap Replacer` and select the `Filetree` tab
-16. Expand the `F3HR` folder and the `AVX2` folder (or whatever the cpu info told you to use)
-17. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane
+3. Back in MO2, double click on `Fallout 3 Heap Replacer` and select the `Filetree` tab
+4. Expand the `F3HR` folder and the `AVX2` folder (or whatever the cpu info told you to use)
+5. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane
 
 # Extra Stuff you should know
+**Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `0` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
+
 **Simple Sprint Fallout 3:** Ingame, navigate to `Settings>Controls>Action Mapping` and change the `Run` key to `R-Shift` if you for whatever reason reset the keybinds to default, otherwise you will switch to walking whenever you press `L-Shift`
 
 **Enhanced Night Sky:** A classic alternative to Accurate Night Sky. You can find it under the `Visuals` separator in MO2. Enable it and disable Accurate Night Sky if you want.
