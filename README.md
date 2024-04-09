@@ -75,7 +75,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 11. Exit out of the command prompt
 12. **FPS Limiters:** I recommend capping your FPS to `60` or lower. For a list of recommended FPS limiters, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters)
 13. If you would like to play at above 60 FPS, install [Fallout Stutter Remover](https://www.nexusmods.com/fallout3/mods/8886) and [this ini preset](https://github.com/zpok3/Waters-of-Life/releases/download/v.1.0/fsr.high.fps.preset.7z) for it
-14. By default fMaximumFPS is set to 144, you can run a benchmark in Point Lookout or something to find where you should set this to
+14. By default `fMaximumFPS` is set to 144, you can run a benchmark in Point Lookout or something to find where you should set this to
 15. **DXVK:** Version 2.3 of DXVK requires a GPU that supports Vulkan 1.3 - for information on which version to choose, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK) - this is **Required** if you have an AMD GPU. I've already enabled OneTweak and set the game to windowed in `FalloutCustom.ini` so all you have to do is enable DXVK in MO2 once you've figured out which version is best for you.
 16. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
 17. You're all set! Everything is already configured by default so you can hop right into a new game!
