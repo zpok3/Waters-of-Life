@@ -99,7 +99,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 
 3. Back in MO2, double click on `Fallout 3 Heap Replacer` and select the `Filetree` tab
 4. Expand the `F3HR` folder and the `AVX2` folder (or whatever the cpu info told you to use)
-5. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane
+5. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane of MO2
 
 # Extra Stuff you should know
 **Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `0` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
