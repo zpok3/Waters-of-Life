@@ -102,10 +102,9 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 5. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane of MO2
 
 # Extra Stuff you should know
-**Ultrawide Support:** In `FalloutCustom.ini` under `[Display]` add:
+**Ultrawide Support:** In `FalloutCustom.ini` under `[Display]` add the lines:
 
-iSize W=3440
-iSize H=1440
+`iSize W=3440` and `iSize H=1440`
 
 Change the numbers to your screen resolution and enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
 
