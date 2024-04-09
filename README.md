@@ -17,7 +17,7 @@
     - [Starting the Game](#starting-fallout-3)
     - [Downloading and Installing](#downloading-and-installing)
 - [Post Installation and Startup](#post-installation-and-startup)
-- [Extra Stuff you should know](Extra-Stuff-you-should-know)
+- [Extra Stuff you should know](#Extra-Stuff-you-should-know)
 - [Credits](#credits)
 
 # Introduction
