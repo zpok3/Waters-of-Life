@@ -108,7 +108,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 
 Change the numbers to your screen resolution and enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
 
-**Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `0` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK and want the best performance in D3D9, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
+**Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `1` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK and want the best performance in D3D9, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
 
 **Simple Sprint Fallout 3:** Ingame, navigate to `Settings>Controls>Action Mapping` and change the `Run` key to `R-Shift` if you for whatever reason reset the keybinds to default, otherwise you will switch to walking whenever you press `L-Shift`
 
