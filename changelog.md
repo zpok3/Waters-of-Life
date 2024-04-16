@@ -11,5 +11,11 @@
 
   # Changelog
 
+## Version 1.0.1
+
+- Fix Vanilla UI Plus not downloading
+
+- Remove ModOrganizer.ini to prevent copying over the installation paths from my install. You might want eye protection for this one as MO2 will now use the default light theme
+
 ## Version 1.0.0
 Release
