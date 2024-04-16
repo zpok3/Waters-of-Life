@@ -1,6 +1,6 @@
 # Planned Additions
 
-## 1.0.1
+## 1.1.0
 **[Mothership Zeta Enhanced Edition](https://www.nexusmods.com/fallout3/mods/26001)**
 
 - Lore friendly overhaul of Mothership Zeta that improves level design and post DLC content, and expands roleplaying options.
