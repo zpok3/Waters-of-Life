@@ -18,7 +18,7 @@
     - [Starting the Game](#starting-fallout-3)
     - [Downloading and Installing](#downloading-and-installing)
 - [Post Installation and Startup](#post-installation-and-startup)
-- [Extra Stuff you should know](#Extra-Stuff-you-should-know)
+- [Extra Stuff you should know](#extra-stuff-you-should-know)
 - [Credits](#credits)
 
 # Introduction
@@ -57,17 +57,21 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 # Post Installation and Startup
 
 1. Open the installation folder and double click on the program called `ModOrganizer.exe`.
-2. Select the **Fallout 3 Launcher** option from the drop-down in the top left then select **Run**
+2. After running `ModOrganizer.exe` from the modlist installation directory, you will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `Fallout 3` from the list of games.
+3. You can change the theme in MO2's settings if you don't want to be flashbanged everytime you open MO2 - I recommend 1809 Dark Mode or vs15 Dark. Select 
+<img src= "https://raw.githubusercontent.com/ModdingLinked/Viva-New-Vegas/master/img/mo2%20settings.webp" target="_blank"></a>
+and go to the Themes tab if you'd like to do this.
+4. Select the **Fallout 3 Launcher** option from the drop-down in the top left then select **Run**
   > If you have the GOG version of the game, you may need to add the launcher to MO2 yourself. You can do so by clicking the **Executables Menu** icon (the two colored gears) in the top bar of MO2, selecting the **+** then **Add from file...**
-3. The launcher should run and there should be two pop-ups about detecting your hardware and applying settings
-4. Select **Options** then select whichever preset you think is best for your PC. I recommend **Ultra** for most PCs, but the **High** preset will provide noticeably better performance for only a minor visual downgrade.
+5. The launcher should run and there should be two pop-ups about detecting your hardware and applying settings
+6. Select **Options** then select whichever preset you think is best for your PC. I recommend **Ultra** for most PCs, but the **High** preset will provide noticeably better performance for only a minor visual downgrade.
   > For even further performance gains, I highly recommend disabling shadows. Fallout 3 does not have real-time shadows like modern games, only shadows for actors. These are hardly noticeable in most cases but do have an    impact on performance
-5. Set the Resolution option to your preference (The launcher usually does not set it to your monitor's max resolution)
-6. Exit out of the launcher
-7. Back in MO2, right-click on the mod in the left pane called `Fallout Anniversary Patcher` and select **Open in Explorer**
-8. Inside the opened folder, move all of the files to the game's `Root` folder (i.e. where you installed Fallout 3)
-9. Once the file has been moved, double-click `Patcher.exe` to run the patcher 
-10. A command prompt should show up, run for a few seconds, then read as follows:
+7. Set the Resolution option to your preference (The launcher usually does not set it to your monitor's max resolution)
+8. Exit out of the launcher
+9. Back in MO2, right-click on the mod in the left pane called `Fallout Anniversary Patcher` and select **Open in Explorer**
+10. Inside the opened folder, move all of the files to the game's `Root` folder (i.e. where you installed Fallout 3)
+11. Once the file has been moved, double-click `Patcher.exe` to run the patcher 
+12. A command prompt should show up, run for a few seconds, then read as follows:
 
 >Patching completed successfully.
 >
@@ -101,6 +105,18 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 3. Back in MO2, double click on `Fallout 3 Heap Replacer` and select the `Filetree` tab
 4. Expand the `F3HR` folder and the `AVX2` folder (or whatever the cpu info told you to use)
 5. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane of MO2
+
+# Updating the List
+
+1. Download the latest version of the Wabbajack list from the [Releases](https://github.com/zpok3/Waters-of-Life/releases) page.
+
+2. In the Wabbajack app, select `Install From Disk`
+
+3. In the `Target Modlist` box, navigate to the location you downloaded `Waters.of.Life.wabbajack` to.
+
+4. Tick the `Overwrite Installation` box underneath the start button.
+
+5. Make sure the contents of the `Mod List Installation Location` box match where you originally installed the modlist before clicking the start button.
 
 # Extra Stuff you should know
 **Ultrawide Support:** In `FalloutCustom.ini` under `[Display]` add the lines:
