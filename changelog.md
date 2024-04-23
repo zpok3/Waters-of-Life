@@ -11,6 +11,20 @@
 
   # Changelog
 
+## Version 1.1.0
+
+- Added Sunlight Fix - FOSE
+
+- Added Viewmodel Shading Fix - FOSE
+
+- Added zLib Updated - FOSE
+
+- Updated Stewie's Tweaks Essentials INI to version 1.01
+
+- Replaced Simple Sprinting with Marathoner
+
+- Replaced Clarity with True Weathers (Still included in the list if you prefer it)
+
 ## Version 1.0.1
 
 - Fix Vanilla UI Plus not downloading
