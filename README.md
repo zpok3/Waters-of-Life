@@ -7,6 +7,7 @@
   <a href="README.md">Installation</a> ·
    <a href="changelog.md">Changelog</a> ·
 <a href="planned-additions.md">Planned Additions</a> ·
+<a href="gameplay-guide.md">Gameplay Guide</a> ·
 
    ---
 # Read-Me
