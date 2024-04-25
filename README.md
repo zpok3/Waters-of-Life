@@ -122,13 +122,11 @@ and go to the Themes tab if you'd like to do this.
 # Extra Stuff you should know
 **Ultrawide Support:** In `FalloutCustom.ini` under `[Display]` add the lines:
 
-`iSize W=3440` and `iSize H=1440`
+`iSize W=Your Horizontal Resolution` and `iSize H=Your Vertical Resolution`
 
 Change the numbers to your screen resolution and enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
 
 **Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `1` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK and want the best performance in D3D9, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
-
-**Simple Sprint Fallout 3:** Ingame, navigate to `Settings>Controls>Action Mapping` and change the `Run` key to `R-Shift` if you for whatever reason reset the keybinds to default, otherwise you will switch to walking whenever you press `L-Shift`
 
 **Enhanced Night Sky:** A classic alternative to Accurate NASA Stars. You can find it under the `Visuals` separator in MO2. Enable it and disable Accurate Night Sky if you want.
 
