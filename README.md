@@ -23,7 +23,7 @@
 - [Credits](#credits)
 
 # Introduction
-A lightweight vanilla plus Wabbajack mod list for Fallout 3. Waters of Life aims to create a more difficult gameplay experience, along with improving visuals without totally abandoning the vanilla aesthetic. Additionally includes various quality of life tweaks, restored cut content, and increased reactivity to your actions throughout the different areas of the game.
+A lightweight vanilla plus Wabbajack mod list for Fallout 3. Waters of Life aims to create a more difficult gameplay experience, along with improving visuals without totally abandoning the vanilla aesthetic.
 
 # List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life-1) if you're curious about what mods are included.
