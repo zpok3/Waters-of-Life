@@ -20,6 +20,10 @@
 
 - Difficulty overhaul akin to the JSawyer mod for New Vegas. Important to note the player character has reduced health, carry weight and starting S.P.E.C.I.A.L points.
 
+**Goodies:**
+
+- Restores various cut content and adds other small tweaks.
+
  **Marathoner:**
 
  - Sprint mod alternative, increases the player's movement speed by 25% when out of combat, with your weapons holstered.
