@@ -122,7 +122,11 @@ and go to the Themes tab if you'd like to do this.
 # Extra Stuff you should know
 **Ultrawide Support:** In `FalloutCustom.ini` under `[Display]` add the lines:
 
-`iSize W=Your Horizontal Resolution` and `iSize H=Your Vertical Resolution`
+`iSize W=Your Horizontal Resolution` 
+
+and 
+
+`iSize H=Your Vertical Resolution`
 
 Change the numbers to your screen resolution and enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
 
