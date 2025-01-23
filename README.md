@@ -26,7 +26,7 @@
 A lightweight vanilla plus Wabbajack mod list for Fallout 3. Intended to bring a Viva New Vegas-like experience to Fallout 3
 
 # List Contents
-You can look [here](https://loadorderlibrary.com/lists/waters-of-life-1) if you're curious about what mods are included.
+You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2)) if you're curious about what mods are included.
 
   # Requirements
   - A fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG
