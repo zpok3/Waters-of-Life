@@ -98,7 +98,7 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Can a
 3. The **Fallout 3** and **Decompressed Archives** path should be filled by default (Root and Data folder respectively).
 
 If they aren't, close the program and re-run the game's launcher to generate the required registry key.
-  * If you intend to install **Tale of Two Wastelands** or don't want to verify your game files everytime you need to update the list, you can redirect the **Decompressed Archives** path to the folder `\mods\[NoDelete] Decompressed BSAs\` in your **Installation Location**.
+  * If you intend to install **Tale of Two Wastelands** or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder of your **Installation Location** and redirect the **Decompressed Archives** path to that. Make sure to enable it once you open Mod Organizer.
 4. Click **Decompress**, wait for the process to finish, then exit out of the program once finished.
 
 ## Mod Organizer 2 Setup
