@@ -92,7 +92,7 @@ Example: `C:\Modding\Waters of Life`
 5. Close the command prompt and a file named **Fallout3_backup.exe** should appear in the game's **Root** folder.
 
 ## BSA Decompressor
-Decompresses the vanilla BSA files to reduce loading times and stuttering. Can also fix certain sound effects not playing. As of 1.2.0rc1 these are included in the list but if Wabbajack breaks them somehow here are instructions to decompress them.
+Decompresses the vanilla BSA files to reduce loading times and stuttering. Can also fix certain sound effects not playing.
 1. In your **Installation Location**, open the `__bsa decompressor` folder.
 2. Run **FO3 BSA Decompressor.exe**
 3. The **Fallout 3** and **Decompressed Archives** path should be filled by default (Root and Data folder respectively).
