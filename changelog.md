@@ -13,7 +13,7 @@
 
 ## 1.2.0rc1
 
-## List Updates:
+List Updates
 
 Profiles:
 - added a new classic profile that uses clarity and the older enhanced night sky and krzymar hi-res moon retextures
@@ -40,7 +40,7 @@ Visuals:
 LOD:
 - Regenerated LOD with new resources and generated terrain LOD as well
 
-Mod Additions:
+Mod Additions
 
 Utilities:
 - Decompressed BSAs
