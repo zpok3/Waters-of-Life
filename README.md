@@ -146,9 +146,9 @@ For more information on DXVK and HDR, please refer to the [Performance Guide](ht
 # Updating the List
 
 1. Add the [NoDelete] prefix to the name any mods you added after installation.
-2. **Verify files** on **Steam** or **GOG Galaxy**.
+2. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's **Data** folder otherwise skip to step 3).
 3. Reinstall the list with the "**Overwrite Installation**" checkbox enabled.
-4. Rerun the Anniversary Patcher and optionally the BSA Decompressor (unless you installed it to `\mods\[NoDelete] Decompressed BSAs`).
+4. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it to `\mods\[NoDelete] Decompressed BSAs`).
 
 # Extra Stuff you should know
 **Ultrawide Support:** 
