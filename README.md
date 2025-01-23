@@ -35,8 +35,9 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 
 - [Microsoft Visual C++ Redistributable Package](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 
-- The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) installed outside of any default Windows folders.
+- The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases).
 
+- An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended)
 - The latest .wabbajack file for this modlist downloaded from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
 
 # Installation:
