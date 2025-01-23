@@ -140,7 +140,7 @@ If you have issues with the latest version or your GPU doesn't support Vulkan 1.
 For more information on DXVK and HDR, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK)
 
 ## Launching the Game
-1. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
+1. Make sure the dropdown box on the right is set to **Fallout 3** and press the Run button.
 2. You're all set! Everything is already configured by default so you can hop right into a new game!
 
 # Updating the List
