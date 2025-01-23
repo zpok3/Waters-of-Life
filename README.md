@@ -1,4 +1,4 @@
-<img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/logo.jpeg" target="_blank"></a>
+<img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/logo.jpeg" target="_blank"></a>
 
 ---
 
@@ -17,25 +17,27 @@
 - [Installation](#installation)
     - [Clean Install](#clean-installation)
     - [Starting the Game](#starting-fallout-3)
-    - [Downloading and Installing](#downloading-and-installing)
-- [Post Installation and Startup](#post-installation-and-startup)
+    - [Installation](#installation)
+- [Post Installation](#post-installation)
 - [Extra Stuff you should know](#extra-stuff-you-should-know)
 - [Credits](#credits)
 
 # Introduction
-A lightweight vanilla plus Wabbajack mod list for Fallout 3. Waters of Life aims to create a more difficult gameplay experience, along with improving visuals without totally abandoning the vanilla aesthetic.
+A lightweight vanilla plus Wabbajack mod list for Fallout 3. Intended to bring a Viva New Vegas-like experience to Fallout 3
 
 # List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life-1) if you're curious about what mods are included.
 
   # Requirements
-  - An fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG
+  - A fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG
   * Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported. 
   * The game MUST be installed outside of any default Windows folders, such as `Program Files`, your `Desktop`, or `Documents`. If you have your Steam library in any of these locations, please follow [these](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) instructions to move it.
 
 - [Microsoft Visual C++ Redistributable Package](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
 
 - The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases) installed outside of any default Windows folders.
+
+- The latest .wabbajack file for this modlist downloaded from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
 
 # Installation:
 
@@ -45,94 +47,117 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 ## Starting Fallout 3
 Start the game and exit once you're at the main menu. This will ensure any settings files needed by Wabbajack are created.
 
-## Downloading and Installing
+## Installation
 
-1. Create a folder for the modist outside of any default Windows folders called **Waters of Life** (I recommend `C:\Games\Waters of Life`) 
-2. Launch the Wabbajack app and select `Browse Modlists` (Alternatively use [this](https://github.com/zpok3/Waters-of-Life/releases) link to download the wabbajack file and use `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the wabbajack file in the `Target Modlist` box - skip to step 5 if you choose this option)
-3. Make sure `Show Unofficial Lists` is checked and search for `Waters of Life`
-4. Select the **Download** icon in the bottom right, then select he **Play** icon once the download is finished
-5. In the **Modlist Installation Location** box, select the `Waters of Life` folder you created in the first step
-  * The Resource Download Location box should automatically fill in `Waters of Life\Downloads`, but you can move this folder to a different drive if are low on space
-6. Click the Go/Begin button and wait for Wabbajack to finish
+1. Create a folder for Wabbajack outside of any default Windows folders.
 
-# Post Installation and Startup
+Example: `C:\Modding\Wabbajack`
 
-1. Open the installation folder and double click on the program called `ModOrganizer.exe`.
-2. After running `ModOrganizer.exe` from the modlist installation directory, you will get an error regarding MO2 being unable to open instance 'Portable', select OK and select `Fallout 3` from the list of games.
-3. You can change the theme in MO2's settings if you don't want to be flashbanged everytime you open MO2 - I recommend 1809 Dark Mode or vs15 Dark. Select 
-<img src= "https://raw.githubusercontent.com/ModdingLinked/Viva-New-Vegas/master/img/mo2%20settings.webp" target="_blank"></a>
-and go to the Themes tab if you'd like to do this.
-4. Select the **Fallout 3 Launcher** option from the drop-down in the top left then select **Run**
-  > If you have the GOG version of the game, you may need to add the launcher to MO2 yourself. You can do so by clicking the **Executables Menu** icon (the two colored gears) in the top bar of MO2, selecting the **+** then **Add from file...**
-5. The launcher should run and there should be two pop-ups about detecting your hardware and applying settings
-6. Select **Options** then select whichever preset you think is best for your PC. I recommend **Ultra** for most PCs, but the **High** preset will provide noticeably better performance for only a minor visual downgrade.
-  > For even further performance gains, I highly recommend disabling shadows. Fallout 3 does not have real-time shadows like modern games, only shadows for actors. These are hardly noticeable in most cases but do have an    impact on performance
-7. Set the Resolution option to your preference (The launcher usually does not set it to your monitor's max resolution)
-8. Exit out of the launcher
-9. Back in MO2, right-click on the mod in the left pane called `Fallout Anniversary Patcher` and select **Open in Explorer**
-10. Inside the opened folder, move all of the files to the game's `Root` folder (i.e. where you installed Fallout 3)
-11. Once the file has been moved, double-click `Patcher.exe` to run the patcher 
-12. A command prompt should show up, run for a few seconds, then read as follows:
+2. Place the downloaded Wabbajack.exe in this folder and run it.
+3. Select `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the wabbajack file in the `Target Modlist` box.
+4. In **Installation Location**, select a folder that is not:
+  * The Steam folder,
+  * Any default Windows folders,
+  * The Game folder,
+  * The folder where you put Wabbajack.exe.
+
+Example: `C:\Modding\Waters of Life`
+
+5. **Begin** the installation.
+6. Accept the Nexus Mods API request.
+7. If you are not a Premium user you will need to manually click download for each mod.
+8. Once complete Wabbajack, will show a green **Installation Complete** screen.
+  * If you see a red **Installation Failed** screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
+
+# Post Installation
+
+## Exclusions
+1. Open Windows Security.
+2. Open **Virus and Threat Protection**.
+3. Click **Manage Settings** under **Virus and threat Protection settings**.
+4. Scroll down and click **Add or remove exclusions** under **Exclusions**.
+5. Add a **Folder** exclusion and point it to the **Installation Location** folder.
+  * If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
+
+## Root Mods
+1. In your **Installation Location**, open the `__root mods` folder.
+2. Copy **everything** to the game's **Root** folder (the folder where you installed Fallout 3).
+3. Still in the game's Root folder, double-click on **Patcher.exe** to run it.
+4. A command prompt should show up, run for a few seconds, then read as follows:
 
 >Patching completed successfully.
 >
 >Press any key to continue . . .
 
-11. Exit out of the command prompt
-12. **FPS Limiters:** I recommend capping your FPS to `60` or if you want to be really safe, limit to `50`. For a list of recommended FPS limiters and how to set them up, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters)
-13. If you would like to play at above 60 FPS, install [Fallout Stutter Remover](https://www.nexusmods.com/fallout3/mods/8886) and [this ini preset](https://github.com/zpok3/Waters-of-Life/releases/download/v.1.0/fsr.high.fps.preset.7z) for it
-14. By default `fMaximumFPS` is set to 144, you can run a benchmark in Point Lookout or something to find where you should set this to
-15. **DXVK:** Version 2.3 of DXVK requires a GPU that supports Vulkan 1.3 - you can look up your GPU on the [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs) to check. For information on DXVK, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK) - this is **Required** if you have an AMD GPU. OneTweak is already enabled and the game is set to windowed in `FalloutCustom.ini` so all you have to do is enable DXVK in the left pane of MO2 once you've figured out which version is best for you.
-16. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
-17. You're all set! Everything is already configured by default so you can hop right into a new game!
+5. Close the command prompt and a file named **Fallout3_backup.exe** should appear in the game's **Root** folder.
 
-## Optional Steps
+## BSA Decompressor
+Decompresses the vanilla BSA files to reduce loading times and stuttering. Can also fix certain sound effects not playing. As of 1.2.0rc1 these are included in the list but if Wabbajack breaks them somehow here are instructions to decompress them.
+1. In your **Installation Location**, open the `__bsa decompressor` folder.
+2. Run **FO3 BSA Decompressor.exe**
+3. The **Fallout 3** and **Decompressed Archives** path should be filled by default (Root and Data folder respectively).
 
-**BSA Decompressor:** Decompresses the Fallout 3 BSAs to reduce load times and stuttering.
-1. In MO2, right click on `FO3 BSA Decompressor` under the left pane and select **Open in Explorer**
-2. Open the `FO3 BSA Decompressor` folder and double click on `FO3 BSA Decompressor.exe`
-3. The path to Fallout 3 installation should automatically fill, if it doesn't just select `Browse` and navigate to where you installed Fallout 3
-4. Make sure any applications that can keep BSA archives open like MO2 are closed before clicking `Decompress`
-5. Select `Exit` once decompression has completed
+If they aren't, close the program and re-run the game's launcher to generate the required registry key.
+  * If you intend to install **Tale of Two Wastelands** or don't want to verify your game files everytime you need to update the list, you can redirect the **Decompressed Archives** path to the folder `\mods\[NoDelete] Decompressed BSAs\` in your **Installation Location**.
+4. Click **Decompress**, wait for the process to finish, then exit out of the program once finished.
 
-**Fallout 3 Heap Replacer:** In MO2, right click on `Fallout 3 Heap Replacer` under the left pane and select **Open in Explorer**
-1. Open the F3HR folder and double click on `cpu_info.exe`
-2. A command prompt will open and should read (it doesn't have to say AVX2, but most Intel CPUs from 2013 or later and AMD CPUs from 2017 or later should support it. Just pick whatever it tells you to use):
+## Mod Organizer 2 Setup
+1. Launch **ModOrganizer.exe** from your **Installation Location**.
+2. If you see a pop-up called **Register?**, select **Yes**.
+3. If you use the **Steam** version of the game, enable the mod **Yet Another Steam Overlay Fixer** under the **Post Installation** separator.
 
->=> Use AVX2 <=
->
->Press any key to continue . . .
+## Game Settings
+There are three profiles you can choose from; the default profile, the Classic profile, and the ModdingLinked Basics profile. As the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
+1. Open the game launcher using the **Fallout Launcher** option in MO2. You may need to add it manually if you have the Steam version of the game by clicking **<Edit...>** from the executables dropdown menu, selecting the + icon and choosing **Add from file...**.
+2. Inside the launcher click **Options** and do the following:
+    1. Select **Ultra** preset.
+* If you have a very weak PC, you can select the **Medium** preset instead.
 
-3. Back in MO2, double click on `Fallout 3 Heap Replacer` and select the `Filetree` tab
-4. Expand the `F3HR` folder and the `AVX2` folder (or whatever the cpu info told you to use)
-5. Drag the `d3dx9_38.dll` into the `root` folder that contains `d3dx9_38.tmp` and enable the mod in the left pane of MO2
+  2. Set **Resolution** to your monitor's native resolution.
+* If you can't find the right resolution in the launcher's list, do the following:
+    
+    1. Close the launcher.
+    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.png" target="_blank"></a> button and select **INI Editor**.
+    3. Select the **FalloutPrefs.ini** tab.
+    4. Change the following settings in the `[Display]` section:
+    * `iSize W` = your screen width
+    * `iSize H` = your screen height
+    * If you use an Ultrawide display also follow these steps: [Extra Stuff you should know](#extra-stuff-you-should-know)
+3. Close the launcher.
+
+## Performance
+I recommend capping your FPS to `120` or lower as that is the recommended limit with the High FPS Fix. For a list of recommended FPS limiters and how to set them up, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters)
+
+**DXVK:** Highly recommended, to use it just enable the latest version of **DXVK** under the **Post Installation** separator in MO2. Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - here are the minimum required GPUs: 
+
+**AMD**: Radeon RX 400 series or newer (except RX 455 OEM).
+
+**NVIDIA**: GeForce 900 series or newer.
+
+**Intel**: Intel HD 510/530 or newer.
+
+If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
+For more information on DXVK and HDR, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK)
+
+## Launching the Game
+1. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
+2. You're all set! Everything is already configured by default so you can hop right into a new game!
 
 # Updating the List
 
-1. Download the latest version of the Wabbajack list from the [Releases](https://github.com/zpok3/Waters-of-Life/releases) page.
-
-2. In the Wabbajack app, select `Install From Disk`
-
-3. In the `Target Modlist` box, navigate to the location you downloaded `Waters.of.Life.wabbajack` to.
-
-4. Tick the `Overwrite Installation` box underneath the start button.
-
-5. Make sure the contents of the `Mod List Installation Location` box match where you originally installed the modlist before clicking the start button.
+1. Add the [NoDelete] prefix to the name any mods you added after installation.
+2. **Verify files** on **Steam** or **GOG Galaxy**.
+3. Reinstall the list with the "**Overwrite Installation**" checkbox enabled.
+4. Rerun the Anniversary Patcher and optionally the BSA Decompressor (unless you installed it to `\mods\[NoDelete] Decompressed BSAs`).
 
 # Extra Stuff you should know
-**Ultrawide Support:** In `FalloutCustom.ini` under `[Display]` add the lines:
+**Ultrawide Support:** 
 
-`iSize W=Your Horizontal Resolution` 
+Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
 
-and 
+**Classic Profile:** Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, and True Weathers.
 
-`iSize H=Your Vertical Resolution`
-
-Change the numbers to your screen resolution and enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
-
-**Alt-tab in Fullscreen Exclusive:** You will need to set `bFull Screen` to `1` in `FalloutCustom.ini` and use one of the **DXVK** versions under the `Post Installation` separator in MO2. Alternatively if you cannot use DXVK and want the best performance in D3D9, you can disable `bDontMirrorTexturesInRAM` in the mod `Stewie Tweaks Essentials INI`
-
-**Enhanced Night Sky:** A classic alternative to Accurate NASA Stars. You can find it under the `Visuals` separator in MO2. Enable it and disable Accurate Night Sky if you want.
+**ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the FO3 Mod Guide written by ModdingLinked.
 
 # Credits
 [Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from [Lost Liberty](https://github.com/Qolore7/lost-liberty/tree/main)
