@@ -55,7 +55,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 Example: `C:\Modding\Wabbajack`
 
 2. Place the downloaded Wabbajack.exe in this folder and run it.
-3. Select `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the wabbajack file in the `Target Modlist` box.
+3. Select `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the .wabbajack file in the `Target Modlist` box.
 4. In **Installation Location**, select a folder that is not:
   * The Steam folder,
   * Any default Windows folders,
