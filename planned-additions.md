@@ -10,10 +10,6 @@
 
 - Create a modified version that only affects companions when hired.
 
-**[Fallout 3 Interior Optimization Project](https://www.nexusmods.com/fallout3/mods/26127)**
-
-- Optimizes more than 200 interior cells with roombounds and occlusion planes
-  
 **[Fallout 4 Survival Mode Style Damage](https://www.nexusmods.com/fallout3/mods/24485)**
 - Player deals 1.5x damage, enemies deal 2.0x damage to the player
 
