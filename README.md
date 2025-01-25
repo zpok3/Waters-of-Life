@@ -14,6 +14,7 @@
 - [Introduction](#introduction)
   - [List Contents](#list-contents)
   - [Requirements](#requirements)
+  - [Terminology](#terminology)
 - [Installation](#installation)
     - [Clean Install](#clean-installation)
     - [Starting the Game](#starting-fallout-3)
@@ -30,6 +31,7 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 
   # Requirements
   - A fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG
+  - Approximately 25GB of free space, game included (21GB with all the downloads deleted afterwards).
   * Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported. 
   * The game MUST be installed outside of any default Windows folders, such as `Program Files`, your `Desktop`, or `Documents`. If you have your Steam library in any of these locations, please follow [these](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) instructions to move it.
 
@@ -39,6 +41,12 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended)
 - The latest .wabbajack file for this modlist downloaded from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
+
+# Terminology
+- **Root folder**: The folder that the game is installed in.
+  - Example: `C:\GOG Games\Fallout 3`
+- **Installation location**: The folder where Mod Organizer 2 and all the mods are located.
+  - Example: `C:\Modding\Waters of Life`
 
 # Installation:
 
@@ -81,6 +89,7 @@ Example: `C:\Modding\Waters of Life`
   * If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
 ## Root Mods
+Here we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility and .
 1. In your **Installation Location**, open the `__root mods` folder.
 2. Copy **everything** to the game's **Root** folder (the folder where you installed Fallout 3).
 3. Still in the game's Root folder, double-click on **Patcher.exe** to run it.
@@ -99,7 +108,7 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Can a
 3. The **Fallout 3** and **Decompressed Archives** path should be filled by default (Root and Data folder respectively).
 
 If they aren't, close the program and re-run the game's launcher to generate the required registry key.
-  * If you intend to install **Tale of Two Wastelands** or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder of your **Installation Location** and redirect the **Decompressed Archives** path to that location. Make sure to enable it once you open Mod Organizer.
+  * If you intend to install **Tale of Two Wastelands** or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your **Installation Location** and redirect the **Decompressed Archives** path to that folder. Make sure to enable it once you open Mod Organizer.
 4. Click **Decompress**, wait for the process to finish, then exit out of the program once finished.
 
 ## Mod Organizer 2 Setup
@@ -127,7 +136,7 @@ There are three profiles you can choose from; the default profile, the Classic p
 3. Close the launcher.
 
 ## Performance
-I recommend capping your FPS to `120` or lower as that is the recommended limit with the High FPS Fix. For a list of recommended FPS limiters and how to set them up, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters)
+I recommend capping your FPS to `120` or lower as that is the recommended limit with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters).
 
 **DXVK:** Highly recommended, to use it just enable the latest version of **DXVK** under the **Post Installation** separator in MO2. Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - here are the minimum required GPUs: 
 
@@ -138,10 +147,12 @@ I recommend capping your FPS to `120` or lower as that is the recommended limit 
 **Intel**: Intel HD 510/530 or newer.
 
 If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
-For more information on DXVK and HDR, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK)
+For more information on DXVK,HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK)
 
 ## Launching the Game
 1. Make sure the dropdown box on the right is set to **Fallout 3** and press the Run button.
+- **Q**: Aren't you supposed to use the FOSE loader?
+- **A**: The Fallout Anniversary Patcher which we ran earlier enables the game executable to load FOSE automatically if available.
 2. You're all set! Everything is already configured by default so you can hop right into a new game!
 
 # Updating the List
@@ -161,4 +172,6 @@ Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
 **ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the FO3 Mod Guide written by ModdingLinked.
 
 # Credits
-[Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from [Lost Liberty](https://github.com/Qolore7/lost-liberty/tree/main)
+[Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from [Lost Liberty](https://github.com/Qolore7/lost-liberty/tree/main).
+
+[Ungeziefi](https://github.com/Ungeziefi) and [Wall SoGB](https://github.com/WallSoGB) for the resources available at [ModdingLinked](https://moddinglinked.com/index.html).
