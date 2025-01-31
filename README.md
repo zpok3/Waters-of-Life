@@ -36,11 +36,14 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
   * The game MUST be installed outside of any default Windows folders, such as `Program Files`, your `Desktop`, or `Documents`. If you have your Steam library in any of these locations, please follow [these](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) instructions to move it.
 
 - [Microsoft Visual C++ Redistributable Package](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
+  1. Extract the archive and run `install_all.bat` as an administrator.
+- [2015-2022 X64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
+- [2015-2022 X86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
 - The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases).
 
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended)
-- The latest .wabbajack file for this modlist downloaded from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
+- The latest .wabbajack file for this modlist downloaded (you will need to extract it from the archive before you can use it) from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
 
 # Terminology
 - **Root folder**: The folder that the game is installed in.
@@ -51,7 +54,18 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 # Installation:
 
 ## Clean Installation
-Waters of Life requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and also the folder located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files`, your `Desktop`, or `Documents`. If you have your Steam library in any of these locations, please follow [these](https://github.com/LostDragonist/steam-library-setup-tool/wiki/Usage-Guide) instructions to move it.
+Waters of Life requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. The following instructions are only for anyone who has only one drive in their system along with Steam installed in `Program Files (x86)` as Steam only allows one library per drive.
+Example safe install location:
+`C:\Games`
+Steam installation instructions:
+1. Completely exit out of Steam using Task Manager or System Tray.
+2. Download **steam_library_setup_tool-3.2.exe** from [here](https://github.com/LostDragonist/steam-library-setup-tool/releases/download/3.2/steam_library_setup_tool-3.2.exe).
+3. Run the file and click **Add Row** to add a new entry.
+4. Type the chosen path under **Path**, e.g. `C:\Games\SteamLibrary`.
+
+GOG installation instructions:
+1. In GOG Galaxy, select **Fallout: New Vegas** and click **Install**.
+2. Set the **Install to** folder to a folder of your choice, e.g. `C:\GOG Games`.
 
 ## Starting Fallout 3
 Start the game and exit once you're at the main menu. This will ensure any settings files needed by Wabbajack are created.
