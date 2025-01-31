@@ -14,6 +14,8 @@
 ## 1.2.0rc2
 LOD:
 - Packed LOD output into a BSA and merged LOD resource plugins
+List:
+- Decompressed plugins for Fugacity and its UUF3P patch
 
 ## 1.2.0rc1
 
