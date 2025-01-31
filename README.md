@@ -16,6 +16,7 @@
   - [Requirements](#requirements)
   - [Terminology](#key-terminology)
 - [Setup](#setup)
+    - [Preparation](#preparation)
     - [Clean Install](#clean-installation)
     - [Starting the Game](#starting-fallout-3)
 - [Installation](#installation)
