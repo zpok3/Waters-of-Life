@@ -61,3 +61,15 @@ First, follow [this](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki
 
 # Finish
 You can now continue with any post installation steps the Wabbajack list you installed may have mentioned that involve either MO2 or the game. And you're done!
+
+# Steam Guide
+For Steam games you need [SteamTinkerLaunch](https://github.com/sonic2kk/steamtinkerlaunch?tab=readme-ov-file#how-do-i-install-it) installed. Set Fallout 3's compatibilty tool to SteamTinkerLaunch and click play. Select **MAIN MENU** when the SteamTinkerLaunch window opens. Select **GAME MENU** and add a custom command to run the `ModOrganizer.exe` of the installed mod list. Make sure **Only custom command** is enabled so that the launcher doesn't open once you close the game and MO2. Next you will need to use the terminal for these next steps:
+
+You will also need to enable visiblity of dotfiles (if you have the base game instead of GOTY the app id is 22300 instead of 22370):
+```
+protontricks --no-bwrap -c 'WINEDEBUG=-all wine reg add "HKEY_CURRENT_USER\Software\Wine" /v ShowDotFiles /d Y /f' 22370
+```
+And some Proton components to ensure everything works with the base game and mods. Things like xact/xact_x64 to fix some audio issues, d3d additions for the use of some graphical functions as well as vcrun2022 (Microsoft Visual C++ Redistributable 2022) for some of the included mods (if you have the base game instead of GOTY the app id is 22300 instead of 22370):
+```
+protontricks --no-bwrap 22370 -q xact xact_x64 d3dcompiler_47 d3dx11_43 d3dcompiler_43 vcrun2022 fontsmooth=rgb
+```
