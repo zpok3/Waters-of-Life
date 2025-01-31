@@ -71,14 +71,14 @@ Base Address Randomization is a security feature in Windows that allows program'
 2. Click on **App and Browser control** in the left sidebar.
 3. Click on **Exploit Protection Settings** under **Exploit Protection**.
 4. Ensure **Force randomization for images (Mandatory ASLR)** is set to **Use default (Off)**.
-   -  If you don't want to change the global setting, you can add an exception just for the game:
-      1. Click on **Program settings**.
-      2. Click on **Add program to customize**.
-      3. Select **Add program by name**.
-      4. Enter `Fallout3.exe` in the box and save.
-      5. Find the newly created entry on the list and click **Edit**.
-      6. Find **Force randomization for images (Mandatory ASLR)**.
-      7. Check **Override system settings**, and set the toggle to **Off**.
+-  If you don't want to change the global setting, you can add an exception just for the game:
+1. Click on **Program settings**.
+2. Click on **Add program to customize**.
+3. Select **Add program by name**.
+4. Enter `Fallout3.exe` in the box and save.
+5. Find the newly created entry on the list and click **Edit**.
+6. Find **Force randomization for images (Mandatory ASLR)**.
+7. Check **Override system settings**, and set the toggle to **Off**.
 ## Clean Installation
 Waters of Life requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. Additionally, it is recommended to install the game on an SSD if possible to improve load times and decrease stuttering.
 Example of a safe install location:
