@@ -1,5 +1,5 @@
 # Introduction
-So recently I was trying to get Wabbajack running on Linux, specifically for GOG games. I came across [this](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki/Wabbajack-on-Linux-via-Wine) guide and I tried to get it running with Lutris since I use it to manage my Wine prefixes for my games. I installed Edge Webview2 into the prefix where my game was installed, set default application settings in the prefix to mimic Windows 7 and set it to mimic Windows 10 for Wabbajack.exe as instructed and sadly it didn't work. I could open Wabbajack and reach the Nexus login page, but everything was black and I was unable to log in. So I wrote this as an unofficial addon to their Proton guide with steps to get GOG games working. How? By installing the game into the prefix where Steam runs Wabbajack. That way, Wabbajack will see your installed game and not throw an error about not being able to find the game. Maybe I'm just stupid but idk.
+So recently I was trying to get Wabbajack running on Linux, specifically for GOG games. I came across [this](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki/Wabbajack-on-Linux-via-Wine) guide and I tried to get it running with Lutris since I use it to manage my Wine prefixes for my games. I installed Edge Webview2 into the prefix where my game was installed, set default application settings in the prefix to mimic Windows 7 and set it to mimic Windows 10 for Wabbajack.exe as instructed and sadly it didn't work. I could open Wabbajack and reach the Nexus login page, but everything was black and I was unable to log in. So I wrote this as an unofficial addon to their Proton guide with steps to get GOG games working. How? By installing the game into the prefix where Steam runs Wabbajack. That way, Wabbajack will see your installed game and not throw an error about not being able to find the game. Maybe I'm just stupid but idk. Tested only on OpenSUSE Tumbleweed but it should work on other popular distros.
 
 # Requirements
 - Offline GOG installer for whatever game you want to install
@@ -25,7 +25,7 @@ First, follow [this](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki
 
 5. Click exit once the installer is finished.
 
-6. Keep Protontricks open as we still need it.
+6. Don't close Protontricks yet as we still need it.
 
 # Configuring Lutris
 1. In Protontricks select **Browse files** and click OK (you can close Protontricks now).
@@ -38,16 +38,16 @@ First, follow [this](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki
 
 5. Configure as follows:
 
-- Game info
-    - Name: Title of the game as listed on lutris.net if you want the cover art, banner, and icons to be downloaded and applied automatically.
-    - Runner: Wine (Runs Windows games).
+- **Game info**
+    - **Name**: Title of the game as listed on [Lutris](https://lutris.net/) if you want the cover art, banner, and icons to be downloaded and applied automatically.
+    - **Runner**: Wine (Runs Windows games).
 
-- Game options
-    - Executable: Paste the path you copied in step 5 into the box, click the button with the three dots on it and navigate to the game's launcher (should be located in `/drive_c/GOG Games/gametitle/`if you followed this guide exactly).
-    - Wine prefix: Paste the path you copied in step 2 into the box.
+- **Game options**
+    - **Executable**: Paste the path you copied in step 5 into the box, click the button with the three dots on it and navigate to the game's launcher (should be located in `/drive_c/GOG Games/gametitle/`if you followed this guide exactly).
+    - **Wine prefix**: Paste the path you copied in step 2 into the box.
 
-- Runner options
-    - Wine version: Proton Experimental or Latest GE-Proton.
+- **Runner options**
+    - **Wine version**: Proton Experimental or Latest GE-Proton.
 
 6. Select **Save**.
 
