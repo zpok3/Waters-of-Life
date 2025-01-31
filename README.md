@@ -40,7 +40,7 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 - [2015-2022 X64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
 - [2015-2022 X86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
 
-- The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases).
+- The latest release of [Wabbajack](https://www.wabbajack.org/).
 
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended)
 - The latest .wabbajack file for this modlist downloaded (you will need to extract it from the archive before you can use it) from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
@@ -64,7 +64,7 @@ Steam installation instructions:
 4. Type the chosen path under **Path**, e.g. `C:\Games\SteamLibrary`.
 
 GOG installation instructions:
-1. In GOG Galaxy, select **Fallout: New Vegas** and click **Install**.
+1. In GOG Galaxy, select **Fallout: 3** and click **Install**.
 2. Set the **Install to** folder to a folder of your choice, e.g. `C:\GOG Games`.
 
 ## Starting Fallout 3
