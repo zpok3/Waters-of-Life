@@ -11,16 +11,20 @@
 
   # Changelog
 
+## 1.2.0rc2
+LOD:
+- Packed LOD output into a BSA and merged LOD resource plugins
+
 ## 1.2.0rc1
 
 List Updates
 
 Profiles:
-- added a new classic profile that uses clarity and the older enhanced night sky and krzymar hi-res moon retextures
-- added a new moddinglinked basics profile that has only the utilities and bug fixes from the moddinglinked fo3 mod guide
+- Added a new Classic profile that uses Clarity and the older Enhanced Night Sky and krzymar HI-RES Moon retextures
+- Added a new ModdingLinked Basics profile that has only the utilities and bug fixes from the ModdingLinked FO3 mod guide
 
 MO2:
-- Updated and switched mo 2.5.1rc2 to mo 2.5.2-ml1.5
+- Updated and switched MO 2.5.1rc2 to MO 2.5.2-ML1.5
 
 Utilities:
 - Updated patched vanilla ESMs to 1.6
