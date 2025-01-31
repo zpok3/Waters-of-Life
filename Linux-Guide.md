@@ -63,7 +63,7 @@ First, follow [this](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki
 You can now continue with any post installation steps the Wabbajack list you installed may have mentioned that involve either MO2 or the game. And you're done!
 
 # Steam Guide
-For Steam games you need [SteamTinkerLaunch](https://github.com/sonic2kk/steamtinkerlaunch?tab=readme-ov-file#how-do-i-install-it) installed. Set Fallout 3's compatibilty tool to SteamTinkerLaunch and click play. Select **MAIN MENU** when the SteamTinkerLaunch window opens. Select **GAME MENU** and add a custom command to run the `ModOrganizer.exe` of the installed mod list. Make sure **Only custom command** is enabled so that the launcher doesn't open once you close the game and MO2. Next you will need to use the terminal for these next steps:
+For Steam games you need [SteamTinkerLaunch](https://github.com/sonic2kk/steamtinkerlaunch?tab=readme-ov-file#how-do-i-install-it) installed. Set Fallout 3's compatibilty tool to SteamTinkerLaunch and click play. Select **MAIN MENU** when the SteamTinkerLaunch window opens. Select **GAME MENU** and add a custom command to run the `ModOrganizer.exe` of the installed mod list. Make sure **Only custom command** is enabled so that the launcher doesn't open once you close the game and MO2. Then scroll down and set **Proton version** to Proton Experimental or latest GE-Proton. Next you will need to use the terminal for these next steps:
 
 You will also need to enable visiblity of dotfiles (if you have the base game instead of GOTY the app id is 22300 instead of 22370):
 ```
