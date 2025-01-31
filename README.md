@@ -140,7 +140,7 @@ Example: `C:\Modding\Waters of Life`
   * If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
 ## Root Mods
-Here we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility and .
+Here we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility.
 1. In your **Installation Location**, open the `__root mods` folder.
 2. Copy **everything** to the game's **Root** folder (the folder where you installed Fallout 3).
 3. Still in the game's Root folder, double-click on **Patcher.exe** to run it.
