@@ -7,7 +7,7 @@ So recently I was trying to get Wabbajack running on Linux, specifically for GOG
 - Steam
 - Lutris
 - Proton Experimental or [Latest GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)
-- [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2) (if you want an easy way to install and manage compatibility tools for Steam/Lutris)
+- [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2) (optional, only if you want an easy way to install and manage compatibility tools for Steam/Lutris).
 - Protontricks
 
 # Installation
