@@ -35,7 +35,7 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported. 
 - Approximately 25GB of free space, game included (21GB with all the downloads deleted afterwards).
 - Windows 10 or higher (64 bit).
-  - [Wabbajack via Proton guide](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki/Wabbajack-via-Proton) and [GOG](https://github.com/zpok3/Waters-of-Life/blob/main/Linux-Guide.md) guides to install Wabbajack lists on Linux available here.
+  - [Wabbajack via Proton guide](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki/Wabbajack-via-Proton) and [my supplementary Linux guide](https://github.com/zpok3/Waters-of-Life/blob/main/Linux-Guide.md) guides to install Wabbajack lists on Linux available here.
 
 - The latest VC++ Redistributables:
   - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
