@@ -6,7 +6,7 @@ So recently I was trying to get Wabbajack running on Linux, specifically for GOG
 - Latest VC++ Redists downloaded from [here](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) to account for any script extender mods/plugins that may need them. Extract them somewhere for use later when we have the prefix ready.
 - Steam
 - Lutris
-- Proton Experimental or [Latest GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)
+- [Latest GE-Proton](https://github.com/GloriousEggroll/proton-ge-custom)
 - [ProtonUp-Qt](https://flathub.org/apps/net.davidotek.pupgui2) (optional, only if you want an easy way to install and manage compatibility tools for Steam/Lutris).
 - Protontricks
 
@@ -47,7 +47,7 @@ First, follow [this](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki
     - **Wine prefix**: Paste the path you copied in step 2 into the box.
 
 - **Runner options**
-    - **Wine version**: Proton Experimental or Latest GE-Proton.
+    - **Wine version**: Latest GE-Proton.
 
 6. Select **Save**.
 
