@@ -11,6 +11,34 @@
 
   # Changelog
 
+## 1.2.0
+List:
+- Added new ModdingLinked Extended profile
+
+Custom INI:
+- Removed TerrainManager ini tweaks (not needed and caused certain LOD objects to not load)
+
+Utilities:
+- Added No Exit to Main Menu
+- Updated ButcherPete FOSE to 2.5
+
+Bugfixes:
+- Updated Stewie Tweaks Essentials INI to 1.04
+
+Gameplay:
+- Replaced Marathoner with Simple Sprint Fallout 3
+- Removed Can Has Recoil because I can't really notice the recoil (at least on a couple semiautos I tried)
+
+Visuals:
+- Replaced Alternative Megaton Lighting with Megaton Illuminated
+- Added New Vegas version of Accurate NASA Stars which has the star texture correctly saved with DXT1 compression and includes gamesetting tweaks to make it so the north star points north
+
+Optionals:
+- Updated ATMOS and Fugacity UUF3P patches
+- Added Megaton Illuminated UUF3P patch
+- Added Megaton Illuminated Goodies patch
+- Added FOMOD so it's easier for me to setup the patch selection for each profile
+
 ## 1.2.0rc2
 LOD:
 - Packed LOD output into a BSA and merged LOD resource plugins
