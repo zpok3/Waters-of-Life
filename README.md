@@ -14,7 +14,6 @@
 - [Introduction](#introduction)
   - [List Contents](#list-contents)
   - [Requirements](#requirements)
-  - [Terminology](#key-terminology)
 - [Setup](#setup)
     - [Preparation](#preparation)
     - [Clean Install](#clean-installation)
@@ -28,14 +27,14 @@
 A lightweight vanilla plus Wabbajack mod list for Fallout 3. Intended to bring a Viva New Vegas-like experience to Fallout 3. Well, not quite since the Fallout 3 modding scene is pretty dead. Anyways it's Wabbajack only since I'm just a guy who does this for a hobby so I can't commit to writing a real guide.
 
 # List Contents
-You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you're curious about what mods are included.
+You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you're curious about what mods are included.
 
 # Requirements
 - A fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG.
 - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported. 
 - Approximately 25GB of free space, game included (21GB with all the downloads deleted afterwards).
 - Windows 10 or higher (64 bit).
-  - [Wabbajack via Proton guide](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki/Wabbajack-via-Proton) and [my supplementary Linux guide](https://github.com/zpok3/Waters-of-Life/blob/main/Linux-Guide.md) to install Wabbajack lists on Linux available here.
+  - [Wabbajack via Proton guide](https://github.com/Omni-guides/Wabbajack-Modlist-Linux/wiki/Wabbajack-via-Proton) and [my poopy Linux guide](https://github.com/zpok3/Waters-of-Life/blob/main/Linux-Guide.md) to install Wabbajack lists on Linux available here.
 
 - The latest VC++ Redistributables:
   - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
@@ -50,13 +49,14 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 - The latest .wabbajack file for this modlist downloaded (you will need to extract it from the archive before you can use it) from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
 
-# Key Terminology
-- **Root folder**: The folder that the game is installed in.
-  - Example: `C:\GOG Games\Fallout 3`
-- **Data folder**: Where all of the game's assets are located.
-  - Example: `C:\GOG Games\Fallout 3\Data`
-- **Installation location**: The folder where Mod Organizer 2 and all the mods are located.
-  - Example: `C:\Modding\Waters of Life`
+> [!important]
+**Key Terminology**
+> - **Root folder**: The folder that the game is installed in.
+>    - Example: `C:\GOG Games\Fallout 3`
+> - **Data folder**: Where all of the game's assets are located.
+>    - Example: `C:\GOG Games\Fallout 3\Data`
+> - **Installation location**: The folder where Mod Organizer 2 and all the mods are located.
+>    - Example: `C:\Modding\Waters of Life`
 
 # Setup:
 ## Preparation
@@ -66,43 +66,57 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-2) if you'
 3. Enable **File name extensions** in the **Show** section.
 
 **Disabling Base Address Randomization:**
+
 Base Address Randomization is a security feature in Windows that allows program's starting address to be randomized, which is not the expected behavior in 32-bit programs like Fallout 3. This **leads to crashes** in a modded game. This is disabled by default but it's recommended to make sure it's disabled as a sanity check.
 1. Open **Windows Security** from your **Start Menu**.
 2. Click on **App and Browser control** in the left sidebar.
 3. Click on **Exploit Protection Settings** under **Exploit Protection**.
 4. Ensure **Force randomization for images (Mandatory ASLR)** is set to **Use default (Off)**.
--  If you don't want to change the global setting, you can add an exception just for the game:
-1. Click on **Program settings**.
-2. Click on **Add program to customize**.
-3. Select **Add program by name**.
-4. Enter `Fallout3.exe` in the box and save.
-5. Find the newly created entry on the list and click **Edit**.
-6. Find **Force randomization for images (Mandatory ASLR)**.
-7. Check **Override system settings**, and set the toggle to **Off**.
+
+> [!tip]
+If you don't want to change the global setting, you can add an exception just for the game:
+> 1. Click on **Program settings**.
+> 2. Click on **Add program to customize**.
+> 3. Select **Add program by name**.
+> 4. Enter `Fallout3.exe` in the box and save.
+> 5. Find the newly created entry on the list and click **Edit**.
+> 6. Find **Force randomization for images (Mandatory ASLR)**.
+> 7. Check **Override system settings**, and set the toggle to **Off**.
+
 ## Clean Installation
 Waters of Life requires a completely clean installation of Fallout 3. This means completely deleting both the game folder and all INI files located in `Documents\My Games\Fallout3` then reinstalling the game through Steam/GOG. The game MUST be installed outside of any default Windows folders, such as `Program Files (x86)`, `Program Files`, your `Desktop`, or `Documents`. Additionally, it is recommended to install the game on an SSD if possible to improve load times and decrease stuttering.
-Example of a safe install location:
-`C:\Games`
 
-**Steam:**
+<details>
+  
+<summary>Steam Install Instructions</summary>
+
 - The following instructions are only for anyone who has only one drive in their system along with Steam installed in `Program Files (x86)` as Steam only allows one library folder per drive.
 - Skip to step 1 of **Installing the game** if you have Steam installed outside of `Program Files (x86)` or have a secondary drive to install games to.
+
 1. Completely exit out of Steam using Task Manager or System Tray.
 2. Download **steam_library_setup_tool-3.2.exe** from [here](https://github.com/LostDragonist/steam-library-setup-tool/releases/download/3.2/steam_library_setup_tool-3.2.exe).
 3. Run the file and click **Add Row** to add a new entry.
 4. Type the chosen path under **Path**, e.g. `C:\Games\SteamLibrary`.
 5. Click **Accept** and then **Yes** if prompted to create a new folder.
 6. Click **OK** when the tool asks to exit.
-- **Installing the game:**
+
+**Installing the game:**
 1. Open Steam and go to your **Library**.
 2. Find Fallout 3 in the list and click **Install**.
-3. Under **Install to:**, select a library folder of your choice that is outside of any default Windows folders. If you created a custom Steam Library earlier, it will be the second **C:\** entry.
+3. Under **Install to:**, select a library folder of your choice that is outside of any default Windows folders. If you created a custom Steam Library earlier, it will be the second **(C:)** entry.
 4. Select **Next** and wait for the install to finish.
 
-**GOG:**
+</details>
+
+<details>
+  
+<summary>GOG Install Instructions</summary>
+
 1. In GOG Galaxy, go to your **Library**
 1. In GOG Galaxy, select **Fallout 3: Game of the Year Edition** and click **Install**.
 2. Set the **Install to** folder to a folder of your choice, e.g. `C:\GOG Games`.
+
+</details>
 
 ## Starting Fallout 3
 Start the game and exit once you're at the main menu. This will ensure any settings files needed by Wabbajack are created.
@@ -110,8 +124,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 # Installation
 
 1. Create a folder for Wabbajack outside of any default Windows folders.
-
-Example: `C:\Modding\Wabbajack`
+  - Example: `C:\Modding\Wabbajack`
 
 2. Place the downloaded Wabbajack.exe in this folder and run it.
 3. Select `Install from Disk` in the Wabbajack app. You will have to manually select where you downloaded the .wabbajack file in the `Target Modlist` box.
@@ -137,7 +150,8 @@ Example: `C:\Modding\Waters of Life`
 3. Click **Manage Settings** under **Virus and threat Protection settings**.
 4. Scroll down and click **Add or remove exclusions** under **Exclusions**.
 5. Add a **Folder** exclusion and point it to the **Installation Location** folder.
-  * If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
+> [!important]
+> If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
 ## Root Mods
 Here we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility.
@@ -159,7 +173,10 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Incre
 3. The **Fallout 3** and **Decompressed Archives** path should be filled by default (Root and Data folder respectively).
 
 If they aren't, close the program and re-run the game's launcher to generate the required registry key.
-  * If you intend to install **Tale of Two Wastelands** or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your **Installation Location** and redirect the **Decompressed Archives** path to that folder. Make sure to enable it in the left pane of whatever profile you would like to use once you open Mod Organizer.
+
+> [!tip]
+> If you intend to install **Tale of Two Wastelands** or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your **Installation Location** and redirect the **Decompressed Archives** path to that folder. Make sure to enable it in the left pane of whatever profile you would like to use once you open Mod Organizer.
+
 4. Click **Decompress**, wait for the process to finish, then exit out of the program once finished.
 
 ## Mod Organizer 2 Setup
@@ -183,27 +200,25 @@ There are three profiles you can choose from; the default profile, the Classic p
     4. Change the following settings in the `[Display]` section:
     * `iSize W` = your screen width
     * `iSize H` = your screen height
-    * If you use an Ultrawide display also follow these steps: [Extra Stuff you should know](#extra-stuff-you-should-know)
+> [!note]
+If you use an Ultrawide display also follow these steps: [Extra Stuff you should know](#extra-stuff-you-should-know)
+
 3. Close the launcher.
 
 ## Performance
-I recommend capping your FPS to `120` or lower as that is the recommended limit with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you probably already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
-
-**DXVK:** Highly recommended, better latency than D3D9 windowed and variable refresh rate works without any problems. and to use it just enable the latest version of **DXVK** under the **Post Installation** separator in MO2. Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - here are the minimum required GPUs (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)): 
-
-**AMD**: Radeon RX 400 series or newer (except RX 455 OEM).
-
-**NVIDIA**: GeForce 900 series or newer.
-
-**Intel**: Intel HD 510/530 or newer.
+- It's recommended  to cap your FPS to `120` or lower as that is the recommended limit with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you probably already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
+- DXVK: Highly recommended, better latency than D3D9 windowed and variable refresh rate works without any problems. To use it just enable the latest version of **DXVK** under the **Post Installation** separator in MO2 . Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series or newer (except RX 455 OEM), NVIDIA GeForce 900 series or newer, or Intel HD 510/530 or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)). 
 
 If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
 For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK). 
-
+> [!tip]
+If you use a Nvidia GPU it's also recommended to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#DXVK).
 ## Launching the Game
 1. Make sure the dropdown box on the right is set to **Fallout 3** and press the Run button.
-- **Q**: Aren't you supposed to use the FOSE loader?
-- **A**: The Fallout Anniversary Patcher which we ran earlier enables the game executable to load FOSE automatically if available.
+
+> [!note]
+> We run the game directly instead of through the FOSE loader because the Fallout Anniversary Patcher which we ran earlier enables the game executable to load FOSE automatically if available.
+
 2. You're all set! Everything is already configured by default so you can hop right into a new game!
 
 # Updating the List
@@ -215,12 +230,13 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 
 # Extra Stuff you should know
 **Ultrawide Support:** 
-
-Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI`
+- Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI` (or whatever Stewies Tweaks INI is active for the current profile since there are a handful of them to account for some profiles not having Iron Sights Plus).
 
 **Classic Profile:** Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, and True Weathers.
 
 **ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the FO3 Mod Guide written by ModdingLinked.
+
+**ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 # Credits
 [Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from [Lost Liberty](https://github.com/Qolore7/lost-liberty/tree/main).
