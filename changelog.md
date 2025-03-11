@@ -11,6 +11,23 @@
 
   # Changelog
 
+## 1.2.1
+
+LOD:
+- Updated Much Needed LOD FO3 to version 2
+- Regenerated LODGen output with xLODGen beta 130
+
+Visuals:
+- Disabled Atmospheric Sun Glare in main profile to use the one included in True Weathers instead
+- Updated Megaton Illuminated to version 11
+
+Post Installation:
+- Updated DXVK and DXVK - HDR to 2.5.3
+- Fixed missing DXVK
+
+Optionals:
+- Updated Megaton Illuminated UUF3P Patch
+
 ## 1.2.0
 List:
 - Added new ModdingLinked Extended profile
