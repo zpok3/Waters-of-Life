@@ -140,7 +140,8 @@ Example: `C:\Modding\Waters of Life`
 6. Accept the Nexus Mods API request.
 7. If you are not a Premium user you will need to manually click download for each mod.
 8. Once complete Wabbajack, will show a green **Installation Complete** screen.
-  * If you see a red **Installation Failed** screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
+> [!tip]
+> If you see a red **Installation Failed** screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
 
 # Post Installation
 
