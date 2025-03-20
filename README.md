@@ -50,7 +50,7 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you'
 ## Recommended Specs
 I don't really know exact specs but if your PC can easily run the game at 1080p max settings at 60+ FPS, you can probably run this list just fine.
 
-# Setup:
+# Setup
 ## Preparation
 **Enabling file extensions:**
 1. Open File Explorer.
