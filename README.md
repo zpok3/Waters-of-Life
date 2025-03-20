@@ -111,7 +111,7 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 <summary>GOG Install Instructions</summary>
 
 1. In GOG Galaxy, go to your `Library`.
-2. In GOG Galaxy, select `Fallout 3: Game of the Year Edition` and click `Install`.
+2. Select `Fallout 3: Game of the Year Edition` and click `Install`.
 3. Set the **Install to** folder to a folder of your choice, e.g. `C:\GOG Games`.
 
 </details>
