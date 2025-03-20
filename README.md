@@ -101,7 +101,7 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 
 **Installing the game:**
 1. Open Steam and go to your `Library`.
-2. Find Fallout 3 in the list and click `Install**.
+2. Find Fallout 3 in the list and click `Install`.
 3. Under `Install to:`, select a library folder of your choice that is outside of any default Windows folders. If you created a custom Steam Library earlier, it will be the second **(C:)** entry.
 4. Select `Next` and wait for the install to finish.
 
