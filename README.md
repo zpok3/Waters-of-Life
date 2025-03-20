@@ -24,7 +24,7 @@
 - [Credits](#credits)
 
 # Introduction
-A lightweight vanilla plus Wabbajack mod list for Fallout 3. Intended to bring a Viva New Vegas-like experience to Fallout 3. Well, not quite since the Fallout 3 modding scene is pretty dead.
+A lightweight vanilla plus Wabbajack mod list for Fallout 3.
 
 # List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you're curious about what mods are included.
