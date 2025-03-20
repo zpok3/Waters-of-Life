@@ -168,7 +168,7 @@ Here we will run the Fallout Anniversary Patcher, its features include a Mod Lim
 5. Close the command prompt and a file named `Fallout3_backup.exe` should appear in the game's `Root` folder.
 
 ## BSA Decompressor
-Decompresses the vanilla BSA files to reduce loading times and stuttering. Increases the size of the game by about 1.64GB if you decompress directly into the `Data` folder, otherwise it takes up about a 3.38GB if it's in a mod folder in the `Installation Location` folder.
+Decompresses the vanilla BSA files to reduce loading times and stuttering. Increases the size of the game by about 1.64GB if you decompress directly into the `Data` folder, otherwise it takes up about 3.38GB if it's in a mod folder in the `Installation Location` folder.
 1. In your `Installation Location` folder, open the `__bsa decompressor` folder.
 2. Run `FO3 BSA Decompressor.exe`.
 3. The `Fallout 3` and `Decompressed Archives` path should be filled by default (Root and Data folder respectively).
