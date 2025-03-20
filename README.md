@@ -1,4 +1,4 @@
-<img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/waters%20of%20life%20logo.webp" target="_blank"></a>
+![waters of life logo](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/waters%20of%20life%20logo.webp)
 
 ---
 
@@ -24,19 +24,19 @@
 - [Credits](#credits)
 
 # Introduction
-A lightweight vanilla plus Wabbajack mod list for Fallout 3.
+A lightweight vanilla plus Wabbajack mod list for Fallout 3. This list aims to provide essential Vanilla bug fixes, performance optimizations, restored cut content, and gameplay enhancements, along with minor visual touch ups to improve the game's look without compromising the Vanilla aesthetic too much.
 
-# List Contents
+## List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you're curious about what mods are included.
 
-# Requirements
-- A fresh installation of the **English** version of the game with the all of the DLCs from Steam or GOG.
-- Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported. 
+## Requirements
+- A fresh installation of the **English** version of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
+  - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported. 
 - Approximately 25GB of free space, game included (21GB with all the downloads deleted afterwards).
 - Windows 10 or higher (64 bit).
 - The latest VC++ Redistributables:
   - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
-  1. Extract the archive and run `install_all.bat` as an administrator.
+1. Extract the archive and run `install_all.bat` as an administrator.
     - [2015-2022 X64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
     - [2015-2022 X86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
     - Restart your PC.
@@ -47,16 +47,8 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you'
 - The latest .wabbajack file for this modlist downloaded (you will need to extract it from the archive before you can use it) from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
 
-> [!important]
-**Key Terminology**
-> - **Root folder**: The folder that the game is installed in.
->    - For Steam: `Steam\steamapps\common\Fallout 3`
->    - For GOG: `GOG Galaxy\Games\Fallout 3` (unless you manually changed it)
-> - **Data folder**: Where all of the game's assets are located.
->    - For Steam: `Steam\steamapps\common\Fallout 3\Data`
->    - For GOG: `GOG Galaxy\Games\Fallout 3\Data` (unless you manually changed it)
-> - **Installation location**: The folder where Mod Organizer 2 and all the mods are located.
->    - Example: `C:\Modding\Waters of Life`
+## Recommended Specs
+I don't really know exact specs but if your PC can easily run the game at 1080p max settings at 60+ FPS, you can probably run this list just fine.
 
 # Setup:
 ## Preparation
@@ -119,6 +111,16 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 ## Starting Fallout 3
 Start the game and exit once you're at the main menu. This will ensure any settings files needed by Wabbajack are created.
 
+> [!important]
+**Key Terminology**
+> - **Root folder**: The folder that the game is installed in.
+>    - For Steam: `Steam\steamapps\common\Fallout 3`
+>    - For GOG: `GOG Galaxy\Games\Fallout 3` (unless you manually changed it)
+> - **Data folder**: Where all of the game's assets are located.
+>    - For Steam: `Steam\steamapps\common\Fallout 3\Data`
+>    - For GOG: `GOG Galaxy\Games\Fallout 3\Data` (unless you manually changed it)
+> - **Installation Location folder**: The folder where Mod Organizer 2 and all the mods are located.
+>    - Example: `C:\Modding\Waters of Life`
 # Installation
 
 1. Create a folder for Wabbajack outside of any default Windows folders.
@@ -137,7 +139,7 @@ Example: `C:\Modding\Waters of Life`
 5. **Begin** the installation.
 6. Accept the Nexus Mods API request.
 7. If you are not a Premium user you will need to manually click download for each mod.
-8. Once complete Wabbajack, will show a green `Installation Complete` screen.
+8. Once complete, Wabbajack will show a green `Installation Complete` screen.
 > [!tip]
 > If you see a red `Installation Failed` screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
 
@@ -148,14 +150,14 @@ Example: `C:\Modding\Waters of Life`
 2. Open `Virus and Threat Protection`.
 3. Click `Manage Settings` under `Virus and threat Protection settings`.
 4. Scroll down and click `Add or remove exclusions` under `Exclusions`.
-5. Add a `Folder** exclusion and point it to the **Installation Location** folder.
+5. Add a `Folder` exclusion and point it to the `Installation Location` folder.
 > [!important]
 > If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
 ## Root Mods
 Here we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility.
-1. In your `Installation Location`, open the `__root mods` folder.
-2. Copy **everything** to the game's `Root` folder (the folder where you installed Fallout 3).
+1. In your `Installation Location` folder, open the `__root mods` folder.
+2. Copy **everything** to the game's `Root` folder.
 3. Still in the game's `Root` folder, double-click on `Patcher.exe` to run it.
 4. A command prompt should show up, run for a few seconds, then read as follows:
 
@@ -166,20 +168,20 @@ Here we will run the Fallout Anniversary Patcher, its features include a Mod Lim
 5. Close the command prompt and a file named `Fallout3_backup.exe` should appear in the game's `Root` folder.
 
 ## BSA Decompressor
-Decompresses the vanilla BSA files to reduce loading times and stuttering. Increases the size of the game to about 1.64GB if you decompress directly into the **Data** folder, otherwise it takes up about a 3.38GB if it's in a mod folder in the **Installation location**.
-1. In your `Installation Location`, open the `__bsa decompressor` folder.
+Decompresses the vanilla BSA files to reduce loading times and stuttering. Increases the size of the game to about 1.64GB if you decompress directly into the `Data` folder, otherwise it takes up about a 3.38GB if it's in a mod folder in the `Installation` folder.
+1. In your `Installation Location` folder, open the `__bsa decompressor` folder.
 2. Run `FO3 BSA Decompressor.exe`.
 3. The `Fallout 3` and `Decompressed Archives` path should be filled by default (Root and Data folder respectively).
 
 If they aren't, close the program and re-run the game's launcher to generate the required registry key.
 
 > [!tip]
-> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your `Installation Location` and redirect the `Decompressed Archives` path to that folder. Make sure to enable it in the left pane of whatever profile you would like to use once you open Mod Organizer.
+> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your `Installation Location` (you can quickly access this folder from MO2 by clicking the ![mo2 open folders menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/folders%20menu.webp) button) and redirect the `Decompressed Archives` path to that folder. Make sure to enable it in the left pane of whatever profile you would like to use once you open Mod Organizer.
 
 4. Click `Decompress`, wait for the process to finish, then exit out of the program once finished.
 
 ## Mod Organizer 2 Setup
-1. Launch `ModOrganizer.exe` from your `Installation Location`.
+1. Launch `ModOrganizer.exe` from your `Installation` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
 3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` under the `Post Installation` separator.
 
@@ -194,7 +196,7 @@ There are three profiles you can choose from; the default profile, the Classic p
 * If you can't find the right resolution in the launcher's list, do the following:
     
     1. Close the launcher.
-    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.webp" target="_blank"></a> button and select `INI Editor`.
+    2. Click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.webp) button and select `INI Editor`.
     3. Select the `FalloutPrefs.ini` tab.
     4. Change the following settings in the `[Display]` section:
     * `iSize W` = your screen width
