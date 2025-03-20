@@ -194,13 +194,13 @@ There are three profiles you can choose from; the default profile, the Classic p
 * If you can't find the right resolution in the launcher's list, do the following:
     
     1. Close the launcher.
-    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.webp" target="_blank"></a> button and select **INI Editor**.
+    2. Click the <img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.webp" target="_blank"></a> button and select `INI Editor`.
     3. Select the `FalloutPrefs.ini` tab.
     4. Change the following settings in the `[Display]` section:
     * `iSize W` = your screen width
     * `iSize H` = your screen height
 > [!note]
-If you use an Ultrawide display also follow these steps: [Extra Stuff you should know](#extra-stuff-you-should-know)
+If you use an Ultrawide display also follow these steps: [Extra Stuff you should know](#extra-stuff-you-should-know).
 
 3. Close the launcher.
 
@@ -214,7 +214,7 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 If you use a Nvidia GPU it's also recommended to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#DXVK).
 
 ## Launching the Game
-1. Make sure the dropdown box on the right is set to **Fallout 3** and press the Run button.
+1. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
 
 > [!note]
 > We run the game directly instead of through the FOSE loader because the Fallout Anniversary Patcher we ran earlier enables the game executable to load FOSE automatically if available.
@@ -224,7 +224,7 @@ If you use a Nvidia GPU it's also recommended to follow steps 2-6 under [**Enabl
 # Updating the List
 
 1. Add the [NoDelete] prefix to the name any mods you added after installation.
-2. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's **Data** folder, otherwise skip to step 3).
+2. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
 3. Reinstall the list with the "**Overwrite Installation**" checkbox enabled.
 4. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it to `\mods\[NoDelete] Decompressed BSAs`).
 
