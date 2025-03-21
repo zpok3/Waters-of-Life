@@ -24,7 +24,7 @@
 - [Credits](#credits)
 
 # Introduction
-A lightweight vanilla plus Wabbajack mod list for Fallout 3. This list aims to provide essential Vanilla bug fixes, performance optimizations, restored cut content, and gameplay enhancements, along with minor visual touch ups to improve the game's look without compromising the Vanilla aesthetic too much.
+A lightweight vanilla plus Wabbajack mod list for Fallout 3. This list aims to provide essential vanilla bug fixes, performance optimizations, restored cut content, and gameplay enhancements, along with minor visual touch ups to improve the game's look without compromising the vanilla aesthetic too much.
 
 ## List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you're curious about what mods are included.
@@ -113,6 +113,8 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 
 > [!important]
 **Key Terminology**
+>
+> As we go through this install guide there are a few folder that we will refer to often:
 > - **Root folder**: The folder that the game is installed in.
 >    - For Steam: `Steam\steamapps\common\Fallout 3`
 >    - For GOG: `GOG Galaxy\Games\Fallout 3` (unless you manually changed it)
@@ -202,18 +204,16 @@ There are three profiles you can choose from; the default profile, the Classic p
     * `iSize W` = your screen width
     * `iSize H` = your screen height
 > [!note]
-If you use an Ultrawide display also follow these steps: [Extra Stuff you should know](#extra-stuff-you-should-know).
+If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
 
 3. Close the launcher.
 
-## Performance
-- It's recommended  to cap your FPS to `120` or lower as that is the recommended limit with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you probably already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
-- DXVK: Highly recommended, better latency than D3D9 windowed and variable refresh rate works without any problems. To use it just enable the latest version of `DXVK` under the `Post Installation` separator in MO2 . Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series or newer (except RX 455 OEM), NVIDIA GeForce 900 series or newer, or Intel HD 510/530 or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)). 
-
-If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
-For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#DXVK). 
-> [!tip]
-If you use a Nvidia GPU it's also recommended to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#DXVK).
+## Performance Guide
+- **Cap your FPS**: It's recommended  to cap your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server (RTSS)](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you probably already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
+- **DXVK with DXGI**: Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series or newer (except RX 455 OEM), NVIDIA GeForce 900 series or newer, or Intel HD 510/530 or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
+  - If you use an AMD GPU, all you have to do is enable the mod `DXVK` under the `Post Installation` separator in MO2. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#DXVK).
+  - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
+For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
 
 ## Launching the Game
 1. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
@@ -230,15 +230,17 @@ If you use a Nvidia GPU it's also recommended to follow steps 2-6 under [**Enabl
 3. Reinstall the list with the "**Overwrite Installation**" checkbox enabled.
 4. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it to `\mods\[NoDelete] Decompressed BSAs`).
 
-# Extra Stuff you should know
-**Ultrawide Support:** 
+# Extra stuff you should know
+
+## Ultrawide Support 
 - Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI` (or whatever Stewies Tweaks INI is active for the current profile since there are a handful of them to account for some profiles not having Iron Sights Plus).
 
-**Classic Profile:** Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, Alternative Megaton Lighting Plus, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, Megaton Illuminated, and True Weathers.
+## Mod Profiles
+- **Classic Profile:** Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, Alternative Megaton Lighting Plus, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, Megaton Illuminated, and True Weathers.
 
-**ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the FO3 Mod Guide written by ModdingLinked.
+- **ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes.moddinglinked.com/fo3.html) written by ModdingLinked.
 
-**ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
+- **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 # Credits
 [Qolore7](https://github.com/Qolore7) for most of the install steps which I grabbed from [Lost Liberty](https://github.com/Qolore7/lost-liberty/tree/main).
