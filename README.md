@@ -148,6 +148,7 @@ Example: `C:\Modding\Waters of Life`
 # Post Installation
 
 ## Exclusions
+This operation is required because Windows can block MO2 and mod files from loading due to how MO2's virtualized filesystem works.
 1. Open Windows Security.
 2. Open `Virus and Threat Protection`.
 3. Click `Manage Settings` under `Virus and threat Protection settings`.
@@ -183,7 +184,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 4. Click `Decompress`, wait for the process to finish, then exit out of the program once finished.
 
 ## Mod Organizer 2 Setup
-1. Launch `ModOrganizer.exe` from your `Installation` folder.
+1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
 3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` under the `Post Installation` separator.
 
@@ -226,9 +227,10 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 # Updating the List
 
 1. Add the [NoDelete] prefix to the name any mods you added after installation.
+Example: `[NoDelete] My awesome mod`
 2. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
 3. Reinstall the list with the "**Overwrite Installation**" checkbox enabled.
-4. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it to `\mods\[NoDelete] Decompressed BSAs`).
+4. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it as a mod in MO2).
 
 # Extra stuff you should know
 
