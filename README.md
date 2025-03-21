@@ -176,7 +176,7 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Incre
 If they aren't, close the program and re-run the game's launcher to generate the required registry key.
 
 > [!tip]
-> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your `Installation Location` (you can quickly access this folder from MO2 by clicking the ![mo2 open folders menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/folders%20menu.webp) button) and redirect the `Decompressed Archives` path to that folder. Make sure to enable it in the left pane of whatever profile you would like to use once you open Mod Organizer.
+> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your `Installation Location` (you can quickly access this folder from MO2 by clicking the ![mo2 open folders menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/folders%20menu.webp) button and clicking `Open Mods folder`) and redirect the `Decompressed Archives` path to that folder. Make sure to enable it in the left pane of whatever profile you would like to use once you open Mod Organizer.
 
 4. Click `Decompress`, wait for the process to finish, then exit out of the program once finished.
 
