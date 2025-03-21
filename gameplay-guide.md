@@ -19,8 +19,8 @@ This page lists some notable changes you should be aware of when playing Fallout
 ## Goodies
 - Restores various cut content and adds other small tweaks.
 
-# Simple Sprint Fallout 3
+## Simple Sprint Fallout 3
 - Activation key is configurable in the ini, if you use `L-Shift` you will have to rebind the walk key or you will just toggle walking (Should work out of the box, walk key has been rebound to `R-Shift`.
 
-# Stewie's Tweaks/Vanilla UI Plus
+## Stewie's Tweaks/Vanilla UI Plus
 - You can use the WASD keys to navigate menus, VUI+ rebinds any conflicting keybinds accordingly.
