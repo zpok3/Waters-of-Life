@@ -24,7 +24,7 @@
 - [Credits](#credits)
 
 # Introduction
-A lightweight vanilla plus Wabbajack mod list for Fallout 3. This list aims to provide essential vanilla bug fixes, performance optimizations, restored cut content, and gameplay enhancements, along with minor visual touch ups to improve the game's look without compromising the vanilla aesthetic too much.
+A lightweight vanilla plus Wabbajack mod list for Fallout 3. This list aims to provide essential vanilla bug fixes, performance optimizations, restored cut content, and gameplay enhancements, along with some minor visual touch ups to improve the game's look without changing the vanilla aesthetic too much.
 
 ## List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you're curious about what mods are included.
@@ -114,7 +114,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 > [!important]
 **Key Terminology**
 >
-> As we go through this install guide there are a few folder that we will refer to often:
+> As we go through this install guide there are a few folders that we will refer to often:
 > - **Root folder**: The folder that the game is installed in.
 >    - For Steam: `Steam\steamapps\common\Fallout 3`
 >    - For GOG: `GOG Galaxy\Games\Fallout 3` (unless you manually changed it)
@@ -157,8 +157,8 @@ Example: `C:\Modding\Waters of Life`
 > If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
 ## Root Mods
-Here we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility.
-1. In your `Installation Location` folder, open the `__root mods` folder.
+Next we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility.
+1. In your `Installation Location` folder, open the `__Root Mods` folder.
 2. Copy **everything** to the game's `Root` folder.
 3. Still in the game's `Root` folder, double-click on `Patcher.exe` to run it.
 4. A command prompt should show up, run for a few seconds, then read as follows:
@@ -171,7 +171,7 @@ Here we will run the Fallout Anniversary Patcher, its features include a Mod Lim
 
 ## BSA Decompressor
 Decompresses the vanilla BSA files to reduce loading times and stuttering. Increases the size of the game by about 1.64GB if you decompress directly into the `Data` folder, otherwise it takes up about 3.38GB if it's in a mod folder in the `Installation Location` folder.
-1. In your `Installation Location` folder, open the `__bsa decompressor` folder.
+1. In your `Installation Location` folder, open the `__BSA Decompressor` folder.
 2. Run `FO3 BSA Decompressor.exe`.
 3. The `Fallout 3` and `Decompressed Archives` path should be filled by default (Root and Data folder respectively).
 
