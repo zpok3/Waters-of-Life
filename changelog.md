@@ -1,4 +1,4 @@
-<img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/logo.jpeg" target="_blank"></a>
+<img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/waters of life logo.webp" target="_blank"></a>
 
 ---
 
@@ -9,7 +9,37 @@
 
 ---
 
-  # Changelog
+# Changelog
+
+## 1.2.2
+
+List:
+- Added new splash screen
+
+User Interface:
+- Added Clean Visual Objectives
+- Added Companion Wheel (FOSE)
+
+Gameplay:
+- Added Essential Hired Companions by me
+
+Audio:
+- Added Ambient Wasteland 2
+- Removed Ambient Wasteland 2
+- Added CONELRAD 640-1240 - Civil Defense Radio and decompressed its plugin
+- Removed CONELRAD 640-1240 - Civil Defense Radio
+
+Visuals:
+- Updated Megaton Illuminated to version 13
+- Removed Fallout Street Lights and Street Lights Script Fix - Don't really want to include a mod that predates 3/5 of the game's DLCs, plus Clarity and True Weathers don't get dark enough to warrant street lights
+- Added Cataract Eyes
+- Removed Cataract Eyes
+- Added Windows To The Soul - Full Vanilla Eye Retexture
+- Removed Lost in Light - An Eye Improvement Mod (replaced)
+- Added Vanilla Hair - No Shine
+
+LOD:
+- Removed terrain LOD - not needed with vanilla textures
 
 ## 1.2.1
 
