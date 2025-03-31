@@ -24,7 +24,7 @@
 - [Credits](#credits)
 
 # Introduction
-A lightweight vanilla plus Wabbajack mod list for Fallout 3. This list aims to provide essential vanilla bug fixes, performance optimizations, restored cut content, and gameplay enhancements, along with some minor visual touch ups to improve the game's look without changing the vanilla aesthetic too much.
+Waters of Life is a lightweight vanilla plus Wabbajack mod list for Fallout 3. It features essential vanilla bug fixes, performance optimizations, restored cut content, and a few gameplay features you might be used to from more modern games. If you want an easy to install modlist that doesn't stray too far from vanilla, look no further!
 
 ## List Contents
 You can look [here](https://loadorderlibrary.com/lists/waters-of-life-3) if you're curious about what mods are included.
