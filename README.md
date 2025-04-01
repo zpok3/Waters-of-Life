@@ -228,8 +228,7 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 1. Add the [NoDelete] prefix to the name any mods you added after installation.
 Example: `[NoDelete] My awesome mod`
 2. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
-3. Reinstall the list with the "**Overwrite Installation**" checkbox enabled.
-4. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it as a mod in MO2).
+3. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it as a mod in MO2).
 
 # Extra stuff you should know
 
