@@ -44,7 +44,6 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-4) if you'
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended).
 - The latest GPU drivers (either [NVIDIA](https://www.nvidia.com/Download/index.aspx), [AMD](https://www.amd.com/en/support) or [Intel](https://www.intel.com/content/www/us/en/search.html#q=&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])).
 - The latest release of [Wabbajack](https://www.wabbajack.org/).
-- The latest .wabbajack file for this modlist downloaded (you will need to extract it from the archive before you can use it) from either the [releases](https://github.com/zpok3/Waters-of-Life/releases) page or the [Nexus](https://www.nexusmods.com/fallout3/mods/26081) page.
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
 
 ## Recommended Specs
@@ -129,7 +128,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
   - Example: `C:\Modding\Wabbajack`
 
 2. Place the downloaded Wabbajack.exe in this folder and run it.
-3. Select `Browse Modlists` and click `Install from Disk` at the top right. You will have to manually select where you downloaded the .wabbajack file in the `Target Modlist` box.
+3. Select `Browse Modlists`, filter the game to `Fallout 3`, and check the `Non-featured` box. Then select Waters of Life and click `Download and Install`.
 4. In `Installation Location`, select a folder that is not:
   * The Steam folder,
   * Any default Windows folders,
@@ -138,7 +137,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 
 Example: `C:\Modding\Waters of Life`
 
-5. **Begin** the installation.
+5. Click `Install` to begin the installation.
 6. Accept the Nexus Mods API request.
 7. If you are not a Premium user you will need to manually click download for each mod.
 8. Once complete, Wabbajack will show a green `Installation Complete` screen.
