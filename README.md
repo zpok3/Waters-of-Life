@@ -120,8 +120,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 > - **Data folder**: Where all of the game's assets are located.
 >    - For Steam: `Steam\steamapps\common\Fallout 3\Data`
 >    - For GOG: `GOG Galaxy\Games\Fallout 3\Data` (unless you manually changed it)
-> - **Installation Location folder**: The folder where Mod Organizer 2 and all the mods are located.
->    - Example: `C:\Modding\Waters of Life`
+
 # Installation
 
 1. Create a folder for Wabbajack outside of any default Windows folders.
