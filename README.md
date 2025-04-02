@@ -113,7 +113,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 > [!important]
 **Key Terminology**
 >
-> As we go through this install guide there are a few folders that we will refer to often:
+> As we go through this install guide there are two folders that we will refer to often:
 > - **Root folder**: The folder that the game is installed in.
 >    - For Steam: `Steam\steamapps\common\Fallout 3`
 >    - For GOG: `GOG Galaxy\Games\Fallout 3` (unless you manually changed it)
