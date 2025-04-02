@@ -40,7 +40,7 @@ Visuals:
 
 LOD:
 - Removed terrain LOD - not needed with vanilla textures
-- Added Contrasted LOD - Improved LOD Noise Texture stays for the ModdingLinked profiles for parity with the FO3 guide
+- Added Contrasted LOD Noise Texture - Improved LOD Noise Texture stays for the ModdingLinked profiles for parity with the FO3 guide
 
 ## 1.2.1
 
