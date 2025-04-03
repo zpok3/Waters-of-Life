@@ -1,4 +1,4 @@
-<img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/waters of life logo.webp" target="_blank"></a>
+<img src= "https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/waters%20of%20life%20wj%20image.webp" target="_blank"></a>
 
 ---
 
