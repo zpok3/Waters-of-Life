@@ -1,0 +1,19 @@
+[General]
+gameName=FalloutNV
+modID=85898
+fileID=1000127494
+url=
+name=Contrasted LOD Noise 1k
+description=Contrasted LOD Noise 1k
+modName=Contrasted LOD Noise Texture
+version=1.2.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=66
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=true
+uninstalled=false
+paused=false
+removed=false

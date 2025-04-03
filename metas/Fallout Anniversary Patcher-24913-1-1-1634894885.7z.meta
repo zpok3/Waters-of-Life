@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout3
+modID=24913
+fileID=1000021415
+url=
+name=Fallout Anniversary Patcher
+description=See changelog for update information.\n<br /><br />Unpack all files to Fallout 3 folder and run Patcher.exe.
+modName=Fallout Anniversary Patcher
+version=1.1.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=1
+category=59
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=true
+uninstalled=false
+paused=false
+removed=false

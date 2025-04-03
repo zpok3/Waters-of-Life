@@ -1,0 +1,19 @@
+[General]
+gameName=Fallout3
+modID=25811
+fileID=1000025040
+url=
+name=Supplementary Files - Fallout 3 GOTY
+description=This is required if you own Fallout 3 GOTY. DO NOT download the regular Fallout 3 version. Manually download and copy these files next to the Data folder and Fallout 3 executable. Do not download with a mod manager.
+modName=Yet Another Steam Overlay Fixer
+version=1.57.0.0
+newestVersion=0.0.0.0
+fileTime=@DateTime(\0\0\0\x10\0\x80\0\0\0\0\0\0\0\xff\xff\xff\xff\0)
+fileCategory=2
+category=63
+repository=Nexus
+userData=@Variant(\0\0\0\b\0\0\0\0)
+installed=true
+uninstalled=false
+paused=false
+removed=false
