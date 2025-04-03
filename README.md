@@ -127,7 +127,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
   - Example: `C:\Modding\Wabbajack`
 
 2. Place the downloaded Wabbajack.exe in this folder and run it.
-3. Select `Browse Modlists`, set the game to `Fallout 3`, and check the `Non-featured` box. Then select Waters of Life and click `Download and Install`.
+3. Select `Browse Modlists`, check the `Non-featured` box and set the game to `Fallout 3`. Then select Waters of Life and click `Download and Install`.
 4. In `Installation Location`, select a folder that is not:
   * The Steam folder,
   * Any default Windows folders,
