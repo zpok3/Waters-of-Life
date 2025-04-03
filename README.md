@@ -1,4 +1,4 @@
-![waters of life logo](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/waters%20of%20life%20logo.webp)
+![waters of life logo](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/waters%20of%20life%20wj%20image.webp)
 
 ---
 
