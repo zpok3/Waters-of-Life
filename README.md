@@ -136,6 +136,8 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 
 Example: `C:\Modding\Waters of Life`
 
+**Update**: The default location `C:\Modlists\WOL` that is set by Wabbajack 4.0.0.0+ should work just fine.
+
 5. Click `Install` to begin the installation.
 6. Accept the Nexus Mods API request.
 7. If you are not a Premium user you will need to manually click download for each mod.
