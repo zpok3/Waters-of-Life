@@ -115,10 +115,10 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 >
 > As we go through this install guide there are two folders that we will refer to often:
 > - **Root folder**: The folder that the game is installed in.
->    - For Steam: `Steam\steamapps\common\Fallout 3`
+>    - For Steam: `Steam\steamapps\common\Fallout 3 goty`
 >    - For GOG: `GOG Galaxy\Games\Fallout 3` (unless you manually changed it)
 > - **Data folder**: Where all of the game's assets are located.
->    - For Steam: `Steam\steamapps\common\Fallout 3\Data`
+>    - For Steam: `Steam\steamapps\common\Fallout 3 goty\Data`
 >    - For GOG: `GOG Galaxy\Games\Fallout 3\Data` (unless you manually changed it)
 
 # Installation
