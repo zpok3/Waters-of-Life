@@ -201,7 +201,7 @@ There are three profiles you can choose from; the default profile, the Classic p
 * If you can't find the right resolution in the launcher's list, do the following:
     
     1. Close the launcher.
-    2. Click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/tools%20menu.webp) button and select `INI Editor`.
+    2. Click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button and select `INI Editor`.
     3. Select the `FalloutPrefs.ini` tab.
     4. Change the following settings in the `[Display]` section:
     * `iSize W` = your screen width
@@ -246,7 +246,7 @@ Example: `[NoDelete] My awesome mod`
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 ## INI settings
-- If you had to reset your `fallout.ini` and `falloutprefs.ini`, update your `FalloutCustom.ini` with these settings:
+- If you had to reset your `fallout.ini` and `falloutprefs.ini`, click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp), select `INI Editor`, and paste this into `FalloutCustom.ini` and click `Save`:
 ```
 ; Value types (prefixes):
 ; i = integer (whole number)
