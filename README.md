@@ -246,7 +246,7 @@ Example: `[NoDelete] My awesome mod`
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 ## INI settings
-- If you had to reset your `fallout.ini` and `falloutprefs.ini`, click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button, select `INI Editor`, paste this into `FalloutCustom.ini` and click `Save`:
+- If you had to reset your `fallout.ini` and `falloutprefs.ini` to get the game to start, click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button, select `INI Editor`, paste this into `FalloutCustom.ini` and click `Save`:
 ```
 ; Value types (prefixes):
 ; i = integer (whole number)
