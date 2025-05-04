@@ -246,7 +246,16 @@ Example: `[NoDelete] My awesome mod`
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 ## INI settings
-- If you had to reset your `fallout.ini` and `falloutprefs.ini` to get the game to start, click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button, select `INI Editor`, and replace the contents of `FalloutCustom.ini` with the following and click `Save`:
+1. If you had to reset your `fallout.ini` and `falloutprefs.ini` to get the game to start, in the ingame display settings set the HUD colors to these values:
+
+![ingame hud rgb sliders](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/hud%20colors.webp)
+
+2. Scroll down and enable `General Subtitles`.
+3. Next, go to `Controls -> Action Mapping` and set your run key to `R-Shift`. This will allow you to use `L-Shift` to sprint.
+
+![ingame key remapping page](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/run%20key.webp)
+
+4. Finally, click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button, select `INI Editor`, press `CTRL + A` and replace the contents of `FalloutCustom.ini` with the following and click `Save`:
 ```
 ; Value types (prefixes):
 ; i = integer (whole number)
