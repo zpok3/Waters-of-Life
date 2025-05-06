@@ -191,7 +191,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 There are four profiles you can choose from; the default profile, the Classic profile, the ModdingLinked Basics profile, and the ModdingLinked Extended profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, selecting the + icon and choosing `Add from file...`.
 > [!important]
-> If the game doesn't start you may also need to reset your INIs by clicking ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp), selecting `INI Editor`, and replacing the contents of `falloutprefs.ini` with the INI available [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/gog/falloutprefs.ini). Then follow the steps [here](#ini-settings) to configure a few settings that will have been reset by this process.
+> If the game doesn't start you may also need to reset your INIs by clicking ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp), selecting `INI Editor`, and replacing the contents of `falloutprefs.ini` with the INI available [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/main%20and%20classic%20profiles/falloutprefs.ini) if you use the default or Classic profiles or [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/moddinglinked%20profiles/falloutprefs.ini) if you use one of the ModdingLinked profiles. Then follow the steps [here](#ini-settings) to configure a few settings that will have been reset by this process.
 2. Inside the launcher click `Options` and do the following:
     1. Select `Ultra` preset.
 * If you have a very weak PC, you can select the `Medium` preset instead.
@@ -245,7 +245,7 @@ Example: `[NoDelete] My awesome mod`
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 ## INI settings
-Click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button in MO2, select `INI Editor`, press `CTRL + A` and replace the contents of `FalloutCustom.ini` with the following and click `Save`:
+If you had to reset your `falloutprefs.ini`, click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button in MO2, select `INI Editor`, and replace the contents of `FalloutCustom.ini` with the following and click `Save`:
 ```
 ; Value types (prefixes):
 ; i = integer (whole number)
