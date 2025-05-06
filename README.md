@@ -178,7 +178,11 @@ Decompresses the vanilla BSA files to reduce loading times and stuttering. Incre
 If they aren't, close the program and re-run the game's launcher to generate the required registry key.
 
 > [!tip]
-> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can create a folder called `[NoDelete] Decompressed BSAs` in the `mods` folder located your `Installation Location` (you can quickly access this folder from MO2 by clicking the ![mo2 open folders menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/refs/heads/main/images/folders%20menu.webp) button and clicking `Open Mods folder`) and redirect the `Decompressed Archives` path to that folder. Make sure to enable it in the left pane of whatever profile you would like to use once you open Mod Organizer.
+> If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can output the decompressed BSAs to a mod in MO2:
+> 1. In MO2 click the ![mo2 open folders menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/folders%20menu.webp) button and select `Open Mods folder`.
+> 2. Create a folder called `[NoDelete] Decompressed BSAs` and then copy its path (open the folder, right click the address bar, and select `Copy address as text`).
+> 3. Close MO2.
+> 4. Paste the path you copied in step 2 into the `Decompressed Archives` text field.
 
 4. Click `Decompress`, wait for the process to finish, then exit out of the program once finished.
 
@@ -186,6 +190,9 @@ If they aren't, close the program and re-run the game's launcher to generate the
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
 3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` under the `Post Installation` separator.
+
+> [!note]
+> If you output the decompressed BSAs to a mod folder, a mod called `[NoDelete] Decompressed BSAs` should appear in the bottom of the left pane of MO2. Make sure to enable it as well. If it is greyed out you may have output the decompressed BSAs to the wrong folder. Find out where they are (tip: only three of the base game's BSAs are decompressed - Meshes, Misc and Textures) and move them to the folder you created earlier.
 
 ## Game Settings
 There are four profiles you can choose from; the default profile, the Classic profile, the ModdingLinked Basics profile, and the ModdingLinked Extended profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
