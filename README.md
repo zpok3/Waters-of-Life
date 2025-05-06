@@ -32,9 +32,6 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-4) if you'
 ## Requirements
 - An **English** copy of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
   - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported.
->[!tip]
->The GOG version of the game is recommended due to an issue where the Steam version of the game patched with the [Anniversary patcher](https://www.nexusmods.com/fallout3/mods/24913) will not start until you reset the `fallout.ini` and `falloutprefs.ini` included with the list.
-- Approximately 25GB of free space, game included (21GB with all the downloads deleted afterwards).
 - Windows 10 or higher (64 bit).
 - The latest VC++ Redistributables:
   - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
