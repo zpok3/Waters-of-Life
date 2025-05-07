@@ -23,7 +23,7 @@ List:
 
 Bugfixes:
 - Added FO3 Decal Flickering Fix
-- Added Mostly Fixed FaceGen Tints
+- ~~Added Mostly Fixed FaceGen Tints~~ Edit: I forgot to add these.
 - Added Damage To Armor Fix
 
 User Interface:
