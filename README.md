@@ -349,3 +349,5 @@ bForceFullLOD=1
 [Qolore7](https://github.com/Qolore7) for some of the more obscure mods that I found via his Wabbajack list Lost Liberty.
 
 [Ungeziefi](https://github.com/Ungeziefi) and [Wall SoGB](https://github.com/WallSoGB) for the resources available at [ModdingLinked](https://moddinglinked.com/index.html).
+
+Belts the Puppet for helping me figure out what's wrong with my INIs.
