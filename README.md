@@ -198,7 +198,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 There are four profiles you can choose from; the default profile, the Classic profile, the ModdingLinked Basics profile, and the ModdingLinked Extended profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, selecting the + icon and choosing `Add from file...`.
 > [!important]
-> If the game doesn't start you may also need to reset your INIs by clicking ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp), selecting `INI Editor`, and replacing the contents of `falloutprefs.ini` with the INI available [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/main%20and%20classic%20profiles/falloutprefs.ini) if you use the default or Classic profiles or [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/moddinglinked%20profiles/falloutprefs.ini) if you use one of the ModdingLinked profiles. Then follow the steps [here](#ini-settings) to configure a few settings that will have been reset by this process.
+> If the game doesn't start you may also need to reset your INIs by clicking ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp), selecting `INI Editor`, and replacing the contents of `falloutprefs.ini` with the INI available [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/main%20and%20classic%20profiles/falloutprefs.ini) if you use the default or Classic profiles or [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/moddinglinked%20profiles/falloutprefs.ini) if you use one of the ModdingLinked profiles.
 2. Inside the launcher click `Options` and do the following:
     1. Select `Ultra` preset.
 * If you have a very weak PC, you can select the `Medium` preset instead.
@@ -250,100 +250,6 @@ Example: `[NoDelete] My awesome mod`
 - **ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes.moddinglinked.com/fo3.html) written by ModdingLinked.
 
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
-
-## INI settings
-If you had to reset your `falloutprefs.ini`, click the ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp) button in MO2, select `INI Editor`, and replace the contents of `FalloutCustom.ini` with the following and click `Save`:
-```
-; Value types (prefixes):
-; i = integer (whole number)
-; f = float (decimal number)
-; s = string (text)
-; b = boolean (0 = Off, 1 = On)
-
-[Audio]
-; Enables additional worker thread for minor performance improvement
-bMultiThreadAudio=1
-
-; Disables unnecessary copy operations performed on sound data
-bUseAudioDebugInformation=0
-
-; Increase audio file cache size to reduce loading stutter
-iAudioCacheSize=16384
-iMaxSizeForCachedSound=2048
-
-[BackgroundLoad]
-; Forces cell unload on fast travel to lessen memory usage
-bSelectivePurgeUnusedOnFastTravel=1
-
-; Reduces stutter when loading multiple NPCs
-bBackgroundLoadLipFiles=1
-
-[Controls]
-; Disables mouse acceleration in menus
-; Game does not have mouse acceleration for the camera
-fForegroundMouseAccelBase=0
-fForegroundMouseAccelTop=0
-fForegroundMouseBase=0
-fForegroundMouseMult=0
-
-[Display]
-; Enables Fullscreen mode for the best performance in D3D9
-; Refer to the Performance Guide for more info
-bFull Screen=0
-
-; Use this for V-Sync control (the Launcher setting doesn't work)
-; 0 = Off, 1 = On, Higher values toggle fractional V-Sync (not recommended, very laggy and disables Variable Refresh Rate)
-iPresentInterval=1
-
-; Forces highest texture quality so textures won't break if you had it set to anything lower
-iTexMipMapSkip=0
-
-; Disables actor shadows due to their low visual impact and high performance cost
-bDrawShadows=0
-iActorShadowCountInt=0
-iActorShadowCountExt=0
-
-; Camera FOV
-fDefaultWorldFOV=75.0000
-; Viewmodel FOV
-fDefault1stPersonFOV=55.0000
-; Pip-Boy and terminal FOV
-fPipboy1stPersonFOV=47.0
-
-[General]
-; Forces faster cell unload to lessen memory usage
-bPreemptivelyUnloadCells=1
-
-; Spreads AI and game logic updates across 2 threads for better performance
-; Values above 3 don't change anything, and the setting has nothing to do with the number of CPU cores
-iNumHWThreads=3
-
-[Grass]
-; Increases grass draw distance
-fGrassStartFadeDistance=11200
-
-; Ensures that 3.0 Vertex Shader is used.
-; Allows drawing more grass with better performance
-b30GrassVS=1
-
-[Water]
-; Disables full scene reflections for a massive performance boost
-; Water will use reflect LOD instead of drawing the entire world twice
-bForceHighDetailReflections=0
-
-[PipBoy]
-; Fixes flicker when opening Pip-Boy when its light is on
-fLightEffectFadeDuration=400
-        
-[TerrainManager]
-; Increases the maximum distance of LOD
-fBlockLoadDistanceLow=100000
-fBlockLoadDistance=250000
-
-[SpeedTree]
-; Makes flora use the highest LOD quality, removing the pop-in (not related to Tree LOD)
-bForceFullLOD=1
-```
 
 # Credits
 [Qolore7](https://github.com/Qolore7) for some of the more obscure mods that I found via his Wabbajack list Lost Liberty.
