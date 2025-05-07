@@ -11,6 +11,109 @@
 
 # Changelog
 
+## 1.2.3
+> [!caution]
+> I haven't mentioned this in previous releases but this is probably not safe to update midgame due to the addition of Intro Street Bus and Trailer Ruins.
+
+List:
+- Added Geck Patcher - optional patcher for if you want to use the GECK Extender that was added to the list in 1.2.2
+- Reset `falloutprefs.ini` because it was broken and caused crashes for some users
+- Renamed Post Installation separator to Patches and Optionals
+- Renamed Optionals separator to Other Profiles
+
+Bugfixes:
+- Added FO3 Decal Flickering Fix
+- Added Mostly Fixed FaceGen Tints
+- Added Damage To Armor Fix
+
+User Interface:
+- Added Clean Vanilla HUD
+- Hid repair_meter_pips.dds because it's not part of the FO3 UI
+- Added Clean Vanilla HUD FO3 Aesthetics Patch
+- Removed CNDArrows code from hud_main_menu.xml to fix visual bug
+- Downgraded Vault Boy Paper Doll 5.0 to Clean Vault Boy Paper Doll 1.2 because I don't like the v5 style
+
+Gameplay:
+- Added Statics to Vanilla Items
+- Removed Statics to Vanilla Items - a careful inspection revealed that Goodies covers everything this mod does except for `000918E5`, `0400DF04`, `0401206D`
+- Added BD-SM
+- Moved Fallout 3 Quick Start to Gameplay from Overhauls
+- Moved Zeta Enable Somah Paulson to Gameplay from Overhauls
+
+Content:
+- Added Laurens Bathroom Poetry
+- Added Intro Street Bus and Trailer Ruins Unofficial Fixed
+- Added Prototype Medic Power Armor Dialogue Expansion
+- Moved Auto Gates to Content from Overhauls
+- Moved Fallout 3 Ending Restored to Content from Overhauls
+- Moved the Nicer Goodbye mods to Content from Overhauls
+- Moved The Megaton Walkway to Content from Overhauls
+
+Audio:
+- Added Subtle Rifle Equip Sound
+- Added PhySFX
+- Added A.W.S.O.M.E - Fallout 3 Edition
+
+Visuals:
+- Added Anniversary Anim Pack
+- Added FNV Clean Anims - Anniversary Edition
+Hid the following files/folders because they're not needed or bugged in some way:
+- `Config` folder - from Anniversary Anims, B42 Optics configs
+- `Meshes\AnimGroupOverride` folder - from FNV Clean Anims, kNVSE animations
+- `rockbiter_AnimationSounds.esp` - FNV Clean Anims
+- `1hpAttack3IS.kf` - Anniversary Anims, bugged recoil for alien/laser pistols
+- `1hpJamA.kf` - Anniversary Anims
+- `1hpJamF.kf`
+- `1hpJamH.kf`
+- `1hpJamK.kf` - FNV Clean Animations
+- `1hpReloadB.kf` - Anniversary Anims
+- `1hpReloadC.kf` - Anniversary Anims
+- `1hpReloadD.kf`
+- `1hpReloadE.kf`
+- `1hpReloadF.kf`
+- `1hpReloadG.kf` - Anniversary Anims
+- `1hpReloadH.kf`
+- `1hpReloadI.kf` - Anniversary Anims
+- `1hpReloadJ.kf` - Anniversary Anims
+- `1hpReloadK.kf`
+- `2haJamC.kf`
+- `2haJamH.kf` - Anniversary Anims
+- `2haReloadB.kf`
+- `2haReloadC.kf`
+- `2haReloadD.kf`
+- `2haReloadH.kf`
+- `2hhReloadC.kf`
+- `2hhReloadD.kf` - Anniversary Anims
+- `2hhReloadE.kf`
+- `2hhReloadF.kf` - Anniversary Anims
+- `2hlReloadA.kf` - Anniversary Anims
+- `2hlReloadE.kf`
+- All variants of `2hrAttack3.kf` - Anniversary Anims
+- `2hrJamB.kf` - FNV Clean Anims
+- `2hrJamD.kf`
+- `2hrReloadA.kf` - Anniversary Anims
+- `2hrReloadB.kf`
+- `2hrReloadC.kf` - Anniversary Anims
+- `2hrReloadD.kf`
+- `2hrReloadE.kf` - Anniversary Anims
+- `2hrReloadF.kf` - Anniversary Anims
+- `2hrReloadG.kf`
+- `2hrReloadH.kf` - Anniversary Anims
+
+LOD:
+- Added Fallout 3 LOD
+- Added plugin that adds the Use LOD Data flag to MegatonWorld and ParadiseFalls worldspaces, basically a port of Wasted Return of LOD by GoatOfArmor
+- Removed Arefu LOD (included in Fallout 3 LOD)
+- Regenerated LOD with Keep Specular enabled for Object LOD and Terrain LOD meshes
+
+Patches and Optionals:
+- Removed Character Overhaul UUF3P Patch because Ruy updated the mod
+- Moved Fallout 3 Quick Start to here from Gameplay
+- Moved Fugacity - Fallout 3 Quick Start to here from Gameplay
+- Flagged FO3_Optimization - UUF3P Patch as an ESM
+- Flagged FO3_Optimization - Goodies Patch as an ESM
+- Flagged Megaton Walkway - UUF3P Patch as an ESM
+
 ## 1.2.2
 
 List:
