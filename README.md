@@ -198,7 +198,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 There are four profiles you can choose from; the default profile, the Classic profile, the ModdingLinked Basics profile, and the ModdingLinked Extended profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, selecting the + icon and choosing `Add from file...`.
 > [!important]
-> If the game doesn't start you may also need to reset your INIs by clicking ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp), selecting `INI Editor`, and replacing the contents of `falloutprefs.ini` with the INI available [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/main%20and%20classic%20profiles/falloutprefs.ini) if you use the default or Classic profiles or [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/moddinglinked%20profiles/falloutprefs.ini) if you use one of the ModdingLinked profiles.
+> If the game doesn't start you may also need to reset your INIs by clicking ![mo2 tools menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/tools%20menu.webp), selecting `INI Editor`, and replacing the contents of `falloutprefs.ini` with the INI available [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/main%20and%20classic%20profiles/falloutprefs.ini) if you use the default or Classic profiles or [here](https://github.com/zpok3/Waters-of-Life/blob/main/configs/moddinglinked%20profiles/falloutprefs.ini) if you use one of the ModdingLinked profiles. If it still doesn't work, fully reset your INIs by clicking the ![mo2 folders menu](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/folders%20menu.webp) button and deleting `fallout.ini` and `falloutprefs.ini` in the profile folder. Press `F5` in MO2 to get it to copy over your INIs from your `Documents\My Games\Fallout3` folder. Then follow the steps [here](#ini-settings) to configure some settings that will have been reset by this process.
 2. Inside the launcher click `Options` and do the following:
     1. Select `Ultra` preset.
 * If you have a very weak PC, you can select the `Medium` preset instead.
@@ -250,6 +250,18 @@ Example: `[NoDelete] My awesome mod`
 - **ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes.moddinglinked.com/fo3.html) written by ModdingLinked.
 
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
+
+## INI Settings
+If you had to reset your INIs to get the game to start, these are a few settings that will be reset that you must reapply.
+1. Go to `Settings -> Controls -> Action Mapping` and set your run key to `L-Shift` to allow sprinting (default and Classic profiles only):
+![run key](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/run%20key.webp)
+> [!tip]
+> Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `Run=002AFFFF` and replace it with `Run=0036FFFF`.
+3. Go to `Settings -> Display` and set the HUD color to these colors:
+![hud colors](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/hud%20colors.webp)
+> [!tip]
+> Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `uHUDColor=452952319` and replace it with `uHUDColor=2868873471`
+4. Scroll down and enable `General Subtitles`. Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `bGeneralSubtitles` and replace the 0 with a 1.
 
 # Credits
 [Qolore7](https://github.com/Qolore7) for some of the more obscure mods that I found via his Wabbajack list Lost Liberty.
