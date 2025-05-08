@@ -253,15 +253,15 @@ Example: `[NoDelete] My awesome mod`
 
 ## INI Settings
 If you had to reset your INIs to get the game to start, these are a few settings that will be reset that you must reapply.
-1. Go to `Settings -> Controls -> Action Mapping` and set your run key to `L-Shift` to allow sprinting (default and Classic profiles only):
+- Go to `Settings -> Controls -> Action Mapping` and set your run key to `L-Shift` to allow sprinting (default and Classic profiles only):
 ![run key](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/run%20key.webp)
 > [!tip]
 > Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `Run=002AFFFF` and replace it with `Run=0036FFFF`.
-3. Go to `Settings -> Display` and set the HUD color to these colors:
+-  Go to `Settings -> Display` and set the HUD color to these colors:
 ![hud colors](https://raw.githubusercontent.com/zpok3/Waters-of-Life/main/images/hud%20colors.webp)
 > [!tip]
 > Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `uHUDColor=452952319` and replace it with `uHUDColor=2868873471`
-4. Scroll down and enable `General Subtitles`. Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `bGeneralSubtitles` and replace the 0 with a 1.
+- Scroll down and enable `General Subtitles`. Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `bGeneralSubtitles` and enable it (replace 0 with 1).
 
 # Credits
 [Qolore7](https://github.com/Qolore7) for some of the more obscure mods that I found via his Wabbajack list Lost Liberty.
