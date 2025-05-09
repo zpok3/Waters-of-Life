@@ -11,9 +11,16 @@
 
 # Changelog
 
+## 1.2.4
+> [!tip]
+> **Safe Midgame**
+
+List:
+- Cleared my Wabbajack patch cache. Why? To see if it changes anything with the issues that Steam users are having.
+
 ## 1.2.3
 > [!caution]
-> I haven't mentioned this in previous releases but this is probably not safe to update midgame due to the addition of Intro Street Bus and Trailer Ruins.
+> **I haven't mentioned this in previous releases but this is probably not safe to update midgame due to the addition of Intro Street Bus and Trailer Ruins.**
 
 List:
 - Added Geck Patcher - optional patcher for if you want to use the GECK Extender that was added to the list in 1.2.2
