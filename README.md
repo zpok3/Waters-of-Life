@@ -33,7 +33,7 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-4) if you'
 - An **English** copy of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
   - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported.
 > [!important]
-> If you use the Steam version of the game, the game may not start. It may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22300/view/4184486168275529966?l=english). Try using [DepotDownloader](https://github.com/SteamRE/DepotDownloader) or the Steam console to downgrade the game to the original 1.7.0.4 release (manifest ID `4929549459338680299`) or the 1.7.0.3 release (manifest ID `6752416544246981300`).
+> If you use the Steam version of the game, the game may not start when you try to run it through MO2. It may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22300/view/4184486168275529966?l=english). Try using [DepotDownloader](https://github.com/SteamRE/DepotDownloader) or the Steam console to downgrade the game to the original 1.7.0.4 release (manifest ID `4929549459338680299`) or the 1.7.0.3 release (manifest ID `6752416544246981300`).
 - Windows 10 or higher (64 bit). The app ID is 22370 and the depot ID is 22371.
 - The latest VC++ Redistributables:
   - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
