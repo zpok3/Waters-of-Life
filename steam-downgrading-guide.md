@@ -52,4 +52,4 @@ dotnet DepotDownloader.dll -app 22370 -depot 22371 -manifest 6752416544246981300
 5. Now you will need to enter your password, and depending on your security settings you may also need to enter a single use code sent via email or approve access within the Steam mobile app.
 
 ## Installing the downloaded files
-Simply move the downloaded files into the root folder of the game and overwrite when prompted. You'll need to rerun the Anniversary Patcher, and switch MO2 to use `Fallout3Launcher.exe` instead of `FalloutLauncherSteam.exe`. Next, clear RootBuilder's root folder backup and hash cache by deleting whatever's in `plugins\data\RootBuilder` located wherever you installed the modlist to.
+Simply move the downloaded files into the root folder of the game and overwrite when prompted. If you've already installed the list and attempted to run the game, you'll need to rerun the Anniversary Patcher and switch MO2 to use `Fallout3Launcher.exe` instead of `FalloutLauncherSteam.exe`. Next, clear RootBuilder's root folder backup and hash cache by deleting whatever's in `plugins\data\RootBuilder` located wherever you installed the modlist to.
