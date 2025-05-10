@@ -30,20 +30,26 @@ download_depot 22370 22371 6752416544246981300
 
 3. In the folder you extracted it to, right click and select `Open in Terminal` (you need [Windows Terminal](https://aka.ms/terminal) for this option to be available).
 
-4. Now you can run one of these commands (replace <your username> with your username):
+4. Now you can run one of these commands (replace `<username>` with your username):
 
 For the original 1.7.0.4 update released on October 12, 2021:
 ```
-dotnet DepotDownloader.dll -app 22370 -depot 22371 -manifest 4929549459338680299 -username <your username>
+dotnet DepotDownloader.dll -app 22370 -depot 22371 -manifest 4929549459338680299 -username <username>
 ```
 
 For the 1.7.0.3 update:
 ```
-dotnet DepotDownloader.dll -app 22370 -depot 22371 -manifest 6752416544246981300 -username <your username>
+dotnet DepotDownloader.dll -app 22370 -depot 22371 -manifest 6752416544246981300 -username <username>
 ```
 
 > [!tip]
-> You can add `-dir` to specify where you want to download the files. If you don't the files will be downloaded to wherever you're running DepotDownloader from.
+> You can add `-dir` to specify where you want to download the files. If you don't, the files will be downloaded to wherever you're running DepotDownloader from.
+> 
+> You can add `-qr` to show a QR code to scan with the Steam app on your phone instead of entering your password.
+>
+> If you have it setup, you can add `-no-mobile` if you would like to manually enter your 2FA code instead of approving access within the Steam mobile app.
+
+5. Now you will need to enter your password, and depending on your security settings you may also need to enter a single use code sent via email or approve access within the Steam mobile app.
 
 ## Installing the downloaded files
 Simply move the downloaded files into the root folder of the game and overwrite when prompted. You'll need to rerun the Anniversary Patcher, and switch MO2 to use `Fallout3Launcher.exe` instead of `FalloutLauncherSteam.exe`. Next, clear RootBuilder's root folder backup and hash cache by deleting whatever's in `Installation Location\plugins\data\RootBuilder`.
