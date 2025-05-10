@@ -21,7 +21,7 @@ For the 1.7.0.3 update:
 download_depot 22370 22371 6752416544246981300
 ```
 
-3. The console should print where the files have been downloaded to (should be `<whereveryouinstalledsteam>\Steam\steamapps\content\app_22370\depot_22371`.
+3. The console should print where the files have been downloaded to (should be `<whereveryouinstalledsteam>\Steam\steamapps\content\app_22370\depot_22371`).
 
 ## DepotDownloader
 1. Download the latest [DepotDownloader-framework.zip](https://github.com/SteamRE/DepotDownloader/releases/latest) and if you don't already have it, install the latest [Microsoft .NET SDK 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
