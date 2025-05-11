@@ -36,7 +36,6 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-4) if you'
 > If you use the Steam version of the game, the game may not start when you try to run it through MO2. It may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). Follow this [guide](https://github.com/zpok3/Waters-of-Life/blob/main/steam-downgrading-guide.md) to downgrade the game.
 > 
 > **Additional Note:**
-> 
 > Something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have
 to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately. To fix this, go to MO2's settings -> Workarounds, and change the Steam App ID to `22300`. If you have the base game + all DLC instead of GOTY and resetting the INIs doesn't work, try this before doing a full downgrade of the game!
 - Windows 10 or higher (64 bit).
@@ -208,7 +207,6 @@ There are four profiles you can choose from; the default profile, the Classic pr
 > If you use the Steam version of the game, the game may not start when you try to run it through MO2. It may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). Follow this [guide](https://github.com/zpok3/Waters-of-Life/blob/main/steam-downgrading-guide.md) to downgrade the game. Alternatively you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `fallout.ini` and `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
 >
 > **Additional Note:**
-> 
 > Something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have
 to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately. To fix this, go to MO2's settings -> Workarounds, and change the Steam App ID to `22300`. If you have the base game + all DLC instead of GOTY and resetting the INIs doesn't work, try this before doing a full downgrade of the game!
 2. Inside the launcher click `Options` and do the following:
