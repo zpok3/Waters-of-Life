@@ -11,14 +11,24 @@ steam://open/console
 
 2. In the console enter one of these commands:
 
-For the original 1.7.0.4 update released on October 12, 2021:
+For the original 1.7.0.4 update for GOTY released on October 12, 2021:
 ```
 download_depot 22370 22371 4929549459338680299
 ```
 
-For the 1.7.0.3 update:
+For the 1.7.0.3 update for GOTY:
 ```
 download_depot 22370 22371 6752416544246981300
+```
+
+For the original 1.7.0.4 update for the base game released on October 12, 2021:
+```
+download_depot 22300 22301 7414504515121985658
+```
+
+For the 1.7.0.3 update for the base game:
+```
+download_depot 22300 22301 3579248769415824205
 ```
 
 3. The console should print where the files have been downloaded to.
@@ -32,14 +42,24 @@ download_depot 22370 22371 6752416544246981300
 
 4. Now you can run one of these commands (replace `<username>` with your username):
 
-For the original 1.7.0.4 update released on October 12, 2021:
+For the original 1.7.0.4 update for GOTY released on October 12, 2021:
 ```
 dotnet DepotDownloader.dll -app 22370 -depot 22371 -manifest 4929549459338680299 -username <username>
 ```
 
-For the 1.7.0.3 update:
+For the 1.7.0.3 update for GOTY:
 ```
 dotnet DepotDownloader.dll -app 22370 -depot 22371 -manifest 6752416544246981300 -username <username>
+```
+
+For the original 1.7.0.4 update for the base game released on October 12, 2021:
+```
+dotnet DepotDownloader.dll -app 22300 -depot 22301 -manifest 7414504515121985658 -username <username>
+```
+
+For the 1.7.0.3 update for the base game:
+```
+dotnet DepotDownloader.dll -app 22300 -depot 22301 -manifest 3579248769415824205 -username <username>
 ```
 
 > [!tip]
