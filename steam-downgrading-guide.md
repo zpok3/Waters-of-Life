@@ -1,5 +1,5 @@
 # Downgrading Fallout 3: Game of the Year Edition
-If you use the Steam version of the game and it doesn't start through MO2, it may be related to the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). Here's a guide on using both the Steam console and [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to downgrade the game.
+If you use the Steam version of the game and it doesn't start through MO2, it may be related to the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). Here's a guide on using both the Steam console and [DepotDownloader](https://github.com/SteamRE/DepotDownloader) to downgrade the game. Steps are provided for both the base game and the Game of the Year edition.
 
 ## Steam Console
 1. Press `Win + R` and enter this command:
