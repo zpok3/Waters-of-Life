@@ -32,7 +32,8 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-4) if you'
 ## Requirements
 - An **English** copy of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
   - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported.
-  - The GOG version is recommended to minor issues with the Steam version of the game.
+> [!tip]
+> The GOG version is recommended due to minor issues with the Steam version of the game. Steps are provided for potential solutions.
 - Windows 10 or higher (64 bit).
 - The latest VC++ Redistributables:
   - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
