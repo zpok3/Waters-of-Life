@@ -32,11 +32,7 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-4) if you'
 ## Requirements
 - An **English** copy of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
   - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported.
-> [!important]
-> Something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have
-to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately. To fix this, in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`. If you have the base game + all DLC instead of GOTY and resetting the INIs doesn't work, try this before doing a full downgrade of the game!
-> 
-> If you use the Steam version of the game, the game may not start when you try to run it through MO2. It may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). Follow this [guide](https://github.com/zpok3/Waters-of-Life/blob/main/steam-downgrading-guide.md) to downgrade the game.
+  - The GOG version is recommended to minor issues with the Steam version of the game.
 - Windows 10 or higher (64 bit).
 - The latest VC++ Redistributables:
   - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
