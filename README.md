@@ -195,7 +195,8 @@ If they aren't, close the program and re-run the game's launcher to generate the
 
 > [!note]
 > If you output the decompressed BSAs to a mod folder, a mod called `[NoDelete] Decompressed BSAs` should appear in the bottom of the left pane of MO2. Make sure to enable it as well. If it is greyed out you may have output the decompressed BSAs to the wrong folder. Find out where they are (tip: only three of the base game's BSAs are decompressed - Meshes, Misc and Textures) and move them to the folder you created earlier.
-> Additionally, something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately. To fix this, in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`.
+> 
+> Additionally, something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately instead of the GOTY edition. To fix this (if it applies to you), in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`.
 
 ## Game Settings
 There are four profiles you can choose from; the default profile, the Classic profile, the ModdingLinked Basics profile, and the ModdingLinked Extended profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
