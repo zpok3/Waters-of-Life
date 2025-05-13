@@ -191,17 +191,17 @@ If they aren't, close the program and re-run the game's launcher to generate the
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
-3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` under the `Patches and Optionals` separator.
+3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` (additionally enable the mod `Supplementary Files - Fallout 3 (Regular)` if you have that instead of the GOTY edition) under the `Patches and Optionals` separator.
 
 > [!note]
 > If you output the decompressed BSAs to a mod folder, a mod called `[NoDelete] Decompressed BSAs` should appear in the bottom of the left pane of MO2. Make sure to enable it as well. If it is greyed out you may have output the decompressed BSAs to the wrong folder. Find out where they are (tip: only three of the base game's BSAs are decompressed - Meshes, Misc and Textures) and move them to the folder you created earlier.
+> Additionally, something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately. To fix this, in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`.
 
 ## Game Settings
 There are four profiles you can choose from; the default profile, the Classic profile, the ModdingLinked Basics profile, and the ModdingLinked Extended profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, selecting the + icon and choosing `Add from file...`.
 > [!important]
-> If the game doesn't start when you try to run it through MO2, there are three things you can try. First, something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have
-to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately. To fix this, in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`. If that doesn't fix it/you use GOTY you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `fallout.ini` and `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process. If either of the above don't change anything, the problem may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). Follow this [guide](https://github.com/zpok3/Waters-of-Life/blob/main/steam-downgrading-guide.md) to downgrade the game.
+> If you use Steam, the game may not start when you try to run it through MO2. The problem may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). To fix this you can follow this [guide](https://github.com/zpok3/Waters-of-Life/blob/main/steam-downgrading-guide.md) to downgrade the game. Or you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `fallout.ini` and `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
 
 2. Inside the launcher click `Options` and do the following:
     1. Select `Ultra` preset.
