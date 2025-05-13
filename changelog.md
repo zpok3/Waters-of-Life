@@ -11,6 +11,13 @@
 
 # Changelog
 
+## 1.2.5
+> [!tip]
+> **Safe Midgame**
+
+Patches and Optionals:
+- Added Yet Another Steam Overlay Fixer's supplementary files for the regular version of FO3
+
 ## 1.2.4
 > [!tip]
 > **Safe Midgame**
