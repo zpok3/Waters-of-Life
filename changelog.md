@@ -11,6 +11,10 @@
 
 # Changelog
 
+## 1.2.5.1
+Patches and Optionals
+- Actually added the supplementary files this time, forgot to set it to `Always Enabled` in compiler settings
+
 ## 1.2.5
 > [!tip]
 > **Safe Midgame**
