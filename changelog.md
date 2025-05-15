@@ -10,6 +10,16 @@
 ---
 
 # Changelog
+## 1.2.6
+> [!tip]
+> **Safe Midgame**
+
+Patches and Optionals:
+- Updated patch FOMOD to have auto-detection and removed preconfigured patch selections
+
+Visuals:
+- Added Pintocat's Metro Map replacer
+- Removed A Decent Metro Map
 
 ## 1.2.5.1
 Patches and Optionals
