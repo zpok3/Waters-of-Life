@@ -144,7 +144,7 @@ Example: `C:\Modding\Waters of Life`
 7. If you are not a Premium user you will need to manually click download for each mod.
 8. Once complete, Wabbajack will show a green `Installation Complete` screen.
 > [!important]
-> As of version 1.2.6 you will have to manually download Pintocat's Metro Map replacer and place it into the modlist's downloads folder due to a Wabbajack bug that prevents it from automating Google Drive downloads. They are [aware](https://github.com/wabbajack-tools/wabbajack/issues/2782) of the issue.
+> As of version 1.2.6 you will have to manually download Pintocat's Metro Map replacer and place it into the modlist's downloads folder, then click `Retry`. This is due to a Wabbajack bug where automated Google Drive downloads don't work. They are [aware](https://github.com/wabbajack-tools/wabbajack/issues/2782) of the issue.
 
 > [!tip]
 > If you see a red `Installation Failed` screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
