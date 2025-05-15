@@ -192,6 +192,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
 3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` (additionally enable the mod `Supplementary Files - Fallout 3 (Regular)` if you have that instead of the GOTY edition) under the `Patches and Optionals` separator.
+4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 > [!note]
 > If you output the decompressed BSAs to a mod folder, a mod called `[NoDelete] Decompressed BSAs` should appear in the bottom of the left pane of MO2. Make sure to enable it as well. If it is greyed out you may have output the decompressed BSAs to the wrong folder. Find out where they are (tip: only three of the base game's BSAs are decompressed - Meshes, Misc and Textures) and move them to the folder you created earlier.
