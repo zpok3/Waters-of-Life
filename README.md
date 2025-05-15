@@ -142,7 +142,7 @@ Example: `C:\Modding\Waters of Life`
 5. Click `Install` to begin the installation.
 6. Accept the Nexus Mods API request.
 7. If you are not a Premium user you will need to manually click download for each mod.
-8. Once complete, Wabbajack will show a green `Installation Complete` screen.
+8. Once complete, Wabbajack will show a green `Installation Complete` screen. Note: as of version 1.2.6 you will have to manually download Pintocat's Metro Map replacer due do a Wabbajack bug that prevents it from automating Google Drive downloads. They are [aware](https://github.com/wabbajack-tools/wabbajack/issues/2782) of the issue.
 > [!tip]
 > If you see a red `Installation Failed` screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
 
