@@ -16,6 +16,7 @@
 
 Patches and Optionals:
 - Updated patch FOMOD to have auto-detection and removed preconfigured patch selections
+- Updated Laurens Bathroom Poetry UUF3P patch
 
 Visuals:
 - Added Pintocat's Metro Map replacer
