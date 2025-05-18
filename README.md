@@ -260,6 +260,9 @@ Example: `[NoDelete] My awesome mod`
 
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
+## The game crashes when I use a Stimpak on a temporary companion!
+This is a known issue with Companion Wheel (FOSE). As a workaround, give them a Stimpak in dialogue if that's an option.
+
 ## INI Settings
 If you had to reset your INIs to get the game to start, these are a few settings that will be reset that you must reapply.
 - Go to `Settings -> Controls -> Action Mapping` and set your run key to `L-Shift` to allow sprinting (default and Classic profiles only):
