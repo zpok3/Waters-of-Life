@@ -277,4 +277,10 @@ If you had to reset your INIs to get the game to start, these are a few settings
 
 [Ungeziefi](https://github.com/Ungeziefi) and [Wall SoGB](https://github.com/WallSoGB) for the resources available at [ModdingLinked](https://moddinglinked.com/index.html).
 
+[ozzyfan](https://www.nexusmods.com/fallout3/users/2411841) - [Fallout Essential NPCs](https://www.nexusmods.com/fallout3/mods/22629)
+
+[claustromaniac](https://www.nexusmods.com/fallout3/users/4713376) - [FER - FO3 Essentials Revamped](https://www.nexusmods.com/fallout3/mods/20731)
+
+[Zumbs](https://www.nexusmods.com/fallout3/users/145928) - [Kill and Loot Unconscious Essential NPCs](https://www.nexusmods.com/fallout3/mods/9982)
+
 Belts the Puppet for helping me figure out what's wrong with my INIs.
