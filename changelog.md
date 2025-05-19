@@ -10,6 +10,15 @@
 ---
 
 # Changelog
+## 1.2.7
+> [!tip]
+> **Safe Midgame**
+
+User Interface:
+- Added Clean Vanilla HUD - Fallout 3 Style Patch Redone
+- Reinstalled Clean Vanilla HUD without the height indicator patch since FO3 Stewie's Tweaks doesn't have quest marker height, only NPC height
+- Updated Companion Wheel (FOSE) to version 2.0 to fix a crash related to giving temporary companions stimpaks
+
 ## 1.2.6
 > [!tip]
 > **Safe Midgame**
