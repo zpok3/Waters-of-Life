@@ -286,6 +286,6 @@ If you had to reset your INIs to get the game to start, these are a few settings
 
 [Zumbs](https://www.nexusmods.com/fallout3/users/145928) - [Kill and Loot Unconscious Essential NPCs](https://www.nexusmods.com/fallout3/mods/9982).
 
-[GoatofArmor](https://www.nexusmods.com/newvegas/users/149677168) - [Wasted Return of LOD TTW](https://www.nexusmods.com/newvegas/mods/90147).
+[GoatOfArmor](https://www.nexusmods.com/newvegas/users/149677168) - [Wasted Return of LOD TTW](https://www.nexusmods.com/newvegas/mods/90147).
 
 Belts the Puppet for helping me figure out what's wrong with my INIs and being possibly the first person out of hundreds of people to try and use a Stimpak on a temporary companion with the companion wheel.
