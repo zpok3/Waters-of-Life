@@ -261,7 +261,7 @@ Example: `[NoDelete] My awesome mod`
 - **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 ## The game crashes when I use a Stimpak on a temporary companion!
-This is a known issue with Companion Wheel (FOSE). As a workaround, give them a Stimpak in dialogue if that's an option.
+Update Companion Wheel (FOSE) to version 2.0, the wheel was never supposed to work on temporary companions as they don't have the necessary dialogue topics. The new version has additional checks to make sure the wheel doesn't appear on temporary companions.
 
 ## INI Settings
 If you had to reset your INIs to get the game to start, these are a few settings that will be reset that you must reapply.
