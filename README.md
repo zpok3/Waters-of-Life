@@ -280,10 +280,12 @@ If you had to reset your INIs to get the game to start, these are a few settings
 
 [Ungeziefi](https://github.com/Ungeziefi) and [Wall SoGB](https://github.com/WallSoGB) for the resources available at [ModdingLinked](https://moddinglinked.com/index.html).
 
-[ozzyfan](https://www.nexusmods.com/fallout3/users/2411841) - [Fallout Essential NPCs](https://www.nexusmods.com/fallout3/mods/22629)
+[ozzyfan](https://www.nexusmods.com/fallout3/users/2411841) - [Fallout Essential NPCs](https://www.nexusmods.com/fallout3/mods/22629).
 
-[claustromaniac](https://www.nexusmods.com/fallout3/users/4713376) - [FER - FO3 Essentials Revamped](https://www.nexusmods.com/fallout3/mods/20731)
+[claustromaniac](https://www.nexusmods.com/fallout3/users/4713376) - [FER - FO3 Essentials Revamped](https://www.nexusmods.com/fallout3/mods/20731).
 
-[Zumbs](https://www.nexusmods.com/fallout3/users/145928) - [Kill and Loot Unconscious Essential NPCs](https://www.nexusmods.com/fallout3/mods/9982)
+[Zumbs](https://www.nexusmods.com/fallout3/users/145928) - [Kill and Loot Unconscious Essential NPCs](https://www.nexusmods.com/fallout3/mods/9982).
+
+[GoatofArmor](https://www.nexusmods.com/newvegas/users/149677168) - [Wasted Return of LOD TTW](https://www.nexusmods.com/newvegas/mods/90147).
 
 Belts the Puppet for helping me figure out what's wrong with my INIs and being possibly the first person out of hundreds of people to try and use a Stimpak on a temporary companion with the companion wheel.
