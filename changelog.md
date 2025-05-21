@@ -10,6 +10,17 @@
 ---
 
 # Changelog
+## 1.2.8
+> [!tip]
+> **Safe Midgame**
+
+Utilities:
+- Updated ButcherPete FOSE to version 2.6
+
+Visuals:
+- Updated Character Overhaul to version 1.2
+- Removed updated Character Overhaul plugin
+
 ## 1.2.7
 > [!tip]
 > **Safe Midgame**
