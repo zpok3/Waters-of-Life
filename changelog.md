@@ -10,6 +10,32 @@
 ---
 
 # Changelog
+# 1.3.0
+
+> [!caution]
+**Not safe Midgame**
+
+List:
+- Renamed the Waters of Life - ModdingLinked Basics profile to Waters of Life - Essentials to prevent possible association with ModdingLinked
+- Renamed the Waters of Life - ModdingLinked Extended profile to Waters of Life - Essentials Plus to prevent possible association with ModdingLinked
+- Added Waters of Life - Author's Addons profile for stuff I don't think quite fits into vanilla plus
+
+Bugfixes:
+- Updated UUF3P to version 3.5
+
+Gameplay:
+- Moved Zeta Enable Somah Paulson to Author's Addons profile
+
+Content:
+- Updated Abandoned Safehouse to version 3.2
+- Moved Laurens Bathroom Poetry to Author's Addons profile
+- Added Fallout 3 Backyard Shelters (Author's Addons profile)
+- Added Proper Factor Protectron inside the Nuka-Cola Plant
+
+Visuals:
+- Added Vault Girl Bobbleheads (Author's Addons profile)
+- Added Blending Grafitti
+
 ## 1.2.8
 > [!tip]
 > **Safe Midgame**
