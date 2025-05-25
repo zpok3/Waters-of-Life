@@ -256,9 +256,9 @@ Example: `[NoDelete] My awesome mod`
 ## Mod Profiles
 - **Classic Profile:** Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, Alternative Megaton Lighting Plus, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, Megaton Illuminated, and True Weathers.
 
-- **ModdingLinked Basics Profile:** Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes.moddinglinked.com/fo3.html) written by ModdingLinked.
+- **Essentials Profile:** Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes.moddinglinked.com/fo3.html) written by ModdingLinked.
 
-- **ModdingLinked Extended Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
+- **Essentials Plus Profile:** The full version of the FO3 Mod Guide written by ModdingLinked.
 
 ## The game crashes when I use a Stimpak on a temporary companion!
 Update Companion Wheel (FOSE) to version 2.0, the wheel was never supposed to work on temporary companions as they don't have the necessary dialogue topics. The new version has additional checks to make sure the wheel doesn't appear on temporary companions.
