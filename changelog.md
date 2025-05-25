@@ -10,7 +10,7 @@
 ---
 
 # Changelog
-# 1.3.0
+## 1.3.0
 
 > [!caution]
 **Not safe Midgame**
