@@ -254,6 +254,8 @@ Example: `[NoDelete] My awesome mod`
 - Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI` (or whatever Stewies Tweaks INI is active for the current profile since there are a handful of them to account for some profiles not having Iron Sights Plus).
 
 ## Mod Profiles
+- **Author's Addons Profile:** Same as the default profile but with some personal picks that don't really fit the vanilla plus nature of the list. Currently the additional mods available are Zeta Enable Somah Paulson, Fallout 3 Backyard Shelters, Lauren's Bathroom Poetry, and Vault Girl Bobbleheads.
+
 - **Classic Profile:** Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, Alternative Megaton Lighting Plus, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, Megaton Illuminated, and True Weathers.
 
 - **Essentials Profile:** Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes.moddinglinked.com/fo3.html) written by ModdingLinked.
