@@ -35,12 +35,6 @@ You can look [here](https://loadorderlibrary.com/lists/waters-of-life-4) if you'
 > [!tip]
 > The GOG version is recommended due to minor issues with the Steam version of the game. Steps are provided for potential solutions.
 - Windows 10 or higher (64 bit).
-- The latest VC++ Redistributables:
-  - [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/)
-1. Extract the archive and run `install_all.bat` as an administrator.
-    - [2015-2022 X64](https://aka.ms/vs/17/release/vc_redist.x64.exe)
-    - [2015-2022 X86](https://aka.ms/vs/17/release/vc_redist.x86.exe)
-    - Restart your PC.
 - A text editor ([Notepad++](https://notepad-plus-plus.org/) is recommended but the default Windows notepad will work).
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended).
 - The latest GPU drivers (either [NVIDIA](https://www.nvidia.com/Download/index.aspx), [AMD](https://www.amd.com/en/support) or [Intel](https://www.intel.com/content/www/us/en/search.html#q=&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])).
@@ -52,7 +46,21 @@ I don't really know exact specs but if your PC can easily run the game at 1080p 
 
 # Setup
 ## Preparation
+
+**Installing VC++ Redistributables:**
+
+Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use an all-in-one package that will install all possible versions.
+> [!important]
+> Failure to have latest versions installed will result in an immediate crash when launching the game or modding tools.
+>
+> Please install the redistributables even if you have them installed already, as they are often outdated.
+1. Download [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) from TechPowerUp.
+2. Extract the archive and run the included `install_all.bat` as an administrator.
+3. Restart your PC.
+
 **Enabling file extensions:**
+
+Before we start, it is important to enable file extensions in Windows. By default, File Explorer will not show file extensions (such as .exe, .dll, or .esp). These extensions are very important when going through the guide, so it is highly recommended to enable visible file extensions:
 1. Open File Explorer.
 2. Select the `View` tab at the top.
 3. Enable `File name extensions` in the `Show` section.
