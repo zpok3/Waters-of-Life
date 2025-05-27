@@ -27,6 +27,7 @@ Gameplay:
 - Moved Zeta Enable Somah Paulson to Author's Addons profile
 
 Content:
+- Updated Goodies to version 1.6.9
 - Updated Abandoned Safehouse to version 3.2
 - Moved Laurens Bathroom Poetry to Author's Addons profile
 - Added Fallout 3 Backyard Shelters (Author's Addons profile)
