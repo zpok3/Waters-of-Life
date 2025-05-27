@@ -81,8 +81,9 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 <details>
 <summary>Steam Install Instructions</summary>
 
-- The following instructions are only for anyone who has Steam installed in `Program Files (x86)` AND only have a single drive installed as Steam only allows one library folder per drive.
-- Skip to step 1 of `Installing the game` if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
+> The following instructions are only for anyone who has Steam installed in `Program Files (x86)` AND only have a single drive installed as Steam only allows one library folder per drive.
+>
+> Skip to step 1 of `Installing the game` if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
 
 1. Completely exit out of Steam using Task Manager or System Tray.
 2. Download `steam_library_setup_tool-3.2.exe` from [here](https://github.com/LostDragonist/steam-library-setup-tool/releases/download/3.2/steam_library_setup_tool-3.2.exe).
