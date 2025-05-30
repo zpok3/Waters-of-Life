@@ -203,7 +203,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
-3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` (additionally enable the mod `Supplementary Files - Fallout 3 (Regular)` if you have that instead of the GOTY edition) under the `Patches and Optionals` separator.
+3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` and the `Supplementary Files` for the version of the game you own under the `Patches and Optionals` separator.
 4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 > [!note]
