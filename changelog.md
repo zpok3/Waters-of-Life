@@ -10,6 +10,25 @@
 ---
 
 # Changelog
+## 1.3.1
+
+> [!tip]
+> **Safe Midgame**
+
+Bugfixes:
+- Updated UUF3P to version 3.5.1
+- Added Mostly Fixed FaceGen Tints for UUF3P and Goodies
+
+Gameplay:
+- Added The Good Bad Touch
+
+Visuals:
+- Added Rockomotion
+
+Patches and Optionals:
+- Moved GOTY supplementary files for Yet Another Steam Overlay Fixer to a separate mod
+- Added missing modgroup for Proper Factor Protectron inside the Nuka-Cola Plant and UUF3P
+
 ## 1.3.0
 
 > [!caution]
