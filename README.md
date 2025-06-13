@@ -259,6 +259,9 @@ Example: `[NoDelete] My awesome mod`
 
 # Extra stuff you should know
 
+## The installation still fails after manually downloading MetroMapReplacer.7z!
+Make sure the file has been placed in `C:\Modlists\downloads` or wherever your `Downloads Location` is set to. If that still doesn't work, try restarting Wabbajack and redoing the installation with the same file paths. It's possible that you are experiencing a known Wabbajack bug where your modlist install folder will get cleared out when you hit the retry button.
+
 ## Ultrawide Support 
 - Enable `bUltrawideSupport` in the mod `Stewie Tweaks Essentials INI` (or whatever Stewies Tweaks INI is active for the current profile since there are a handful of them to account for some profiles not having Iron Sights Plus).
 
