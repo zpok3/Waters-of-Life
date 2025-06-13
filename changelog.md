@@ -10,6 +10,49 @@
 ---
 
 # Changelog
+## 1.3.2
+> [!caution]
+> **Not safe Midgame**
+
+Utilities:
+- Updated ButcherPete FOSE to version 2.72
+
+Bugfixes:
+- Updated UUF3P to version 3.5.2
+
+User Interface:
+- Added Tutorial Killer (I know Stewie's Tweaks has an option but this also has some other handy features)
+
+Gameplay:
+- Updated The GoodBad Touch to version 4
+
+Overhauls:
+- Added Radiation Suits Upgrade FOSE
+- Added Companion Karma Rationalized
+
+Content:
+- Added Ghoul and Tenpenny Truce (Author's Addons profile)
+- Added A Tree (Author's Addons profile)
+- Added A Grave for James
+- Added LIDAR - Lincoln Items Displayed And Restored
+
+Audio:
+- Added ATMOS Ambient Sound Overhaul - Patched (updated plugin that's flagged as an ESM with most UUF3P fixes forwarded)
+
+LOD:
+- Updated Fallout 3 LOD to version 5
+- Updated Waters of Life LOD Plugin for parity with latest Fallout 3 LOD plugin
+- Regenerated LOD
+
+Patches and Optionals:
+- Updated ATMOS - UUF3P Patch - flagged as ESM and removed ITPOs
+- Updated ATMOS - DC NPCs Patch
+- Updated ATMOS - DCStreet Patch - flagged as ESM
+- Updated DXVK to version 2.6.1
+- Updated DXVK - HDR to version 2.6.1
+- Added Laurens Bathroom Poetry - ATMOS Patch
+- Removed ATMOS - Goodies Patch
+
 ## 1.3.1
 
 > [!tip]
