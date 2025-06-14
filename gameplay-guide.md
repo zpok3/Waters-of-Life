@@ -4,6 +4,12 @@ This page lists some notable changes you should be aware of when playing Fallout
 ## Abandoned Safehouse
 - Adds an underground player home near the Springvale gas station.
 
+## Companion Karma Rationalized
+- Makes certain companions less annoying to acquire by changing their karma requirements.
+
+## Companion Wheel FOSE
+- Adds a faithful recreation of the companion wheel from New Vegas.
+
 ## D.C NPCs
  - Improves the game's reactivity to your actions throughout the game and fixes some small inconsistencies with certain factions.
 
@@ -16,8 +22,14 @@ This page lists some notable changes you should be aware of when playing Fallout
 ## Fugacity
 - Difficulty overhaul akin to the JSawyer mod for New Vegas. Important to note the player character has reduced health, carry weight and starting S.P.E.C.I.A.L points (As of version 1.2.0 of this list, starting S.P.E.C.I.A.L points have been reverted back to vanilla with a custom plugin for the guide).
 
+## The GoodBad Touch
+- Adds several environmental hazards like flames, electricity, hot steam and radioactive pools.
+
 ## Goodies
 - Restores various cut content and adds other small tweaks.
+
+## Radiation Suits Upgrade
+- Buffs the standard and advanced radiation suit, along with the Environment Suit.
 
 ## Simple Sprint Fallout 3
 - Activation key is configurable in the ini, if you use `L-Shift` you will have to rebind the walk key or you will just toggle walking (Should work out of the box, walk key has been rebound to `R-Shift`.
