@@ -24,3 +24,6 @@ This page lists some notable changes you should be aware of when playing Fallout
 
 ## Stewie's Tweaks/Vanilla UI Plus
 - You can use the WASD keys to navigate menus, VUI+ rebinds any conflicting keybinds accordingly.
+
+## Tutorial Killer
+- Disables several tutorial messages and changes certain message boxes to be corner messages instead.
