@@ -146,15 +146,15 @@ Start the game and exit once you're at the main menu. This will ensure any setti
   * The folder where you put Wabbajack.exe.
 
 > Example: `C:\Modding\Waters of Life`
-
-**Update**: The default location `C:\Modlists\WOL` that is set by Wabbajack 4.0.0.0+ should work just fine.
+>
+> Note: The default location `C:\Modlists\WOL` that is set by Wabbajack 4.0.0.0+ should work just fine.
 
 5. Click `Install` to begin the installation.
 6. Accept the Nexus Mods API request.
 7. If you are not a Premium user you will need to manually click download for each mod.
 8. Once complete, Wabbajack will show a green `Installation Complete` screen.
 > [!important]
-> As of version 1.2.6 you will have to manually download [Pintocat's Metro Map replacer](https://taleoftwowastelands.com/viewtopic.php@t=7779) and place it into the modlist's downloads folder, then click `Retry`. This is due to a Wabbajack bug where automated Google Drive downloads don't work, specifically for files under 100MB from what I've observed. They are [aware](https://github.com/wabbajack-tools/wabbajack/issues/2782) of the issue.
+> As of version 1.2.6 you will have to manually download [Pintocat's Metro Map replacer](https://taleoftwowastelands.com/viewtopic.php@t=7779) and place it into the modlist's downloads folder, then click `Retry`. This is due to a Wabbajack bug where automated Google Drive downloads don't work, specifically for files under 100MB from what I've observed. They are aware of the [issue](https://github.com/wabbajack-tools/wabbajack/issues/2782).
 
 > [!tip]
 > If you see a red `Installation Failed` screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
