@@ -65,7 +65,7 @@ Before we start, it is important to enable file extensions in Windows. By defaul
 2. Select the `View` tab at the top.
 3. Enable `File name extensions` in the `Show` section.
 
-## Disabling Base Address Randomization
+### Disabling Base Address Randomization
 
 Base Address Randomization is a security feature in Windows that allows program's starting address to be randomized, which is not the expected behavior in 32-bit programs like Fallout 3. This **leads to crashes** in a modded game. This is disabled by default but it's recommended to make sure it's disabled as a sanity check.
 1. Open `Windows Security` from your Start Menu.
