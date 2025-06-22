@@ -47,7 +47,7 @@ I don't really know exact specs but if your PC can easily run the game at 1080p 
 # Setup
 ## Preparation
 
-**Installing VC++ Redistributables:**
+### Installing VC++ Redistributables
 
 Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use an all-in-one package that will install all possible versions.
 > [!important]
@@ -58,14 +58,14 @@ Most engine mods and tools require latest Visual C++ Redistributables to be inst
 2. Extract the archive and run the included `install_all.bat` as an administrator.
 3. Restart your PC.
 
-**Enabling file extensions:**
+### Enabling file extensions
 
 Before we start, it is important to enable file extensions in Windows. By default, File Explorer will not show file extensions (such as .exe, .dll, or .esp). These extensions are very important when going through the guide, so it is highly recommended to enable visible file extensions:
 1. Open File Explorer.
 2. Select the `View` tab at the top.
 3. Enable `File name extensions` in the `Show` section.
 
-**Disabling Base Address Randomization:**
+## Disabling Base Address Randomization
 
 Base Address Randomization is a security feature in Windows that allows program's starting address to be randomized, which is not the expected behavior in 32-bit programs like Fallout 3. This **leads to crashes** in a modded game. This is disabled by default but it's recommended to make sure it's disabled as a sanity check.
 1. Open `Windows Security` from your Start Menu.
@@ -91,7 +91,7 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 
 > The following instructions are only for anyone who has Steam installed in `Program Files (x86)` AND only have a single drive installed as Steam only allows one library folder per drive.
 >
-> Skip to step 1 of `Installing the game` if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
+> Skip to step 1 of [Installing the game](#installing-the-game) if you have Steam installed outside of `Program Files (x86)` or have a separate drive to install games to.
 
 1. Completely exit out of Steam using Task Manager or System Tray.
 2. Download `steam_library_setup_tool-3.2.exe` from [here](https://github.com/LostDragonist/steam-library-setup-tool/releases/download/3.2/steam_library_setup_tool-3.2.exe).
@@ -100,7 +100,7 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 5. Click `Accept` and then `Yes` if prompted to create a new folder.
 6. Click `OK` when the tool asks to exit.
 
-**Installing the game:**
+### Installing the game
 1. Open Steam and go to your `Library`.
 2. Find Fallout 3 in the list and click `Install`.
 3. Under `Install to:`, select a library folder of your choice that is outside of any default Windows folders. If you created a custom Steam Library earlier, it will be the second **(C:)** entry.
@@ -114,6 +114,7 @@ Waters of Life requires a completely clean installation of Fallout 3. This means
 1. In GOG Galaxy, go to your `Library`.
 2. Select `Fallout 3: Game of the Year Edition` and click `Install`.
 3. Set the `Install to` folder to a folder of your choice, e.g. `C:\GOG Games`.
+4. Select `Install` and wait for the install to finish.
 
 </details>
 
@@ -203,7 +204,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
-3. If you use the **Steam** version of the game, enable the mod `Yet Another Steam Overlay Fixer` and the `Supplementary Files` for the version of the game you own under the `Patches and Optionals` separator.
+3. If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` and the `Supplementary Files` for the version of the game you own under the `Patches and Optionals` separator.
 4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 > [!note]
@@ -236,8 +237,10 @@ If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
 3. Close the launcher.
 
 ## Performance Guide
-- **Set an FPS Limit**: It's recommended  to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
-- **DXVK with DXGI**: Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
+### FPS Limiting
+It's recommended  to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
+### DXVK with DXGI
+Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
   - If you use an AMD GPU, all you have to do is enable the mod `DXVK` under the `Patches and Optionals` separator in MO2. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
   - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
 For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
