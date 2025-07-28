@@ -149,7 +149,7 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 >
 > Note: The default location `C:\Modlists\WOL` that is set by Wabbajack 4.0.0.0+ should work just fine.
 
-> [!tip]
+> [!important]
 > Due to a [Wabbajack bug](https://github.com/wabbajack-tools/wabbajack/issues/2782) that prevents the automated download of Google Drive files, it's recommended to manually download [Pintocat's Metro Map replacer](https://taleoftwowastelands.com/viewtopic.php@t=7779) manually and place it into the downloads folder of where you want to install the modlist.
 > - If you're installing to the default location selected by Wabbajack you can use the following command in the terminal to quickly create the installation directory:
 > ```
