@@ -49,14 +49,18 @@ I don't really know exact specs but if your PC can easily run the game at 1080p 
 
 ### Installing VC++ Redistributables
 
-Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use an all-in-one package that will install all possible versions.
+Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use Microsoft's [WinGet](https://github.com/microsoft/winget-cli) package manager to install all possible versions. Please note that if you use a "debloated" version of Windows or use LTSC you may not have WinGet installed.
 > [!important]
 > Failure to have latest versions installed will result in an immediate crash when launching the game or modding tools.
 >
 > Please install the redistributables even if you have them installed already, as they are often outdated.
-1. Download [VC++ AIO](https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/) from TechPowerUp.
-2. Extract the archive and run the included `install_all.bat` as an administrator.
-3. Restart your PC.
+1. Open cmd/PowerShell/Windows Terminal as an administrator and run the following command:
+```pwsh
+winget install Microsoft.VCRedist.2005.x64 Microsoft.VCRedist.2005.x86 Microsoft.VCRedist.2008.x64 Microsoft.VCRedist.2008.x86 Microsoft.VCRedist.2010.x64 Microsoft.VCRedist.2010.x86 Microsoft.VCRedist.2012.x64 Microsoft.VCRedist.2012.x86 Microsoft.VCRedist.2013.x64 Microsoft.VCRedist.2013.x86 Microsoft.VCRedist.2015+.x64 Microsoft.VCRedist.2015+.x86
+```
+2. Restart your PC.
+> [!tip]
+> If using the terminal seems scary to you, you can also use this [script](https://github.com/zpok3/vc-redists-install-script/releases/latest) I made that just runs the aforementioned command. Download the `.bat` file and run it as an administrator.
 
 ### Enabling file extensions
 
