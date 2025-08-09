@@ -295,7 +295,7 @@ The full version of the FO3 Mod Guide written by ModdingLinked.
 Update Companion Wheel (FOSE) to version 2.0, the wheel was never supposed to work on temporary companions as they don't have the necessary dialogue topics. The new version has additional checks to make sure the wheel doesn't appear on temporary companions.
 
 ## Three Dog is dead!
-Temporarily disable HighFPSFix in MO2 and load a save from before you entered GNR Studios, or open the console and use `resurrect` on Three Dog.
+I've made a [mod](https://www.nexusmods.com/fallout3/mods/26967) that "fixes" the issue, just install it in MO2 and load a save from before you entered GNR Studios, or if you don't have one then open the console and use `resurrect` on Three Dog.
 
 ## INI Settings
 If you had to reset your INIs to get the game to start, these are a few settings that will be reset that you must reapply.
