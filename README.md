@@ -38,7 +38,7 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 - A text editor ([Notepad++](https://notepad-plus-plus.org/) is recommended but the default Windows notepad will work).
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended).
 - The latest GPU drivers (either [NVIDIA](https://www.nvidia.com/Download/index.aspx), [AMD](https://www.amd.com/en/support) or [Intel](https://www.intel.com/content/www/us/en/search.html#q=&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])).
-- The latest release of [Wabbajack](https://www.wabbajack.org/).
+- The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe).
 > [!tip]
 > [tr4wzified](https://github.com/tr4wzified) has made a [test build](https://drive.proton.me/urls/SAY92EHVKW#qEZDqoTzlKZR) of Wabbajack that fixes [Google Drive downloads failing](https://github.com/wabbajack-tools/wabbajack/issues/2782). Please note that this build will **NOT** automatically update like the main releases of Wabbajack.
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
@@ -219,7 +219,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 > [!note]
 > If you output the decompressed BSAs to a mod folder, a mod called `[NoDelete] Decompressed BSAs` should appear in the bottom of the left pane of MO2. Make sure to enable it as well. If it is greyed out you may have output the decompressed BSAs to the wrong folder. Find out where they are (tip: only three of the base game's BSAs are decompressed - Meshes, Misc and Textures) and move them to the folder you created earlier.
 > 
-> Additionally, something I completely forgot about is that for most of the list's life it did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately instead of the GOTY edition. To fix this (if it applies to you), in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`.
+> Additionally, something I completely forgot about is that for some time the modlist did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately instead of the GOTY edition. To fix this (if it applies to you), in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`.
 
 ## Game Settings
 There are four profiles you can choose from; the default profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
