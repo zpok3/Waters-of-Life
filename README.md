@@ -39,8 +39,6 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended).
 - The latest GPU drivers (either [NVIDIA](https://www.nvidia.com/Download/index.aspx), [AMD](https://www.amd.com/en/support) or [Intel](https://www.intel.com/content/www/us/en/search.html#q=&sort=relevancy&f:@tabfilter=[Downloads]&f:@stm_10385_en=[Graphics])).
 - The latest release of [Wabbajack](https://github.com/wabbajack-tools/wabbajack/releases/latest/download/Wabbajack.exe).
-> [!tip]
-> [tr4wzified](https://github.com/tr4wzified) has made a [test build](https://drive.proton.me/urls/SAY92EHVKW#qEZDqoTzlKZR) of Wabbajack that fixes [Google Drive downloads failing](https://github.com/wabbajack-tools/wabbajack/issues/2782). Please note that this build will **NOT** automatically update like the main releases of Wabbajack.
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
 
 ## Recommended Specs
@@ -154,11 +152,6 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 > Example: `C:\Modding\Waters of Life`
 >
 > Note: The default location `C:\Modlists\WOL` that is suggested by Wabbajack 4.0.0.0+ should work just fine.
-
-> [!important]
-> Due to a [Wabbajack bug](https://github.com/wabbajack-tools/wabbajack/issues/2782) that prevents the automated download of Google Drive files, it's recommended to manually download [Pintocat's Metro Map replacer](https://taleoftwowastelands.com/viewtopic.php@t=7779) manually and place it into the `downloads` folder of where you want to install the modlist.
-> 
-> If you downloaded tr4wzified's Wabbajack test build then you can skip this step.
 
 5. Click `Install` to begin the installation.
 6. Accept the Nexus Mods API request.
