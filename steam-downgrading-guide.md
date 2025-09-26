@@ -8,25 +8,27 @@ If you use the Steam version of the game and it doesn't start through MO2, it ma
 
 3. In the folder you extracted it to, right click and select `Open in Terminal` (you need [Windows Terminal](https://aka.ms/terminal) for this option to be available).
 
-4. Now you can run one of these commands (replace `<username>` with your username):
+4. Now you can run one of the following commands (replace `<username>` with your Steam username):
 
-Original 1.7.0.4 update for GOTY released on October 12, 2021:
-```
+### Game of the Year Edition
+Original 1.7.0.4 update released on October 12, 2021:
+```pwsh
 .\DepotDownloader.exe -app 22370 -depot 22371 -manifest 4929549459338680299 -username <username>
 ```
 
-1.7.0.3 update for GOTY:
-```
+1.7.0.3 update:
+```pwsh
 .\DepotDownloader.exe -app 22370 -depot 22371 -manifest 6752416544246981300 -username <username>
 ```
 
-Original 1.7.0.4 update for the base game released on October 12, 2021:
-```
+### Base Game
+Original 1.7.0.4 update released on October 12, 2021:
+```pwsh
 .\DepotDownloader.exe -app 22300 -depot 22301 -manifest 7414504515121985658 -username <username>
 ```
 
-1.7.0.3 update for the base game:
-```
+1.7.0.3 update:
+```pwsh
 .\DepotDownloader.exe -app 22300 -depot 22301 -manifest 3579248769415824205 -username <username>
 ```
 
@@ -49,22 +51,24 @@ steam://open/console
 
 2. In the console enter one of these commands:
 
-Original 1.7.0.4 update for GOTY released on October 12, 2021:
+### Game of the Year Edition
+Original 1.7.0.4 update released on October 12, 2021:
 ```
 download_depot 22370 22371 4929549459338680299
 ```
 
-1.7.0.3 update for GOTY:
+1.7.0.3 update:
 ```
 download_depot 22370 22371 6752416544246981300
 ```
 
-Original 1.7.0.4 update for the base game released on October 12, 2021:
+### Base Game
+Original 1.7.0.4 update released on October 12, 2021:
 ```
 download_depot 22300 22301 7414504515121985658
 ```
 
-1.7.0.3 update for the base game:
+1.7.0.3 update:
 ```
 download_depot 22300 22301 3579248769415824205
 ```
@@ -79,4 +83,5 @@ download_depot 22300 22301 3579248769415824205
 
 ## Finish
 You should now be ready to run the game, which hopefully will start up without any issues.
+
 
