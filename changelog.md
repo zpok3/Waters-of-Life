@@ -14,7 +14,7 @@
 > [!caution]
 > **Not Safe Midgame**
 >
-> If you are updating from 1.3.2 or older you will need to redo the [Root Mods](https://github.com/zpok3/Waters-of-Life/blob/main/README.md#root-mods) and optionally step 3 of [MO2 Setup](https://github.com/zpok3/Waters-of-Life/blob/main/README.md#mod-organizer-2-setup) due to the removal of Root Builder!
+> If you are updating from 1.3.2 or older you will need to redo the [Root Mods](https://github.com/zpok3/Waters-of-Life/blob/main/README.md#root-mods) and optionally [DXVK](https://github.com/zpok3/Waters-of-Life/blob/main/README.md#dxvk-with-dxgi) and step 3 of [MO2 Setup](https://github.com/zpok3/Waters-of-Life/blob/main/README.md#mod-organizer-2-setup) due to the removal of Root Builder!
 
 List:
 - Removed Root Builder
