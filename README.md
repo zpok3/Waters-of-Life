@@ -175,7 +175,7 @@ This operation is required because Windows can block MO2 and mod files from load
 
 ## Root Mods
 Next we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility.
-1. In your `Installation Location` folder, open the `__Root Mods` folder.
+1. In your `Installation Location` folder, open the `__Files Requiring Manual Install` folder.
 2. Copy **everything** to the game's `Root` folder.
 3. Still in the game's `Root` folder, double-click on `Patcher.exe` to run it.
 4. A command prompt should show up, run for a few seconds, then read as follows:
@@ -206,7 +206,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
-3. If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` and the `Supplementary Files` for the version of the game you own under the `Patches and Optionals` separator.
+3. If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy the contents of `__Steam Overlay Fixer Supplementary Files` folder located in your `Installation location` to the game's `Root` folder.
 4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 > [!note]
@@ -243,7 +243,7 @@ If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
 It's recommended  to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
 ### DXVK with DXGI
 Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
-  - If you use an AMD GPU, all you have to do is enable the mod `DXVK` under the `Patches and Optionals` separator in MO2. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
+  - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
   - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
 For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
 
@@ -260,7 +260,7 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 1. Add the [NoDelete] prefix to the name any mods you added after installation.
 Example: `[NoDelete] My awesome mod`
 2. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
-3. Rerun the Anniversary Patcher (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it as a mod in MO2).
+3. Redo the [Root Mods](#root-mods) step of [Post Installation](#post-installation) (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it as a mod in MO2).
 
 # Extra stuff you should know
 
@@ -272,7 +272,7 @@ Make sure the file has been placed in `C:\Modlists\WOL\downloads` or wherever yo
 
 ## Mod Profiles
 ### Author's Addons Profile
-Same as the default profile but with some personal picks that don't really fit the vanilla plus nature of the list. Currently the additional mods available are Zeta Enable Somah Paulson, Fallout 3 Backyard Shelters, Lauren's Bathroom Poetry, and Vault Girl Bobbleheads.
+Same as the default profile but with some personal picks that don't really fit the vanilla plus nature of the list. Currently the additional mods available are Zeta Enable Somah Paulson, Lauren's Bathroom Poetry, and Vault Girl Bobbleheads.
 
 ### Classic Profile
 Same as the default profile but uses Enhanced Night Sky, krzymar HI-RES Moon, Alternative Megaton Lighting Plus, and Clarity instead of Enhanced Vanilla Stars, Accurate NASA Stars, HD NASA Moon, Atmospheric Lighting Tweaks, Megaton Illuminated, and True Weathers.
