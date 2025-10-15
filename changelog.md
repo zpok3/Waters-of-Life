@@ -10,6 +10,56 @@
 ---
 
 # Changelog
+## 1.4.0
+> [!caution]
+> **Not Safe Midgame**
+>
+> If you are updating from 1.3.2 or older you will need to redo the [Root Mods](https://github.com/zpok3/Waters-of-Life/blob/main/README.md#root-mods) and optionally step 3 of [MO2 Setup](https://github.com/zpok3/Waters-of-Life/blob/main/README.md#mod-organizer-2-setup) due to the removal of Root Builder!
+
+List:
+- Removed Root Builder
+
+Bugfixes:
+- Updated Interior Optimization Overhaul to version 1.12
+- Added Three Dog High FPS Death Preventer
+- Added Evan King Blood Ties Item Fix
+- Added the additional fixes from this list to the Essentials and Essentials Plus profiles
+
+Gameplay:
+- Updated The GoodBad Touch to version 5
+
+Overhauls:
+- Added Diverse Food Merchants
+
+Content:
+- Enabled Fallout 3 Backyard Shelters in the main and Classic profiles
+- Updated A Grave for James to version 2
+- Updated D.C NPCs to version 1.7.1
+- Added The Great DC Interior Overhaul
+- Added Paradise Falls Burger Boy and Bunker
+- Added Rivet City Hydroponics Room
+
+Visuals:
+- Updated Megaton Illuminated to version 16
+- Updated Accurate NASA Stars to version 1.3
+- Updated Accurate NASA Stars (New Vegas version) to version 2.3
+- Added FO3 Mixed Locomotion
+- Removed Rockomotion
+
+LOD:
+- Updated Much Needed LOD FO3 to version 3
+- Updated Waters of Life LOD plugin
+- Regenerated LOD with xLODGen beta 132
+- Added Special Series - LOD Noise Texture
+- Removed Vanilla LOD to reduce list size
+- Removed Contrasted LOD Noise Texture
+
+Patches and Optionals:
+- Updated D.C NPCs UUF3P patch
+- Added TGDCIO Goodies patch
+- Added Paradise Falls Burger Boy UUF3P patch
+- Removed Megaton Illuminated UUF3P and Goodies patches
+
 ## 1.3.2
 > [!caution]
 > **Not safe Midgame**
