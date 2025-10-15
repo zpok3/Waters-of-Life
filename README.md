@@ -197,7 +197,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 > [!tip]
 > If you intend to install [Tale of Two Wastelands](https://thebestoftimes.moddinglinked.com/) or don't want to verify your game files everytime you need to update the list, you can output the decompressed BSAs to a mod in MO2:
 > 1. In MO2 click the ![mo2 open folders menu](images/folders%20menu.webp) button and select `Open Mods folder`.
-> 2. Create a folder called `[NoDelete] Decompressed BSAs` and then copy its path (open the folder, right click the address bar, and select `Copy address as text`).
+> 2. Open the folder called `[NoDelete] Decompressed BSAs` and then copy its path (right click the address bar, and select `Copy address as text`).
 > 3. Close MO2.
 > 4. Paste the path you copied in step 2 into the `Decompressed Archives` text field.
 
@@ -257,10 +257,10 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 
 # Updating the List
 
-1. Add the [NoDelete] prefix to the name any mods you added after installation.
+1. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
+2. Redo the [Root Mods](#root-mods) step of [Post Installation](#post-installation) and optionally the [BSA Decompressor](#bsa-decompressor) (unless you installed it as a mod in MO2).
+3. Add the [NoDelete] prefix to the name any mods you added after installation.
 Example: `[NoDelete] My awesome mod`
-2. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
-3. Redo the [Root Mods](#root-mods) step of [Post Installation](#post-installation) (unless you skipped step 2) and optionally the BSA Decompressor (unless you installed it as a mod in MO2).
 
 # Extra stuff you should know
 
