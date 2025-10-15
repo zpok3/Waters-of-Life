@@ -259,8 +259,12 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 
 1. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
 2. Redo the [Root Mods](#root-mods) step of [Post Installation](#post-installation) and optionally the [BSA Decompressor](#bsa-decompressor) (unless you installed it as a mod in MO2).
-3. Add the [NoDelete] prefix to the name any mods you added after installation.
+3. If you added any mods you added after installation, add the [NoDelete] prefix to their name in the left pane.
 Example: `[NoDelete] My awesome mod`
+4. Run Wabbajack again and point it to the same folder where the list is currently installed.
+> [!warning]
+> 1. Make sure the update is marked **Safe Midgame** before playing with the same character!
+> 2. If you added any mods to the list after installation, they might be moved and/or disabled after updating the list.
 
 # Extra stuff you should know
 
