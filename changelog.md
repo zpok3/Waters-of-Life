@@ -10,6 +10,16 @@
 ---
 
 # Changelog
+## 1.4.0.1
+> [!tip]
+> **Safe Midgame**
+
+List:
+- Fixed the Author's Addons profile being the default profile when you first launch MO2
+
+Patches and Optionals:
+- Fixed autodetection for TGDCIO - Goodies Patch
+
 ## 1.4.0
 > [!caution]
 > **Not Safe Midgame**
