@@ -50,6 +50,8 @@ LOD:
 - Updated Much Needed LOD FO3 to version 3
 - Updated Waters of Life LOD plugin
 - Regenerated LOD with xLODGen beta 132
+- Split LOD Output into 3 archives for Terrain, Objects Meshes, and Objects Textures
+- Compressed Objects LOD Textures archive to save space since they're only loaded once per worldspace entry so the compression only affects initial load time
 - Added Special Series - LOD Noise Texture
 - Removed Vanilla LOD to reduce list size
 - Removed Contrasted LOD Noise Texture
