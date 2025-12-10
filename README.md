@@ -60,7 +60,7 @@ winget install Microsoft.VCRedist.2005.x64 Microsoft.VCRedist.2005.x86 Microsoft
 ```
 2. Restart your PC.
 > [!tip]
-> If using the terminal seems scary to you, you can also use this [script](https://github.com/zpok3/vc-redists-install-script/releases/latest) I made that just runs the aforementioned command. Download the `.bat` file and run it as an administrator.
+> If you don't want to use the terminal you can also use this [script](https://github.com/zpok3/vc-redists-install-script/releases/latest) I made that just runs the aforementioned command. Download the `.bat` file and run it as an administrator.
 
 ### Enabling file extensions
 
