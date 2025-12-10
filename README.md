@@ -210,7 +210,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 > [!note]
-> Something I completely forgot about is that for some time the modlist did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately instead of the GOTY edition. To fix this (if it applies to you), in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`.
+> Something I completely forgot about is that for some time the modlist did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately instead of the GOTY edition. To fix this (if it applies to you), in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`. For good measure press `Ctrl + E`, and under Fallout 3 check `Overwrite Steam AppID` and add `22300` there too.
 
 ## Game Settings
 There are four profiles you can choose from; the default profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
