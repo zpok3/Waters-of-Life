@@ -10,6 +10,60 @@
 ---
 
 # Changelog
+## 1.5.0
+> [!caution]
+> **Not safe midgame**
+Utilities:
+- Updated EGT Files to version 1.01
+- Updated Command Extender to version 24.0
+- Updated High FPS Physics Fix to version 1.2
+- Updated ButcherPete FOSE to version 3.6
+- Updated GECK Extender to version 0.14
+- Updated patched vanilla ESMs to version 1.8
+
+Bugfixes:
+- Updated UUF3P to version 3.6.3
+- Updated Three Dog High FPS Death Preventer to version 2.0
+Updated Interior Optimization Project to version 1.14
+- Added Black Terrain Bug Helper
+- Added Damage To Armor Fix - Performance Trimmed
+- Added Megaton Home Deco Performance Trim
+- Removed Megaton Home Deco Performance Trim (added to UUF3P before I could release the update lol)
+- Removed Damage to Armor Fix
+- Removed Evan King Blood Ties Item Fix (added to UUF3P)
+
+User Interface:
+- Updated Tutorial Killer to version 2.1
+
+Gameplay:
+- Added Loot Menu Updated
+
+Overhauls:
+- Updated Fugacity to version 1.1.3
+- Added Less Rewarding Repeatable Quests
+
+Content:
+- Updated Goodies to version 1.7.2
+- Updated D.C NPCs to version 2.0.4
+- Updated The Great DC Interior Overhaul to version 1.3.2
+- Updated The Great DC Interior Overhaul FO3 conversion to version 1.2
+
+Audio:
+- Updated Subtle Rifle Equip Sound to version 1.2
+
+Visuals:
+- Added Sleek Energy Projectiles
+
+LOD:
+- Updated Red Rocket - LOD Improved to version 2.0
+- Updated Waters of Life LOD Plugin
+- Regenerated LOD with using modified settings because for some reason textures break when using DXT5 on terrain texture normals
+
+Patches and Optional Mods:
+- Updated Fugacity - UUF3P, D.C NPCs - UUF3P, Companion Karma Rationalized - UUF3P, and FO3_Optimization - ATMOS patches
+- Added D.C NPCs - Goodies patch
+- Added D.C NPCs - TGDCIO patch
+
 ## 1.4.0.1
 > [!tip]
 > **Safe Midgame**
