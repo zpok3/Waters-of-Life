@@ -7,7 +7,7 @@
   <a href="README.md">Installation</a> ·
    <a href="changelog.md">Changelog</a> ·
 <a href="planned-additions.md">Planned Additions</a> ·
-<a href="gameplay-guide.md">Gameplay Guide</a>
+<a href="gameplay-guide.md">Gameplay Guide</a> · <a href="https://discord.gg/gWVpq2Bpee">Discord</a>
 
    ---
 # Read-Me
@@ -209,14 +209,11 @@ If they aren't, close the program and re-run the game's launcher to generate the
 3. If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy the contents of `__Steam Overlay Fixer Supplementary Files` folder located in your `Installation location` to the game's `Root` folder.
 4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
-> [!note]
-> Something I completely forgot about is that for some time the modlist did not include a `ModOrganizer.ini`, meaning the end user would have to go through instance creation when they first start MO2. This may have masked issues related to a mismatched Steam App ID for users who have the base game + all DLC purchased separately instead of the GOTY edition. To fix this (if it applies to you), in MO2 go to `Settings -> Workarounds` and change the Steam App ID to `22300`. For good measure press `Ctrl + E`, and under Fallout 3 check `Overwrite Steam AppID` and add `22300` there too.
-
 ## Game Settings
 There are four profiles you can choose from; the default profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
-1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, selecting the + icon and choosing `Add from file...`.
+1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, and editing the `Fallout Launcher` entry to point to `Fallout3Launcher.exe`.
 > [!important]
-> If you use Steam, the game may not start when you try to run it through MO2. The problem may have something to do with the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). To fix this you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `fallout.ini` and `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process. Or you can follow this [guide](https://github.com/zpok3/Waters-of-Life/blob/main/steam-downgrading-guide.md) to downgrade the game (might not work from user reports I've seen).
+> If you have both an integrated and dedicated GPU, the game may not start when you try to run it through MO2. You can try making sure that both `Fallout3.exe` and `Fallout3Launcher.exe` are set to prefer to use your "High Performance" GPU in either Windows settings or Nvidia Control Panel. You can also try clicking on ![mo2 folders menu](images/folders%20menu.webp), selecting `Open Profile folder`, and setting `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `fallout.ini` and `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
 2. Inside the launcher click `Options` and do the following:
     1. Select `Ultra` preset.
 * If you have a very weak PC, you can select the `Medium` preset instead.
@@ -283,12 +280,6 @@ Just the Utilities and Bug Fixes from the [FO3 Mod Guide](https://thebestoftimes
 
 ### Essentials Plus Profile
 The full version of the FO3 Mod Guide written by ModdingLinked.
-
-## The game crashes when I use a Stimpak on a temporary companion!
-Update Companion Wheel (FOSE) to version 2.0, the wheel was never supposed to work on temporary companions as they don't have the necessary dialogue topics. The new version has additional checks to make sure the wheel doesn't appear on temporary companions.
-
-## Three Dog is dead!
-I've made a [mod](https://www.nexusmods.com/fallout3/mods/26967) that "fixes" the issue, just install it in MO2 and load a save from before you entered GNR Studios, or if you don't have one then open the console and use `resurrect` on Three Dog.
 
 ## INI Settings
 If you had to reset your INIs to get the game to start, these are a few settings that will be reset that you must reapply.
