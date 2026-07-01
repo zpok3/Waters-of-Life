@@ -32,8 +32,6 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 ## Requirements
 - An **English** copy of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
   - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported.
-> [!note]
-> The GOG version is recommended due to minor issues with the Steam version of the game. Steps are provided for potential solutions.
 - Windows 10 or higher (64 bit).
 - A text editor ([Notepad++](https://notepad-plus-plus.org/) is recommended but the default Windows notepad will work).
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended).
