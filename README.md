@@ -172,9 +172,9 @@ This operation is required because Windows can block MO2 and mod files from load
 > If you are using a third-party antivirus, you will need to find the exclusions menu and add one to the same folder.
 
 ## Root Mods
-Next we will run the Fallout Anniversary Patcher, its features include a Mod Limit Fix, Intel HD Graphics Bypass, Games for Windows Live Disabler, and specifically for Steam/Epic it applies a 4GB/LAA patch and downgrades the game executable to 1.7.0.3 for mod compatibility.
+Next we will install FOSE, updated OGG Vorbis libraries, and the Fallout Anniversary Patcher. This patcher will allow the game to automatically load FOSE when launching the game directly via `Fallout3.exe`, along with many other useful features. For the Steam version, this will also downgrade the game for compatibility with FOSE.
 1. In your `Installation Location` folder, open the `__Files Requiring Manual Install` folder.
-2. Copy **everything** to the game's `Root` folder.
+2. Copy **everything** to the game's `Root` folder and overwrite when prompted.
 3. Still in the game's `Root` folder, double-click on `Patcher.exe` to run it.
 4. A command prompt should show up, run for a few seconds, then read as follows:
 
@@ -208,10 +208,10 @@ If they aren't, close the program and re-run the game's launcher to generate the
 4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 ## Game Settings
-There are four profiles you can choose from; the default profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
+There are five profiles you can choose from; the default profile, the Author's Addons profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, and editing the `Fallout Launcher` entry to point to `Fallout3Launcher.exe`.
 > [!important]
-> If you have both an integrated and dedicated GPU, the game may not start when you try to run it through MO2. You can try making sure that both `Fallout3.exe` and `Fallout3Launcher.exe` are set to prefer to use your "High Performance" GPU in either Windows settings or Nvidia Control Panel. You can also try clicking on ![mo2 folders menu](images/folders%20menu.webp), selecting `Open Profile folder`, and setting `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `fallout.ini` and `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
+> For some users, the game may not start when you try to run it through MO2. This is caused by the INI setting `sD3DDevice` listing the wrong GPU. On some hardware configurations for whatver reason, the launcher is unable to set this INI setting properly, so the game fails to launch. To fix this, click on ![mo2 folders menu](images/folders%20menu.webp), select `Open Profile folder`, and set `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. You can also go to `Windows settings -> System -> Display -> Graphics` and setting both `Fallout3.exe` and `Fallout3Launcher.exe` to prefer `High Performance`. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
 2. Inside the launcher click `Options` and do the following:
     1. Select `Ultra` preset.
 * If you have a very weak PC, you can select the `Medium` preset instead.
