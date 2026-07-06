@@ -211,7 +211,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 There are five profiles you can choose from; the default profile, the Author's Addons profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, and editing the `Fallout Launcher` entry to point to `Fallout3Launcher.exe`.
 > [!important]
-> For some users, the game may not start when you try to run it through MO2. This is caused by the INI setting `sD3DDevice` listing the wrong GPU. On some hardware configurations for whatver reason, the launcher is unable to set this INI setting properly, so the game fails to launch. To fix this, click on ![mo2 folders menu](images/folders%20menu.webp), select `Open Profile folder`, and set `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. You can also go to `Windows settings -> System -> Display -> Graphics` and setting both `Fallout3.exe` and `Fallout3Launcher.exe` to prefer `High Performance`. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
+> For some users, the game may not start when you try to run it through MO2. This is caused by the INI setting `sD3DDevice` listing the wrong GPU. On some hardware configurations for whatever reason, the launcher is unable to set this INI setting properly, so the game fails to launch. To fix this, click on ![mo2 folders menu](images/folders%20menu.webp), select `Open Profile folder`, and set `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. You can also go to `Windows settings -> System -> Display -> Graphics` and setting both `Fallout3.exe` and `Fallout3Launcher.exe` to prefer `High Performance`. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
 2. Inside the launcher click `Options` and do the following:
     1. Select `Ultra` preset.
 * If you have a very weak PC, you can select the `Medium` preset instead.
@@ -292,16 +292,18 @@ If you had to reset your INIs to get the game to start, these are a few settings
 - Scroll down and enable `General Subtitles`. Alternatively, open MO2's INI editor, select `falloutprefs.ini`, find `bGeneralSubtitles` and enable it (replace 0 with 1).
 
 # Credits
-[Qolore7](https://github.com/Qolore7) for some of the more obscure mods that I found via his Wabbajack list Lost Liberty.
+- [Qolore7](https://github.com/Qolore7) for some of the more obscure mods that I found via his Wabbajack list Lost Liberty.
 
-[Ungeziefi](https://github.com/Ungeziefi) and [Wall SoGB](https://github.com/WallSoGB) for the resources available at [ModdingLinked](https://moddinglinked.com/index.html).
+- [Ungeziefi](https://github.com/Ungeziefi) and [Wall SoGB](https://github.com/WallSoGB) for the resources available at [ModdingLinked](https://moddinglinked.com/index.html).
 
-[ozzyfan](https://www.nexusmods.com/fallout3/users/2411841) - [Fallout Essential NPCs](https://www.nexusmods.com/fallout3/mods/22629).
+- [ozzyfan](https://www.nexusmods.com/fallout3/users/2411841) - [Fallout Essential NPCs](https://www.nexusmods.com/fallout3/mods/22629).
 
-[claustromaniac](https://www.nexusmods.com/fallout3/users/4713376) - [FER - FO3 Essentials Revamped](https://www.nexusmods.com/fallout3/mods/20731).
+- [claustromaniac](https://www.nexusmods.com/fallout3/users/4713376) - [FER - FO3 Essentials Revamped](https://www.nexusmods.com/fallout3/mods/20731).
 
-[Zumbs](https://www.nexusmods.com/fallout3/users/145928) - [Kill and Loot Unconscious Essential NPCs](https://www.nexusmods.com/fallout3/mods/9982).
+- [Zumbs](https://www.nexusmods.com/fallout3/users/145928) - [Kill and Loot Unconscious Essential NPCs](https://www.nexusmods.com/fallout3/mods/9982).
 
-[GoatOfArmor](https://www.nexusmods.com/newvegas/users/149677168) - [Wasted Return of LOD TTW](https://www.nexusmods.com/newvegas/mods/90147).
+- [GoatOfArmor](https://www.nexusmods.com/newvegas/users/149677168) - [Wasted Return of LOD TTW](https://www.nexusmods.com/newvegas/mods/90147).
 
-Belts the Puppet for helping me figure out what's wrong with my INIs and being possibly the first person out of hundreds of people to try and use a Stimpak on a temporary companion with the companion wheel.
+- Belts the Puppet for helping me figure out what's wrong with my INIs and being possibly the first person out of hundreds of people to try and use a Stimpak on a temporary companion with the companion wheel.
+
+- [evilneko](https://www.nexusmods.com/profile/evilneko) for the [solution](https://forums.nexusmods.com/topic/129406-fallout-3-will-not-run-at-all/) to why the game crashes on startup for some people.
