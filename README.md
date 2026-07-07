@@ -306,4 +306,4 @@ If you had to reset your INIs to get the game to start, these are a few settings
 
 - Belts the Puppet for helping me figure out what's wrong with my INIs and being possibly the first person out of hundreds of people to try and use a Stimpak on a temporary companion with the companion wheel.
 
-- [evilneko](https://www.nexusmods.com/profile/evilneko) for the [solution](https://forums.nexusmods.com/topic/129406-fallout-3-will-not-run-at-all/) to why the game crashes on startup for some people.
+- [evilneko](https://www.nexusmods.com/profile/evilneko) for the [solution]([https://forums.nexusmods.com/topic/129406-fallout-3-will-not-run-at-all/](https://forums.nexusmods.com/topic/129406-fallout-3-will-not-run-at-all/#findComment-1509734)) to why the game crashes on startup for some people.
