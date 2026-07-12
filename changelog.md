@@ -10,6 +10,20 @@
 ---
 
 # Changelog
+## 1.5.1
+> [!tip]
+> **Safe Midgame**
+>
+> If you are updating from 1.5, please repeat the installation of the Updated Ogg Vorbis Libraries (copy `libvorbis.dll` and `libvorbisfile.dll` from `__Files Requiring Manual Install` to your game's root folder.
+> If you are using DXVK, also copy `d3d9.dll` and `dxvk.conf` from the `__DXVK` folder to your game's root folder.
+
+Utilities:
+- Updated Ogg Vorbis Libraries to version 7
+- Updated DXVK to version 3.0.1
+
+Content:
+- Updated D.C NPCs to version 2.0.4.3
+
 ## 1.5.0
 > [!caution]
 > **Not safe midgame**
