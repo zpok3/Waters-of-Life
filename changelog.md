@@ -27,6 +27,7 @@ Content:
 ## 1.5.0
 > [!caution]
 > **Not safe midgame**
+
 Utilities:
 - Updated EGT Files to version 1.01
 - Updated Command Extender to version 24.0
