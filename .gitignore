@@ -1,0 +1,30 @@
+# Ignore all
+*
+!*/
+
+# Except for...
+
+# Git files
+!.gitignore
+!.gitattributes
+
+# Basic repo files
+!LICENSE
+!README.md
+
+# Configuration files
+!*.ini
+!*.json
+!*.txt
+
+# Mod Organizer 2's meta files
+!*.meta
+
+# Wabbajack configuration files
+!*.compiler_settings
+
+# Ignore ModOrganizer2 text files
+explorer++/*
+licenses/*
+overwrite/*
+plugins/*
