@@ -1,5 +1,5 @@
 # Downgrading Fallout 3
-If you use the Steam version of the game and it doesn't start through MO2, it may be related to the [updated launcher](https://store.steampowered.com/news/app/22370/view/4160842270244401930?l=english). Here's a guide on using both [DepotDownloader](https://github.com/SteamRE/DepotDownloader) and the Steam console to downgrade the game. Steps are provided for both the [base game](https://store.steampowered.com/app/22300/Fallout_3/) and the [Game of the Year edition](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/).
+Here's a guide on using both [DepotDownloader](https://github.com/SteamRE/DepotDownloader) and the Steam console to downgrade the game. Steps are provided for both the [base game](https://store.steampowered.com/app/22300/Fallout_3/) and the [Game of the Year edition](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/).
 
 ## DepotDownloader
 1. Download the latest [DepotDownloader-windows-x64.zip](https://github.com/SteamRE/DepotDownloader/releases/latest) and if you don't already have it, install the latest [Microsoft .NET Desktop Runtime 9.0](https://dotnet.microsoft.com/en-us/download/dotnet/9.0).
@@ -35,7 +35,7 @@ Original 1.7.0.4 update released on October 12, 2021:
 > [!tip]
 > You can add `-dir` to specify where you want to download the files. If you don't, the files will be downloaded to wherever you're running DepotDownloader from.
 > 
-> You can add `-qr` to show a QR code to scan with the Steam app on your phone instead of entering your password.
+> You can use `-qr` instead of `-user` to show a QR code to scan with the Steam app on your phone instead of entering your username and password.
 >
 > If you have it setup, you can add `-no-mobile` if you would like to manually enter your 2FA code instead of approving access within the Steam mobile app.
 
@@ -78,8 +78,6 @@ download_depot 22300 22301 3579248769415824205
 ## Installing the downloaded files
 1. From wherever the files have been downloaded, move them into the root folder of the game and overwrite when prompted.
 2. If you've already installed the list and attempted to run the game, you'll need to rerun the Anniversary Patcher.
-3. If you've manually added the launcher to MO2, you'll need to switch MO2 to use `Fallout3Launcher.exe` instead of `FalloutLauncherSteam.exe`.
-4. If you've already attempted to run the game through MO2, you'll need to clear RootBuilder's root folder backup and hash cache by deleting whatever's in `plugins\data\RootBuilder` located wherever you installed the modlist to.
 
 ## Finish
 You should now be ready to run the game, which hopefully will start up without any issues.
