@@ -35,7 +35,7 @@ Original 1.7.0.4 update released on October 12, 2021:
 > [!tip]
 > You can add `-dir` to specify where you want to download the files. If you don't, the files will be downloaded to wherever you're running DepotDownloader from.
 > 
-> You can use `-qr` instead of `-user` to show a QR code to scan with the Steam app on your phone instead of entering your username and password.
+> You can use `-qr` instead of `-username` to show a QR code to scan with the Steam app on your phone instead of entering your username and password.
 >
 > If you have it setup, you can add `-no-mobile` if you would like to manually enter your 2FA code instead of approving access within the Steam mobile app.
 
