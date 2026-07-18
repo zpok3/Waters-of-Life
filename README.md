@@ -20,7 +20,7 @@
     - [Starting the Game](#starting-fallout-3)
 - [Installation](#installation)
 - [Post Installation](#post-installation)
-- [Extra stuff you should know](#extra-stuff-you-should-know)
+- [FAQ](#faq)
 - [Credits](#credits)
 
 # Introduction
@@ -47,7 +47,7 @@ I don't really know exact specs but if your PC can easily run the game at 1080p 
 
 ### Installing VC++ Redistributables
 
-Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use Microsoft's [WinGet](https://github.com/microsoft/winget-cli) package manager to install all possible versions. Please note that if you use a "debloated" version of Windows or use LTSC you may not have WinGet installed.
+Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use Microsoft's [WinGet](https://github.com/microsoft/winget-cli) package manager to install all possible versions. Please note that if you use a custom version of Windows or use LTSC you may not have WinGet installed.
 > [!important]
 > Failure to have latest versions installed will result in an immediate crash when launching the game or modding tools.
 >
@@ -204,7 +204,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
-3. If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy the contents of `__Steam Overlay Fixer Supplementary Files` folder located in your `Installation location` to the game's `Root` folder.
+3. If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy `steam_api.dll` and `steam_appid.txt` from `__Steam Overlay Fixer Supplementary Files\<Regular or GOTY>` folder located in your `Installation location` to the game's `Root` folder (do not move the Regular/GOTY subfolder into your root folder).
 4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 ## Game Settings
@@ -234,9 +234,11 @@ If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
 ### FPS Limiting
 It's recommended  to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
 ### DXVK with DXGI
-Highly recommended if you want improved input latency and VRR support.  Version 2.0 of DXVK requires a GPU that supports Vulkan 1.3 - if you have an AMD Radeon RX 400 series GPU or newer (except RX 455 OEM), NVIDIA GeForce 900 series GPU or newer, or Intel HD 510/530 GPU or newer you should be able to use DXVK 2.0 (source: [TechPowerUp GPU Database](https://www.techpowerup.com/gpu-specs/)).
-  - To install DXVK, copy the contents of the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
-  - If you have issues with the latest version or your GPU doesn't support Vulkan 1.3 you can try the 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
+Highly recommended if you want improved input latency and VRR support. Version 3.0 of DXVK requires a GPU that supports Vulkan 1.4 - you can check this by using [GPU-Z](https://www.techpowerup.com/gpuz/).
+  - To install DXVK, copy `d3d9.dll` and `dxvk.conf` from the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
+> [!tip]
+> If you have issues with the latest version or your GPU doesn't support Vulkan 1.4 you can try the 2.6.1 or 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
+
 For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
 
 ## Launching the Game
@@ -258,7 +260,10 @@ Example: `[NoDelete] My awesome mod`
 > 1. Make sure the update is marked **Safe Midgame** before playing with the same character!
 > 2. If you added any mods to the list after installation, they might be moved and/or disabled after updating the list.
 
-# Extra stuff you should know
+# FAQ
+
+## The game doesn't start after enabling Yet Another Steam Overlay Fixer!
+Make sure that you've placed `steam_api.dll` and `steam_appid.txt` in the game's root folder, and not a subfolder or the data folder.
 
 ## The installation still fails after manually downloading MetroMapReplacer.7z!
 Make sure the file has been placed in `C:\Modlists\WOL\downloads` or wherever your `Downloads Location` is set to. If that still doesn't work, try restarting Wabbajack and redoing the installation with the same file paths. It's possible that you are experiencing a known Wabbajack bug where your modlist install folder will get cleared out when you hit the retry button.
