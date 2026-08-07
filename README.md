@@ -52,11 +52,14 @@ Most engine mods and tools require latest Visual C++ Redistributables to be inst
 > Failure to have latest versions installed will result in an immediate crash when launching the game or modding tools.
 >
 > Please install the redistributables even if you have them installed already, as they are often outdated.
-1. Open cmd/PowerShell/Windows Terminal as an administrator and run the following command:
+1. Open the Microsoft Store.
+2. Go to the `Updates and Downloads` section.
+3. Check for updates and let everything update.
+4. Open Command Prompt/PowerShell/Windows Terminal and run the following command:
 ```pwsh
-winget install Microsoft.VCRedist.2005.x64 Microsoft.VCRedist.2005.x86 Microsoft.VCRedist.2008.x64 Microsoft.VCRedist.2008.x86 Microsoft.VCRedist.2010.x64 Microsoft.VCRedist.2010.x86 Microsoft.VCRedist.2012.x64 Microsoft.VCRedist.2012.x86 Microsoft.VCRedist.2013.x64 Microsoft.VCRedist.2013.x86 Microsoft.VCRedist.2015+.x64 Microsoft.VCRedist.2015+.x86
+winget install --id=Microsoft.VCRedist.2005.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2005.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2008.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2008.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2010.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2010.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2012.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2012.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2013.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2013.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2015+.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2015+.x64 -e --force -h --accept-package-agreements
 ```
-2. Restart your PC.
+5. Restart your PC.
 > [!tip]
 > If you don't want to use the terminal you can also use this [script](https://github.com/zpok3/vc-redists-install-script/releases/latest) I made that just runs the aforementioned command. Download the `.bat` file and run it as an administrator.
 
