@@ -24,7 +24,7 @@
 - [Credits](#credits)
 
 # Introduction
-Waters of Life is a lightweight vanilla plus Wabbajack mod list for Fallout 3. It features essential vanilla bug fixes, performance optimizations, restored cut content, and a few gameplay features you might be used to from more modern games. If you want an easy to install modlist that doesn't stray too far from vanilla, look no further!
+Waters of Life is a lightweight vanilla plus Wabbajack mod list for Fallout 3. It features essential vanilla bug fixes, restored cut content, and a few quality of life features you might be familiar with from newer games. You can enjoy it as is, or use it as a base for your own modlist.
 
 ## List Contents
 You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [here (currently outdated)](https://loadorderlibrary.com/lists/waters-of-life-4) if you're curious about what mods are included.
@@ -32,6 +32,7 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 ## Requirements
 - An **English** copy of the game with the all of the DLCs from [Steam](https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/) or [GOG](https://www.gog.com/en/game/fallout_3_game_of_the_year_edition).
   - Only the English version is supported. I understand that this may be frustrating for non-English speaking users, but due to the core file differences between the different versions, only one version can be supported.
+- At least 26GB of free space, game included (20GB if you delete all the downloads).
 - Windows 10 or higher (64 bit).
 - A text editor ([Notepad++](https://notepad-plus-plus.org/) is recommended but the default Windows notepad will work).
 - An archiving tool ([Nanazip](https://apps.microsoft.com/store/detail/nanazip/9N8G7TSCL18R?hl=en-us&gl=us) is recommended).
@@ -40,14 +41,15 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
 
 ## Recommended Specs
-I don't really know exact specs but if your PC can easily run the game at 1080p max settings at 60+ FPS, you can probably run this list just fine.
+Here are the recommended minimum specs to run the game at **1080p 60 FPS**:
+- **CPU**: Any quad-core processor (2.5GHz or more).
+- **RAM**: 8GB or more.
+- **GPU**: Matching or surpassing Nvidia GeForce 650 Ti or AMD Radeon RX 550.
 
 # Setup
 ## Preparation
-
 ### Installing VC++ Redistributables
-
-Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use Microsoft's [WinGet](https://github.com/microsoft/winget-cli) package manager to install all possible versions. Please note that if you use a custom version of Windows or use LTSC you may not have WinGet installed.
+Most engine mods and tools require latest Visual C++ Redistributables to be installed. We will use Microsoft's [WinGet](https://github.com/microsoft/winget-cli) package manager to install all possible versions. We use the Microsoft Store to update it to the latest version. Please note that if you use a custom version of Windows or use LTSC you may not have WinGet installed.
 > [!important]
 > Failure to have latest versions installed will result in an immediate crash when launching the game or modding tools.
 >
@@ -55,7 +57,7 @@ Most engine mods and tools require latest Visual C++ Redistributables to be inst
 1. Open the Microsoft Store.
 2. Go to the `Updates and Downloads` section.
 3. Check for updates and let everything update.
-4. Open Command Prompt/PowerShell/Windows Terminal and run the following command:
+4. Open Command Prompt as administrator and run the following command:
 ```pwsh
 winget install --id=Microsoft.VCRedist.2005.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2005.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2008.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2008.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2010.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2010.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2012.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2012.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2013.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2013.x64 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2015+.x86 -e --force -h --accept-package-agreements  && winget install --id=Microsoft.VCRedist.2015+.x64 -e --force -h --accept-package-agreements
 ```
@@ -64,14 +66,12 @@ winget install --id=Microsoft.VCRedist.2005.x86 -e --force -h --accept-package-a
 > If you don't want to use the terminal you can also use this [script](https://github.com/zpok3/vc-redists-install-script/releases/latest) I made that just runs the aforementioned command. Download the `.bat` file and run it as an administrator.
 
 ### Enabling file extensions
-
 Before we start, it is important to enable file extensions in Windows. By default, File Explorer will not show file extensions (such as .exe, .dll, or .esp). These extensions are very important when going through the guide, so it is highly recommended to enable visible file extensions:
 1. Open File Explorer.
 2. Select the `View` tab at the top.
 3. Enable `File name extensions` in the `Show` section.
 
 ### Disabling Base Address Randomization
-
 Base Address Randomization is a security feature in Windows that allows program's starting address to be randomized, which is not the expected behavior in 32-bit programs like Fallout 3. This **leads to crashes** in a modded game. This is disabled by default but it's recommended to make sure it's disabled as a sanity check.
 1. Open `Windows Security` from your Start Menu.
 2. Click on `App and Browser control` in the left sidebar.
@@ -138,11 +138,10 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 >    - For GOG: `GOG Galaxy\Games\Fallout 3\Data` (unless you manually changed it)
 
 # Installation
-
 1. Create a folder for Wabbajack outside of any default Windows folders.
 > Example: `C:\Modding\Wabbajack`
 
-2. Place the downloaded Wabbajack.exe in this folder and run it.
+2. Place the downloaded `Wabbajack.exe` in this folder and run it.
 3. Select `Browse Modlists`, check the `Non-featured` box and set the game to `Fallout 3`. Then select Waters of Life and click `Download and Install`.
 4. In `Installation Location`, select a folder that is not:
   * The Steam folder,
@@ -163,7 +162,6 @@ Start the game and exit once you're at the main menu. This will ensure any setti
 > If you see a red `Installation Failed` screen, try log-in again through the Wabbajack settings, then reinstall the list to the same folder.
 
 # Post Installation
-
 ## Exclusions
 This operation is required because Windows can block MO2 and mod files from loading due to how MO2's virtualized filesystem works.
 1. Open Windows Security.
@@ -207,45 +205,50 @@ If they aren't, close the program and re-run the game's launcher to generate the
 ## Mod Organizer 2 Setup
 1. Launch `ModOrganizer.exe` from your `Installation Location` folder.
 2. If you see a pop-up called `Register?`, select `Yes`.
-3. If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy `steam_api.dll` and `steam_appid.txt` from `__Steam Overlay Fixer Supplementary Files\<Regular or GOTY>` folder located in your `Installation location` to the game's `Root` folder (do not move the Regular/GOTY subfolder into your root folder).
-4. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
+<details>
+<summary>Steam Overlay Setup</summary>
+
+If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy `steam_api.dll` and `steam_appid.txt` from `__Steam Overlay Fixer Supplementary Files\<Regular or GOTY>` folder located in your `Installation Location` to the game's `Root` folder (do not move the Regular/GOTY subfolder into your root folder).
+</details>
+3. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
 
 ## Game Settings
 There are five profiles you can choose from; the default profile, the Author's Addons profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
 1. Open the game launcher using the `Fallout Launcher` option in MO2. You may need to add it manually if you have the Steam version of the game by clicking `<Edit...>` from the executables dropdown menu, and editing the `Fallout Launcher` entry to point to `Fallout3Launcher.exe`.
-> [!important]
-> For some users, the game may not start when you try to run it through MO2. This is caused by the INI setting `sD3DDevice` listing the wrong GPU. On some hardware configurations for whatever reason, the launcher is unable to set this INI setting properly, so the game fails to launch. To fix this, click on ![mo2 folders menu](images/folders%20menu.webp), select `Open Profile folder`, and set `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. You can also go to `Windows settings -> System -> Display -> Graphics` and setting both `Fallout3.exe` and `Fallout3Launcher.exe` to prefer `High Performance`. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
-2. Inside the launcher click `Options` and do the following:
-    1. Select `Ultra` preset.
-* If you have a very weak PC, you can select the `Medium` preset instead.
-
-  2. Set `Resolution` to your monitor's native resolution.
-* If you can't find the right resolution in the launcher's list, do the following:
-    
-    1. Close the launcher.
-    2. Click the ![mo2 tools menu](images/tools%20menu.webp) button and select `INI Editor`.
-    3. Select the `FalloutPrefs.ini` tab.
-    4. Change the following settings in the `[Display]` section:
-    * `iSize W` = your screen width
-    * `iSize H` = your screen height
+2. Inside the launcher, click `Options` and select `Ultra` preset or if you have a very weak PC, you can select the `Medium` preset instead.
+3. Set `Resolution` to your monitor's native resolution.
 > [!note]
-If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
+> If you can't find the right resolution in the launcher's list, do the following:
+> 
+> 1. Close the launcher.
+> 2. Click the ![mo2 tools menu](images/tools%20menu.webp) button and select `INI Editor`.
+> 3. Select the `FalloutPrefs.ini` tab.
+> 4. Change the following settings in the `[Display]` section:
+>
+> `iSize W` = your screen width
+> 
+> `iSize H` = your screen height
+>
+> If you use an Ultrawide display also follow [these](#ultrawide-support) steps.
 
-3. Close the launcher.
+4. Close the launcher.
 
 ## Performance Guide
 ### FPS Limiting
-It's recommended  to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but you can very easily apply it to Fallout 3 by replacing the part where you select `FalloutNV.exe` with selecting `Fallout3.exe`.
+It's recommended  to limit your FPS to `120` or lower as the game can still have issues even with the High FPS Fix. For instructions on how to set up [Rivatuner Statistics Server](https://www.guru3d.com/download/rtss-rivatuner-statistics-server-download/) (if you use MSI Afterburner you may already have this installed), please refer to the [Moddinglinked Performance Guide](https://performance.moddinglinked.com/falloutnv.html#RecommendedLimiters). It's written for New Vegas but it's easy enough to apply it to Fallout 3.
 ### DXVK with DXGI
-Highly recommended if you want improved input latency and VRR support. Version 3.0 of DXVK requires a GPU that supports Vulkan 1.4 - you can check this by using [GPU-Z](https://www.techpowerup.com/gpuz/).
+Highly recommended if you want improved input latency and VRR support. Version 3.0 of DXVK requires a GPU that supports Vulkan 1.4 - you can check this by using looking up your GPU on [Techpowerup's GPU Specs Database](https://www.techpowerup.com/gpu-specs) and looking under the `Graphics Features` box.
   - To install DXVK, copy `d3d9.dll` and `dxvk.conf` from the folder `__DXVK - Latest` into the root folder of the game. If you use a Nvidia GPU you'll also need to follow steps 2-6 under [**Enabling Flip Model (DXVK with DXGI)**](https://performance.moddinglinked.com/falloutnv.html#dxvk-flip).
+
 > [!tip]
 > If you have issues with the latest version or your GPU doesn't support Vulkan 1.4 you can try the 2.6.1 or 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
 
-For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
+For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [FNV Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
 
 ## Launching the Game
 1. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
+> [!important]
+> For some users, the game may not start when you try to run it through MO2. This is caused by the INI setting `sD3DDevice` listing the wrong GPU. On some hardware configurations for whatever reason, the launcher is unable to set this INI setting properly, so the game fails to launch. To fix this, click on ![mo2 folders menu](images/folders%20menu.webp), select `Open Profile folder`, and set `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. You can also go to `Windows settings -> System -> Display -> Graphics` and setting both `Fallout3.exe` and `Fallout3Launcher.exe` to prefer `High Performance`. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
 
 > [!note]
 > We run the game directly instead of through the FOSE loader because the Fallout Anniversary Patcher we ran earlier enables the game executable to load FOSE automatically if available.
@@ -253,9 +256,8 @@ For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [Pe
 2. You're all set! Everything is already configured by default so you can hop right into a new game!
 
 # Updating the List
-
-1. **Verify files** on **Steam** or **GOG Galaxy** (only if you output your decompressed BSAs directly into your game's `Data` folder, otherwise skip to step 3).
-2. Redo the [Root Mods](#root-mods) step of [Post Installation](#post-installation) and optionally the [BSA Decompressor](#bsa-decompressor) (unless you installed it as a mod in MO2).
+1. **Verify files** on **Steam** or **GOG Galaxy** (only if you installed the decompressed BSAs into your game's data folder, otherwise skip to step 3).
+2. Redo the [Root Mods](#root-mods) step of [Post Installation](#post-installation) and the [BSA Decompressor](#bsa-decompressor).
 3. If you added any mods you added after installation, add the [NoDelete] prefix to their name in the left pane.
 Example: `[NoDelete] My awesome mod`
 4. Run Wabbajack again and point it to the same folder where the list is currently installed.
@@ -264,7 +266,6 @@ Example: `[NoDelete] My awesome mod`
 > 2. If you added any mods to the list after installation, they might be moved and/or disabled after updating the list.
 
 # FAQ
-
 ## The game doesn't start after enabling Yet Another Steam Overlay Fixer!
 Make sure that you've placed `steam_api.dll` and `steam_appid.txt` in the game's root folder, and not a subfolder or the data folder.
 
