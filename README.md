@@ -24,7 +24,7 @@
 - [Credits](#credits)
 
 # Introduction
-Waters of Life is a lightweight vanilla plus Wabbajack mod list for Fallout 3. It features essential vanilla bug fixes, restored cut content, and a few quality of life features you might be familiar with from newer games. You can enjoy it as is, or use it as a base for your own modlist.
+Waters of Life is a lightweight vanilla plus Wabbajack mod list for Fallout 3. It features essential vanilla bug fixes, restored cut content, and a few quality of life features you might be familiar with from newer games. You can enjoy it as is, or use it as a base for your own mod list.
 
 ## List Contents
 You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [here (currently outdated)](https://loadorderlibrary.com/lists/waters-of-life-4) if you're curious about what mods are included.
@@ -210,7 +210,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 
 If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy `steam_api.dll` and `steam_appid.txt` from `__Steam Overlay Fixer Supplementary Files\<Regular or GOTY>` folder located in your `Installation Location` to the game's `Root` folder (do not move the Regular/GOTY subfolder into your root folder).
 </details>
-3. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch`, also under the `Patches and Optionals` separator.
+3. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch` under the `Patches and Optional Mods` separator.
 
 ## Game Settings
 There are five profiles you can choose from; the default profile, the Author's Addons profile, the Classic profile, the Essentials profile, and the Essentials Plus profile. Since the INI files are profile specific, you must use the drop-down menu on the top of your modlist in MO2 to select the profile you would like to configure settings for.
