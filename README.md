@@ -41,10 +41,12 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 - A [Nexus Mods](https://users.nexusmods.com/register) account (Premium is recommended for uncapped download speeds and fully automated modlist installation).
 
 ## Recommended Specs
-Here are the recommended minimum specs to run the game at **1080p 60 FPS**:
+Fallout 3 is pretty old, so you do not need very powerful hardware to run the game at the highest settings with a decent framerate. It's recommended that you install the game onto an SSD to improve load times and decrease stuttering.
+
+Here are the recommended minimum specs to run the modlist at **1080p 60 FPS**:
 - **CPU**: Any quad-core processor (2.5GHz or more).
 - **RAM**: 8GB or more.
-- **GPU**: Matching or surpassing Nvidia GeForce GTX 750 or AMD Radeon RX 550. Newer GPUs around the same performance level like the Nvidia GT 1030 or AMD Radeon Vega 7 should work too if you drop down to the Medium or High preset or reduce MSAA.
+- **GPU**: Matching or surpassing NVIDIA GeForce GT 1030 GDDR5 or AMD Radeon RX 550. Integrated GPUs around the same performance level like the AMD Radeon Vega 7 should work too but you may need to drop down to the Medium or High quality preset or disable MSAA.
 
 # Setup
 ## Preparation
