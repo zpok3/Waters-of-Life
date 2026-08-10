@@ -44,7 +44,7 @@ You can look [here](https://www.wabbajack.org/search/zpoke/watersoflife) or [her
 Here are the recommended minimum specs to run the game at **1080p 60 FPS**:
 - **CPU**: Any quad-core processor (2.5GHz or more).
 - **RAM**: 8GB or more.
-- **GPU**: Matching or surpassing Nvidia GeForce GTX 750 or AMD Radeon RX 550.
+- **GPU**: Matching or surpassing Nvidia GeForce GTX 750 or AMD Radeon RX 550. Newer GPUs around the same performance level like the Nvidia GT 1030 or AMD Radeon Vega 7 should work too if you drop down to the Medium or High preset or reduce MSAA.
 
 # Setup
 ## Preparation
