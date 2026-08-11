@@ -212,6 +212,7 @@ If they aren't, close the program and re-run the game's launcher to generate the
 
 If you use the **Steam** version of the game and want the overlay and playtime tracking, enable the mod `Yet Another Steam Overlay Fixer` in MO2. Additionally, you will need to copy `steam_api.dll` and `steam_appid.txt` from `__Steam Overlay Fixer Supplementary Files\<Regular or GOTY>` folder located in your `Installation Location` to the game's `Root` folder (do not move the Regular/GOTY subfolder into your root folder).
 </details>
+
 3. If you would like to play through the intro of the game, disable the mods `Fallout 3 Quick Start` and `Fugacity - Fallout 3 Quick Start Patch` under the `Patches and Optional Mods` separator.
 
 ## Game Settings
