@@ -188,7 +188,7 @@ Next we will install FOSE, updated OGG Vorbis libraries, and the Fallout Anniver
 5. Close the command prompt and a file named `Fallout3_backup.exe` should appear in the game's `Root` folder.
 
 ## BSA Decompressor
-Decompresses the vanilla BSA files to reduce loading times and stuttering. Increases the size of the game by about 1.64GB if you decompress directly into the `Data` folder, otherwise it takes up about 3.38GB if it's in a mod folder in the `Installation Location` folder.
+Decompresses the vanilla BSA files to reduce loading times and stuttering caused by slow zlib decompression. Recommended for SSDs only, as HDDs are bottlenecked by disk speed, not file decompression. Increases the size of the game by about 1.64GB if you decompress directly into the `Data` folder, otherwise it takes up about 3.38GB if it's installed as a mod in MO2.
 1. In your `Installation Location` folder, open the `__BSA Decompressor` folder.
 2. Run `FO3 BSA Decompressor.exe`.
 3. The `Fallout 3` and `Decompressed Archives` path should be filled by default (Root and Data folder respectively).
