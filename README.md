@@ -46,7 +46,7 @@ Fallout 3 is pretty old, so you do not need very powerful hardware to run the va
 Here are the recommended minimum specifications to run the modlist at **1080p 60 FPS**:
 - **CPU**: Any quad-core processor (2.5GHz or more).
 - **RAM**: 8GB or more.
-- **GPU**: Matching or surpassing NVIDIA GeForce GT 1030 (GP108, GDDR5) or AMD Radeon RX 550. Integrated GPUs around the same performance level like the AMD Radeon Vega 7 should work too but you may need to drop down to the Medium or High quality preset or disable MSAA.
+- **GPU**: Matching or surpassing NVIDIA GeForce GT 1030 (GP108, GDDR5) or AMD Radeon RX 550. Integrated GPUs around the same performance level like the AMD Radeon Vega 7 should work too but you may need to drop down to the Medium or High quality preset.
 
 # Setup
 ## Preparation
@@ -246,12 +246,26 @@ Highly recommended if you want improved input latency and VRR support. Version 3
 > [!tip]
 > If you have issues with the latest version or your GPU doesn't support Vulkan 1.4 you can try the 2.6.1 or 1.10.3 version. If you are having issues on an Intel iGPU you can try the 1.10.1 version.
 
-For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [FNV Performance Guide](https://performance.moddinglinked.com/falloutnv.html). 
+For more information on DXVK, VRR, HDR, and Alt-Tabbing, please refer to the [FNV Performance Guide](https://performance.moddinglinked.com/falloutnv.html).
+
+### Optimization for Old Low-end Hardware
+If you have a very old PC with low-end hardware, you may run into problems with running the game at 1080p 60 FPS. Here are a few things you can try to squeeze out a little more performance:
+- Use the `Medium` or `High` quality graphics preset depending on how much visual quality you want to sacrifice for performance.
+- Set `Antialiasing` to `2 Samples` or `Off (best performance)` (`High` quality preset only, it's already disabled on the `Medium` preset).
+- Lower `Resolution` to `1600x900` or `1366x768` or `1280x720` if you are having trouble getting a stable 60 FPS at 1080p with the `Medium` preset.
+- Disable the mods `Waters of Life Objects LOD` and `Waters of Life Terrain LOD` to disable the modlist's custom LOD.
+- Revert the `TerrainManager` INI settings back to vanilla in `FalloutCustom.ini`:
+```ini
+[TerrainManager]
+; Increases the maximum distance of LOD
+fBlockLoadDistanceLow=50000
+fBlockLoadDistance=125000
+```
 
 ## Launching the Game
 1. Make sure the dropdown box on the right is set to `Fallout 3` and press the Run button.
 > [!important]
-> For some users, the game may not start when you try to run it through MO2. This is caused by the INI setting `sD3DDevice` listing the wrong GPU. On some hardware configurations for whatever reason, the launcher is unable to set this INI setting properly, so the game fails to launch. To fix this, click on ![mo2 folders menu](images/folders%20menu.webp), select `Open Profile folder`, and set `sD3DDevice` in `falloutprefs.ini` to the name of your dedicated GPU specified in Device Manager. You can also go to `Windows settings -> System -> Display -> Graphics` and setting both `Fallout3.exe` and `Fallout3Launcher.exe` to prefer `High Performance`. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
+> For some users, the game may not start when you try to run it through MO2. This is caused by the INI setting `sD3DDevice` listing the wrong GPU. On some hardware configurations for whatever reason, the launcher is unable to set this INI setting properly, so the game fails to launch. To fix this, click on ![mo2 tools menu](images/tools%20menu.webp), click on `INI Editor`, select `falloutprefs.ini`, and set `sD3DDevice` to the name of your dedicated GPU specified in Device Manager. You can also go to `Windows settings -> System -> Display -> Graphics` and set both `Fallout3.exe` and `Fallout3Launcher.exe` to prefer `High Performance`. If all else fails you can try resetting your INIs by clicking the ![mo2 folders menu](images/folders%20menu.webp) button, selecting `Open Profile folder`, and deleting `falloutprefs.ini`. Then refresh MO2 by pressing `F5` and follow [these](#ini-settings) steps to configure some settings that will have been reset by this process.
 
 > [!note]
 > We run the game directly instead of through the FOSE loader because the Fallout Anniversary Patcher we ran earlier enables the game executable to load FOSE automatically if available.
